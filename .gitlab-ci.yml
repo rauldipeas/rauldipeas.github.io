@@ -1,0 +1,15 @@
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+  - rm -rfv .git .gitlab-ci.yml
+  - mkdir -pv website
+  - mv -v assets public/
+  - mv -v index.html public/
+  - mv -v keybase.txt public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
