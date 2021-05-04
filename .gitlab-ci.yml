@@ -4,7 +4,7 @@ pages:
   stage: deploy
   script:
   - rm -rfv .git .gitlab-ci.yml
-  - mkdir -pv website
+  - mkdir -pv public
   - mv -v assets public/
   - mv -v index.html public/
   - mv -v keybase.txt public/
