@@ -1,0 +1,52 @@
+name: Implantação
+on:
+    push:
+      branches:
+        - main
+    workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+      - name: GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./_site
+      - name: Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy _site --project-name=rauldipeas --commit-dirty=true
+          quiet: true
+      - name: Surge
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: 'rauldipeas.surge.sh'
+          project: '_site'
+          login: ${{ secrets.SURGE_LOGIN }}
+          token: ${{ secrets.SURGE_TOKEN }}
+      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/checkout@v4
+        with:
+          repository: rauldipeas/uds
+          path: _site/uds
+      - uses: otto-de/purge-deprecated-workflow-runs@v2
+        with:
+          remove-cancelled: true
+          remove-failed: true
+          remove-obsolete: true
+          token: ${{ secrets.PAT }}
+          remove-older-than: 1d

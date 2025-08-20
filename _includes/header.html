@@ -1,0 +1,86 @@
+<header id="header">
+    <div class="home-avatar">
+        <a href="/">
+            <img src="https://github.com/rauldipeas/rauldipeas/raw/main/avatar.gif" title="Raul Dipeas">
+        </a>
+    </div>
+    <div class="home-title">
+        <a href="/">
+            <h3>Raul Dipeas</h3>
+        </a>
+    </div>
+    <nav class="topnav">
+        <a href="/blog" title="Início"><i class="fas fa-home"></i></a>
+        <a href="mailto:rauldipeas@disroot.org"
+            onclick="window.open('https://spikenow.com/web'); window.location.href = 'mailto:rauldipeas@disroot.org'; return false;"
+            title="E-Mail"><i class="fas fa-at"></i></a>
+        <a href="https://github.com/rauldipeas" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank" title="RSS"><i class="fas fa-rss"></i></a>
+        <a href="/search" title="Pesquisa"><i class="fas fa-search"></i></a>
+    </nav>
+</header>
+
+<!-- SÓ COLOQUE ESTA SECTION NAS PÁGINAS QUE TERÃO O HERO -->
+<section class="hero" id="hero">
+    <img src="https://rauldipeas.com.br/assets/images/avatar.jpg" alt="Raul Dipeas" class="avatar">
+</section>
+
+<main class="content">
+    <!-- seu conteúdo normal -->
+</main>
+
+<script>
+    (function () {
+        const header = document.getElementById('header');
+        const hero = document.getElementById('hero');
+
+        // Marca no body se existe hero (para CSS aplicar o padding do conteúdo quando não houver)
+        document.body.classList.toggle('no-hero', !hero);
+
+        function apply() {
+            // Se não há hero, o header já deve vir "scrolled"
+            if (!hero) {
+                header.classList.add('scrolled');
+                return;
+            }
+            // quando houver hero, ativa o fundo após passar do hero (menos a altura do header)
+            const trigger = Math.max(0, hero.offsetHeight - header.offsetHeight);
+            header.classList.toggle('scrolled', window.scrollY > trigger);
+        }
+
+        window.addEventListener('scroll', apply, { passive: true });
+        window.addEventListener('resize', apply);
+        window.addEventListener('load', apply);
+        apply();
+    })();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+        noResultsText: 'Nada encontrado',
+        limit: 10
+    });
+</script>
+
+<script>
+    window.chatwootSettings = { "position": "right", "type": "standard", "launcherTitle": "Fale conosco no chat" };
+    (function (d, t) {
+        var BASE_URL = "https://app.chatwoot.com";
+        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        g.src = BASE_URL + "/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+        g.onload = function () {
+            window.chatwootSDK.run({
+                websiteToken: 'q1YZnbvptxNoyHSXrzHo58X4',
+                baseUrl: BASE_URL
+            })
+        }
+    })(document, "script");
+</script>

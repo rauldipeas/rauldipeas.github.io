@@ -1,0 +1,138 @@
+:root {
+    --header-h: 64px;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+/* header fixo */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--header-h);
+    display: flex;
+    align-items: center;
+    background: transparent;
+    transition: background-color .25s, backdrop-filter .25s, box-shadow .25s;
+    z-index: 1000;
+}
+
+#header.scrolled {
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .35);
+}
+
+/* conteúdo precisa compensar a barra quando NÃO tem hero */
+body.no-hero .content {
+    padding-top: var(--header-h);
+}
+
+/* quando tem hero, o hero já fica atrás do header, então nada de padding extra */
+
+/* itens do topo */
+.home-avatar {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 48px;
+}
+
+.home-title {
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    a, h3 {
+        color: white;
+    }
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    display: none;
+  }
+}
+
+.topnav {
+    font-size: 20px;
+    position: absolute;
+    top: 14px;
+    right: 12px;
+}
+
+.topnav a {
+    padding: 0 7px;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background: #04AA6D;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* hero (imagem grande) */
+.hero {
+    position: relative;
+    height: 260px;
+    background: url('https://rauldipeas.com.br/assets/images/backgrounds/street-1.gif') center/cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+.avatar {
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    border: 7px solid #000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -45px;
+}
+
+.post {
+    margin-top: 20px;
+}
+
+.home {
+    margin-top: 40px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.cover {
+    margin-top: 10px;
+}
+
+.search-input {
+  display: block;
+  width: 60%;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem auto; /* auto centraliza */
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  backdrop-filter: blur(6px);
+  outline: none;
+  transition: background 0.2s ease;
+}
+
+.search-input::placeholder {
+  color: #777;
+}
+
+.search-input:focus {
+  background: rgba(255, 255, 255, 0.25);
+}
