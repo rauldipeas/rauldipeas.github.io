@@ -31,8 +31,8 @@ minima:
   skin: dark
 plugins:
   - jekyll-feed
-disqus:
-  shortname: raul-dipeas
+#disqus:
+#  shortname: raul-dipeas
 
 # Exclude from processing.
 # The following items will not be processed, by default.
