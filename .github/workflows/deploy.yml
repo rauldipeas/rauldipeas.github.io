@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/configure-pages@v5
       - uses: ruby/setup-ruby@v1
         with:
@@ -39,10 +39,6 @@ jobs:
           login: ${{ secrets.SURGE_LOGIN }}
           token: ${{ secrets.SURGE_TOKEN }}
       - uses: actions/upload-pages-artifact@v3
-      - uses: actions/checkout@v4
-        with:
-          repository: rauldipeas/uds
-          path: _site/uds
       - uses: otto-de/purge-deprecated-workflow-runs@v2
         with:
           remove-cancelled: true
