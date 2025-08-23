@@ -1,0 +1,34 @@
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+        noResultsText: 'Nada encontrado',
+        limit: 10
+    });
+</script>
+<script>
+    async function loadIndex() {
+        if (!window._posts) {
+            const res = await fetch("{{ '/search.json' | relative_url }}");
+            window._posts = await res.json();
+        }
+        return window._posts;
+    }
+
+    document.getElementById("search-box").addEventListener("input", async e => {
+        const q = e.target.value.toLowerCase();
+        const posts = await loadIndex();
+        const results = posts.filter(p =>
+            p.title.toLowerCase().includes(q) || p.content.toLowerCase().includes(q)
+        );
+        document.getElementById("results").innerHTML =
+            results.map(r => `
+      <li>
+        <span class="post-meta">${r.date}</span>
+        <h3><a class="post-link" href="${r.url}">${r.title}<img src="${r.cover}" class="cover"></a></h3>
+      </li>`).join("");
+    });
+</script>
