@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="pt-br"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
@@ -51,7 +51,6 @@
 <main class="content">
     <!-- seu conteúdo normal -->
 </main>
-
 <script>
     (function () {
         const header = document.getElementById('header');
@@ -76,9 +75,16 @@
         window.addEventListener('load', apply);
         apply();
     })();
-</script>
-<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+</script><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="page-content">
+  <div class="wrapper">
+    <input type="text" id="search-box" placeholder="Pesquisar..." class="search-input"/>
+    <ul id="results" class="post-list"></ul>
+  </div>
+</div>
 
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
 <script>
     SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
@@ -89,54 +95,28 @@
         limit: 10
     });
 </script>
-
 <script>
-    window.chatwootSettings = { "position": "right", "type": "standard", "launcherTitle": "Fale conosco no chat" };
-    (function (d, t) {
-        var BASE_URL = "https://app.chatwoot.com";
-        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        g.src = BASE_URL + "/packs/js/sdk.js";
-        g.defer = true;
-        g.async = true;
-        s.parentNode.insertBefore(g, s);
-        g.onload = function () {
-            window.chatwootSDK.run({
-                websiteToken: 'q1YZnbvptxNoyHSXrzHo58X4',
-                baseUrl: BASE_URL
-            })
+    async function loadIndex() {
+        if (!window._posts) {
+            const res = await fetch("/search.json");
+            window._posts = await res.json();
         }
-    })(document, "script");
-</script><main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="page-content">
-  <div class="wrapper">
-    <input type="text" id="search-box" placeholder="Pesquisar..." class="search-input"/>
-    <ul id="results" class="post-list"></ul>
-  </div>
-</div>
+        return window._posts;
+    }
 
-<script>
-async function loadIndex() {
-  if (!window._posts) {
-    const res = await fetch("/search.json");
-    window._posts = await res.json();
-  }
-  return window._posts;
-}
-
-document.getElementById("search-box").addEventListener("input", async e => {
-  const q = e.target.value.toLowerCase();
-  const posts = await loadIndex();
-  const results = posts.filter(p => 
-    p.title.toLowerCase().includes(q) || p.content.toLowerCase().includes(q)
-  );
-  document.getElementById("results").innerHTML =
-    results.map(r => `
+    document.getElementById("search-box").addEventListener("input", async e => {
+        const q = e.target.value.toLowerCase();
+        const posts = await loadIndex();
+        const results = posts.filter(p =>
+            p.title.toLowerCase().includes(q) || p.content.toLowerCase().includes(q)
+        );
+        document.getElementById("results").innerHTML =
+            results.map(r => `
       <li>
         <span class="post-meta">${r.date}</span>
         <h3><a class="post-link" href="${r.url}">${r.title}<img src="${r.cover}" class="cover"></a></h3>
       </li>`).join("");
-});
+    });
 </script>
       </div>
     </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
