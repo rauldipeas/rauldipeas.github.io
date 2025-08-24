@@ -1,0 +1,15 @@
+.float-button {
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    transition: transform .2s;
+    filter: brightness(90%);
+}
+
+.float-button:hover {
+    transform: scale(1.1);
+    filter: brightness(100%);
+}
