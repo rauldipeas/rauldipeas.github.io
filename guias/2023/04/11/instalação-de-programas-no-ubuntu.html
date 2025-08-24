@@ -1,0 +1,63 @@
+<p>O Ubuntu, assim como todas as demais distribuições Linux, suporta uma grande variedade de formas pra instalar novos programas, dentre as mais simples como dar alguns cliques na central de programas, até a compilação de um programa diretamente do código fonte, passando por diversas outras.</p>
+
+<p>Dentre as formas mais populares, existem os <em>pacotes</em>, que são arquivos compactados, com o conteúdo dos programas dentro, possibilitando a instalação com poucos cliques.</p>
+
+<p>Esses pacotes podem ser disponibilizados através dos repositórios do Ubuntu ou de repositórios de terceiros, permitindo dessa forma que você acompanhe as atualizações assim que novas versões estiverem disponíveis, mas, também podem ser disponibilizados diretamente através de páginas na internet, sem a possibilidade de receber atualizações automaticamente.</p>
+
+<p>Seguindo esse conceito, vou listar alguns métodos mais populares de instalação de programas para o Ubuntu, descrevendo suas possibilidades e dando minhas recomendações sobre o potencial uso de cada um deles.</p>
+
+<h2 id="-synaptic"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/synaptic.svg" alt="synaptic" /> Synaptic</h2>
+
+<p>O <a href="https://savannah.nongnu.org/projects/synaptic"><strong>Synaptic</strong></a> é um gerenciador de pacotes no formato <code class="language-plaintext highlighter-rouge">.deb</code> e através dele é possível instalar programas disponíveis nos <em>repositórios</em> que estão configurados na sua instalação do Ubuntu, sejam eles os repositórios padrão do Ubuntu, PPAs do Launchpad ou repositórios de terceiros.</p>
+
+<p>Ele é um <em>frontend</em> para o <code class="language-plaintext highlighter-rouge">apt</code> e disponibiliza praticamente todas as suas funções através de uma interface gráfica.</p>
+
+<p><img src="https://i.imgur.com/17Vtwfb.png" alt="synaptic" /></p>
+
+<p>Na minha opinião, a real vantagem do <strong>Synaptic</strong> sobre outras centrais de instalação de programas disponíveis para o Ubuntu, é que ele lista absolutamente todos os pacotes disponíveis nos repositórios da sua instalação, enquanto a maioria das demais centrais de programas, listam apenas programas que contém lançadores com ícones, ou seja, programas que você usa na linha de comando, bibliotecas de compatibilidade, entre outros, não são listados por elas, o que torna o <strong>Synaptic</strong> muito mais abrangente.</p>
+
+<h2 id="-deb-get"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/distributor-logo-debian.svg" alt="deb-get" /> <code class="language-plaintext highlighter-rouge">deb-get</code></h2>
+
+<p>Conforme eu citei, existem programas que não são disponibilizados através de um repositório, desse modo, você não tem como acompanhar as atualizações desse programa de forma automática, assim que novas versões forem disponibilizadas pelo desenvolvedor, é justamente nesse caso que o <a href="https://github.com/wimpysworld/deb-get"><code class="language-plaintext highlighter-rouge">deb-get</code></a> pode ser uma boa opção, visto que ele disponibiliza a instalação e atualização desses programas diretamente das páginas onde eles são disponibilizadas, te poupando esse tempo de verificar manualmente.</p>
+
+<p>O <code class="language-plaintext highlighter-rouge">deb-get</code> é um programa feito para linha de comando, porém, ele possui uma interface gráfica desenvolvida por terceiros que facilita o seu uso, se chama <a href="https://github.com/ymauray/deborah/"><strong>Deborah</strong></a>.</p>
+
+<p><img src="https://i.imgur.com/BGzR1DV.png" alt="deborah" /></p>
+
+<p>O <code class="language-plaintext highlighter-rouge">deb-get</code> é uma boa opção pra instalar programas sem a necessidade de adicionar repositórios ao sistema, visto que ele mesmo faz esse processo quando necessário, vale a pena dar uma conferida na <a href="https://github.com/wimpysworld/deb-get/tree/main/01-main">página do programa</a> pra saber todos os programas que ele disponibiliza, são diversos.</p>
+
+<h2 id="-pacstall"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/mimetypes/text-x-pkgbuild.svg" alt="pacstall" /> Pacstall</h2>
+
+<p>O <a href="https://pacstall.dev/"><strong>Pacstall</strong></a> faz a instalação dos programas através de receitas, que compila diretamente do código fonte a maioria dos programas disponíveis na sua lista.</p>
+
+<p>Disponível apenas para o uso através da linha de comando, ele não possui nenhuma interface gráfica até o momento.</p>
+
+<p>Ele é fortemente inspirado no <a href="aur.archlinux.org"><strong>AUR</strong></a> do <a href="https://archlinux.org"><strong>Arch Linux</strong></a>.</p>
+
+<p><a href="https://pacstall.dev/packages">Nesta página</a> você pode conferir todos os programas que ele disponibiliza.</p>
+
+<h2 id="-appimage"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/mimetypes/application-x-iso9660-appimage.svg" alt="appimage" /> AppImage</h2>
+
+<p>O formato <a href="https://appimage.org"><strong>AppImage</strong></a> é bastante conveniente, porque você não precisa necessariamente instalar, basta baixar o pacote, dar permissão de execução e abrir o programa, ele já vem com todas as dependências necessárias pra execução do programa embutidas no pacote.</p>
+
+<p><img src="https://i.imgur.com/7ObNA5R.png" alt="appimage" /></p>
+
+<p>Confesso que tenho um pouco de resistência a usar programas assim, porque eles tem menos integração com o sistema do que programas instaláveis através de pacotes <code class="language-plaintext highlighter-rouge">.deb</code>, mas eventualmente eles acabam sendo a única opção viável.</p>
+
+<h2 id="-flatpak-e--snap"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/mimetypes/application-vnd.flatpak.svg" alt="flatpak" /> Flatpak e <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/com.github.bartzaalberg.snaptastic.svg" alt="snap" /> Snap</h2>
+
+<p>Eu resolvi englobar esses dois pacotes na mesma descrição, porque apesar de eles terem diferenças significativas, o resultado final é muito próximo.</p>
+
+<p>Assim com o <strong>AppImage</strong>, o <a href="https://flatpak.org"><strong>Flatpak</strong></a> e o <a href="https://snapcraft.io"><strong>Snap</strong></a> são formatos que vizam carregar todas as depenências necessárias pros programas empacotados nesses formatos, tornando a instalação desses programas <em>universal</em>, ou seja, tecnicamente são suportados em qualquer distribuição.</p>
+
+<p>Eu não sou adepto, porque ambos tem uma série de problemas que no meu ponto de vista não justifica o seu uso, até o presente momento.</p>
+
+<p><strong>Snaps</strong> costumam ser lentos, ter problemas de compatibilidade de temas, além de serem pacotes com tamanho consideravelmente maior do que os <code class="language-plaintext highlighter-rouge">.deb</code> tradicionais.</p>
+
+<p><strong>Flatpaks</strong> instalam uma série de dependências adicionais, que são usadas de forma compartilhada entre os programas, o que é até um ponto positivo, porém, dependendo dos programas que você precisar, pode ser que você tenha mais de uma versão dessas dependências, que no meu ponto de vista, é uma redundância, mas os desenvolvedores justificam isso como uma certificação de que o programa vai rodar em qualquer distro.</p>
+
+<p>A leitura que eu faço desses empacotamentos mais <em>modernos</em>, é que eles foram criados pra aumentar o <em>hype</em> de empresas maiores, com a premissa de que são <em>universais</em> e no caso dos <strong>snaps</strong>, podem até carregar código proprietário.</p>
+
+<p>Até a data desta postagem, eles não são relevantes ou necessários pra mim, prefiro compilar programas direto do código fonte, mas esse pode não ser o seu caso.</p>
+
+<p>Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no <a href="https://twitter.com/rauldipeas"><strong>Twitter</strong></a>.</p>

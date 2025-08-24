@@ -1,0 +1,152 @@
+<p>O <code class="language-plaintext highlighter-rouge">bash</code> (Bourne Again SHell), é o interpretador de comandos mais comum nas distribuições Linux.</p>
+
+<p>Ele é uma interface de linha de comando que permite aos usuários interagirem com o sistema operacional Linux por meio de comandos no terminal.</p>
+
+<p>O <code class="language-plaintext highlighter-rouge">bash</code> suporta uma ampla gama de comandos, que podem ser usados para executar tarefas como manipulação de arquivos e diretórios, gerenciamento de processos, automação de tarefas, redirecionamento de entrada/saída, criação de scripts e muito mais.</p>
+
+<p>Ele também suporta recursos avançados, como substituição de variáveis, expansão de curingas, controle de fluxo, histórico de comandos e a personalização do ambiente de shell.</p>
+
+<p>Eu poderia escrever muita coisa sobre ele, visto que ele já é bastante antigo e existem muitas formas de explorar suas capacidades, porém, vou me ater as minhas personalizações e as explicações sobre a necessidade de cada uma delas, pra que você possa tirar suas próprias conclusões sobre o assunto.</p>
+
+<h2 id="arquivos-de-configuração-do-bash">Arquivos de configuração do <code class="language-plaintext highlighter-rouge">bash</code></h2>
+
+<p>Eu uso arquivos separados pra cada personalização e complemento que eu adiciono ao <code class="language-plaintext highlighter-rouge">bash</code>, dessa forma, fica mais fácil organizar, ativar e desativar recursos de acordo com a necessidade, tudo isso é feito usando a pasta <code class="language-plaintext highlighter-rouge">"$HOME"/.bashrc.d</code>, onde eu armazeno todos os scripts.</p>
+
+<p>Pra criar essa pasta e fazer com que os scripts sejam carregados, basta executar os comandos abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.bashrc.d
+<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'/^# bashrc.d/{N;N;N;d;}'</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.bashrc
+<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee -a "</span><span class="nv">$HOME</span><span class="sh">"/.bashrc&gt;/dev/null
+# bashrc.d
+for script in "</span><span class="se">\$</span><span class="sh">HOME"/.bashrc.d/*.bash;do
+	source </span><span class="se">\$</span><span class="sh">script
+done
+</span><span class="no">EOF
+</span></code></pre></div></div>
+
+<p>O que nós fizemos até aqui, além de criar a pasta necessária, foi adicionar algumas linhas ao final do arquivo <code class="language-plaintext highlighter-rouge">"$HOME"/.bashrc</code>, para que ele busque por scripts com a extensão <code class="language-plaintext highlighter-rouge">.bash</code> dentro da pasta <code class="language-plaintext highlighter-rouge">"$HOME"/.bashrc.d</code>, até esse ponto, nenhuma modificação no comportamento do <code class="language-plaintext highlighter-rouge">bash</code> foi implementada, mas já estamos preparados pra elas.</p>
+
+<p>Ao longo de quase 2 décadas usando Linux, eu descobri uma série de melhorias que podem ser feitas no <code class="language-plaintext highlighter-rouge">bash</code> pra que ele se torne mais fácil de usar, afinal de contas, o terminal nunca é amistoso a primeira vista e quanto mais nós pudermos mitigar essa estranhesa, melhor, não?</p>
+
+<h2 id="atuin"><code class="language-plaintext highlighter-rouge">atuin</code></h2>
+<p><img src="https://github.com/ellie/atuin/raw/main/demo.gif" alt="atuin" /></p>
+
+<p>O primiro dos complementos que eu gostaria de indicar é o <a href="https://github.com/ellie/atuin/"><code class="language-plaintext highlighter-rouge">atuin</code></a>, que é um gerenciador de histórico de comandos.</p>
+
+<p>A real necessidade para um complemento como esse, é que por padrão o <code class="language-plaintext highlighter-rouge">bash</code> não te dá um histórico completo dos comandos que você já executou anteriormente, sem um programa como o <code class="language-plaintext highlighter-rouge">atuin</code>, você tem que digitar um termo e ir pressionando <code class="language-plaintext highlighter-rouge">Ctrl+R</code> repetidamente pra navegar no histórico, o que é um pouco cansativo e até confuso na minha perspectiva, com o <code class="language-plaintext highlighter-rouge">atuin</code> você preciona <code class="language-plaintext highlighter-rouge">Ctrl+R</code> apenas uma vez e daí já pode começar a navegar no histórico usando as setas do teclado, ou se quiser pesquisar por algo, basta começar a escrever a parte do comando que você lembra, ele faz uma busca completa no histórico, é excelente e facilita muito o uso de comandos longos e que você só usa eventualmente, te dando a comodidade de não precisar decorar nada.</p>
+
+<p>Para instalar o <code class="language-plaintext highlighter-rouge">atuin</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-cq</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/ellie/atuin/releases|grep browser_download_url|grep .deb|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
+<span class="nb">sudo </span>apt <span class="nb">install</span> ./atuin<span class="k">*</span>.deb
+<span class="nb">rm </span>atuin<span class="k">*</span>.deb
+wget <span class="nt">-qO-</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.bashrc.d/bash-preexec.sh https://raw.githubusercontent.com/rcaloras/bash-preexec/master/bash-preexec.sh
+<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.bashrc.d/atuin.bash&gt;/dev/null
+[[ -f ~/.bashrc.d/bash-preexec.sh ]] &amp;&amp; source ~/.bashrc.d/bash-preexec.sh
+eval "</span><span class="se">\$</span><span class="sh">(atuin init bash --disable-up-arrow)"
+</span><span class="no">EOF
+</span></code></pre></div></div>
+
+<p>Após a execução dos comandos, basta reiniciar o terminal e pressionar <code class="language-plaintext highlighter-rouge">Ctrl+R</code> pra exibir o histórico de comandos com o <code class="language-plaintext highlighter-rouge">atuin</code>.</p>
+
+<h2 id="bash-line-editor-blesh"><code class="language-plaintext highlighter-rouge">bash</code> line editor (<code class="language-plaintext highlighter-rouge">ble.sh</code>)</h2>
+<p>O <a href="https://github.com/akinomyoga/ble.sh"><code class="language-plaintext highlighter-rouge">bash</code> line editor</a>, que vamos chamar de <code class="language-plaintext highlighter-rouge">ble.sh</code>, pra simplificar, é um complemento que abrange vários recursos diferentes, mas eu vou me ater apenas ao que eu faço uso, que é a <em>sugestão</em> de comandos, ou seja, quando você começar a digitar algo no terminal, com base no seu histórico de comandos, o <code class="language-plaintext highlighter-rouge">ble.sh</code> já vai indicar o restante do comando, bastando você pressionar a seta direita do teclado pra autocompletar.</p>
+
+<p>Se você faz um uso intenso do terminal, isso ajuda demais, pois poupa muito tempo na hora de digitar os comandos.</p>
+
+<p>Para instalar o <code class="language-plaintext highlighter-rouge">ble.sh</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>build-essential git
+git clone <span class="nt">-q</span> <span class="nt">--recursive</span> https://github.com/akinomyoga/ble.sh.git
+make <span class="nt">-C</span> ble.sh <span class="nb">install </span><span class="nv">PREFIX</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.local&gt;/dev/null
+<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.bashrc.d/blesh.bash&gt;/dev/null
+source "</span><span class="se">\$</span><span class="sh">HOME"/.local/share/blesh/ble.sh
+</span><span class="no">EOF
+</span><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.blerc&gt;/dev/null
+ble-face -s auto_complete fg=238,bg=000
+bleopt complete_auto_delay=300
+</span><span class="no">EOF
+</span><span class="nb">rm</span> <span class="nt">-rf</span> ble.sh<span class="k">*</span>
+</code></pre></div></div>
+
+<p>Após a execução dos comandos, basta reiniciar o terminal pra começar a receber as sugestões dos comandos.</p>
+
+<h1 id="fzf--bat"><code class="language-plaintext highlighter-rouge">fzf</code> &amp; <code class="language-plaintext highlighter-rouge">bat</code></h1>
+<p><img src="https://armno.in.th/images/fzf/cover.png" alt="fzf-dir" /></p>
+
+<p>O <a href="https://github.com/junegunn/fzf"><code class="language-plaintext highlighter-rouge">fzf</code></a> é um comando complementar para vários outros comandos indicados neste guia, mas pra descrever o que ele pode fazer, basicamente ele é um <em>buscador difuso</em>, ou seja, ele é capaz de fazer pesquisas interativas dentro de vários tipos de contexto, é bastante difícil descrever tudo que ele pode fazer, mas posso deixar aqui a descrição do próprio desenvolvedor:</p>
+<blockquote>
+  <p>É um filtro Unix interativo para linha de comando que pode ser usado com qualquer lista; arquivos, histórico de comandos, processos, nomes de host, favoritos, git commits, etc.</p>
+</blockquote>
+
+<p>Sei que pode parecer algo confuso de entender, eu mesmo demorei pra assimilar, mas na prática, vamos usar ele pra navegar em arquivos dentro de pastas, com uma <em>previsão</em> do conteúdo para arquivos de texto, o que ajuda bastante na hora de conferir scripts ou anotações em texto puro que você tem guardados numa determinada pasta.</p>
+
+<p>Além do <code class="language-plaintext highlighter-rouge">fzf</code>, nós vamos instalar também o <a href="https://github.com/sharkdp/bat"><code class="language-plaintext highlighter-rouge">bat</code></a>, que é responsável pela exibição do conteúdo dos arquivos dentro deste contexto.</p>
+
+<p>Pra instalar o <code class="language-plaintext highlighter-rouge">fzf</code> e o <code class="language-plaintext highlighter-rouge">bat</code>  no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/sharkdp/bat/releases|grep browser_download_url|grep amd64.deb|grep <span class="nt">-v</span> musl|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
+<span class="nb">sudo </span>apt <span class="nb">install</span> ./bat<span class="k">*</span>.deb fzf
+<span class="nb">rm </span>bat<span class="k">*</span>.deb
+<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee /usr/local/bin/fzf-dir&gt;/dev/null
+#!/bin/bash
+set -e
+/usr/bin/fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'
+</span><span class="no">EOF
+</span><span class="nb">sudo chmod</span> +x /usr/local/bin/fzf-dir
+</code></pre></div></div>
+
+<p>Após a execução dos comandos, você pode navegar até um diretório que contém arquivos de texto e rodar o comando <code class="language-plaintext highlighter-rouge">fzf-dir</code>, daí é só começar a navegar nos arquivos com as setas do teclado, todos os arquivos de texto terão uma previsão ao lado direito.</p>
+
+<h2 id="liquidprompt"><code class="language-plaintext highlighter-rouge">liquidprompt</code></h2>
+<p><img src="https://raw.githubusercontent.com/nojhan/liquidprompt/master/docs/theme/included/powerline-med.png" alt="liquidprompt" />
+O <a href="https://github.com/nojhan/liquidprompt"><code class="language-plaintext highlighter-rouge">liquidprompt</code></a> é um tema no estilo <em>powershell</em>/<em>agnoster</em> para o <code class="language-plaintext highlighter-rouge">bash</code>.</p>
+
+<p>Com ele, além da visualização melhorada do nome do host, usuário e pasta atual, você tem indicações de estado em pastas de repositório <code class="language-plaintext highlighter-rouge">git</code>, por exemplo, o que ajuda bastanta pra saber em que pé anda o desenvolvimento do seu projeto dentro dessa pasta.</p>
+
+<p>Pra instalar o <code class="language-plaintext highlighter-rouge">liquidprompt</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> http://ftp.us.debian.org/debian/pool/main/l/liquidprompt/<span class="si">$(</span>wget <span class="nt">-qO-</span> http://ftp.us.debian.org/debian/pool/main/l/liquidprompt/|grep all.deb|tail <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f8</span><span class="si">)</span>
+<span class="nb">sudo </span>apt <span class="nb">install</span> ./liquidprompt<span class="k">*</span>.deb
+<span class="nb">rm </span>liquidprompt<span class="k">*</span>.deb
+<span class="nb">cp</span> /usr/share/liquidprompt/liquidpromptrc-dist .config/liquidpromptrc
+<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s/debian.theme/powerline.theme/g'</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/liquidpromptrc
+<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |"</span><span class="nv">$HOME</span><span class="sh">"/.bashrc.d/liquidprompt.bash&gt;/dev/null
+echo </span><span class="se">\$</span><span class="sh">- | grep -q i 2&gt;/dev/null &amp;&amp; . /usr/share/liquidprompt/liquidprompt
+lp_theme powerline
+</span><span class="no">EOF
+</span></code></pre></div></div>
+
+<p>Após a execução dos comandos, basta reiniciar o terminal para que o tema com os novos recursos seja exibido.</p>
+
+<h2 id="micro"><code class="language-plaintext highlighter-rouge">micro</code></h2>
+<p><img src="https://micro-editor.github.io/screenshots/micro-monokai.png" alt="micro" /></p>
+
+<p>O <a href="https://micro-editor.github.io"><code class="language-plaintext highlighter-rouge">micro</code></a> é um editor de texto para o terminal, que diferente do <code class="language-plaintext highlighter-rouge">nano</code>, por exemplo (que é o editor padrão na maioria das distribuições Linux), usa atalhos comuns como <code class="language-plaintext highlighter-rouge">Ctrl+S</code> pra salvar e <code class="language-plaintext highlighter-rouge">Ctrl+Q</code> pra sair, só pra citar alguns exemplos, além de não ser necessário usar o <code class="language-plaintext highlighter-rouge">sudo</code> pra editar arquivos com permissão de superusuário, a senha de aministrador só é solicitada na hora de salvar o arquivo.</p>
+
+<p>Pra instalar o <code class="language-plaintext highlighter-rouge">micro</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/zyedidia/micro/releases|grep browser_download_url|grep amd64.deb|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
+<span class="nb">sudo </span>apt <span class="nb">install</span> ./micro<span class="k">*</span>.deb
+<span class="nb">rm </span>micro<span class="k">*</span>.deb
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/micro
+<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.config/micro/settings.json&gt;/dev/null
+{
+	"eofnewline": false,
+}
+</span><span class="no">EOF
+</span></code></pre></div></div>
+
+<p>Após a execução dos comandos, basta executar o comando <code class="language-plaintext highlighter-rouge">micro</code> para começar a editar seus arquivos.</p>
+
+<h2 id="ntfy"><code class="language-plaintext highlighter-rouge">ntfy</code></h2>
+<p><img src="https://raw.githubusercontent.com/dschep/ntfy/master/docs/demo.gif" alt="ntfy" /></p>
+
+<p>O <a href="https://github.com/dschep/ntfy"><code class="language-plaintext highlighter-rouge">ntfy</code></a> é um notificador para comandos demorados no terminal, ou seja, toda vez que você executar um comando que demora bastante tempo pra ser concluído, ao concluir a operação o terminal vai exibir uma notificação na sua área de trabalho ou no seu celular (opcional), pra te indicar que o processo terminou, o tempo mínimo pra notificações pode ser ajustado de acordo com suas necessidades, por padrão ele exibe notificações para comandos que demoram acima de 10s.</p>
+
+<p>Para instalar o <code class="language-plaintext highlighter-rouge">ntfy</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>libnotify-bin pipx
+pipx <span class="nb">install</span> <span class="nt">--system-site-packages</span> ntfy
+<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.bashrc.d/ntfy.bash&gt;/dev/null
+PATH="</span><span class="se">\$</span><span class="sh">PATH":"</span><span class="se">\$</span><span class="sh">HOME"/.local/bin
+eval "</span><span class="se">\$</span><span class="sh">(ntfy shell-integration)"
+</span><span class="no">EOF
+</span></code></pre></div></div>
+
+<p>Após a execução dos comandos, basta reiniciar o terminal para que as notificações de comandos demorados comecem a ser exibidas.</p>
+
+<p>Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no <a href="https://twitter.com/rauldipeas"><strong>Twitter</strong></a>.</p>

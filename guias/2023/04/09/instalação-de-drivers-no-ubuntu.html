@@ -1,0 +1,91 @@
+<p>Drivers são programas que determinam como seus dispositivos vão se comunicar com o restante do sistema, ou seja, são eles que determinam os melhores caminhos pra extrair o máximo possível de tudo que está na parte física do seu computador.</p>
+
+<p>Ter os drivers corretos instalados no seu sistema é fundamental para o bom funcionamento do sistema, então, nesta postagem eu vou te mostrar como ter as últimas versões dos drivers de som e vídeo mais importantes que você vai precisar.</p>
+
+<h2 id="-mesa"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/GPU_Viewer.svg" alt="mesa" /> MESA</h2>
+
+<p>O driver <a href="https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa"><strong>MESA</strong></a> é responsável por todos os dispositivos de vídeo da <a href="http://intel.com"><strong>Intel</strong></a>, da <a href="https://amd.com"><strong>AMD</strong></a> e de várias outras desenvolvedoras, ou seja, sua abrangência cobre praticamente qualquer dispositivo de vídeo que possa estar utilizando.</p>
+
+<p>Por padrão, ele já está incluso no núcleo do Linux, porém, no caso do Ubuntu, dependendo da versão que você estiver usando, pode ser que o driver <strong>MESA</strong> não esteja na última versão disponível, mas ele pode ser facilmente atualizado.</p>
+
+<p>Basta executar os comandos abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository ppa:kisak/kisak-mesa
+<span class="nb">sudo </span>apt update
+<span class="nb">sudo </span>apt upgrade
+</code></pre></div></div>
+<p>Após a atualização, é necessário reiniciar o sistema para que os novos drivers entrem em funcionamento.</p>
+
+<h2 id="-nvidia"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/nvidia.svg" alt="nvidia" /> NVIDIA</h2>
+
+<p>Os dispositivos de vídeo da <a href="https://nvidia.com"><strong>NVIDIA</strong></a> funcionam usando o driver <strong>MESA</strong>, porém, com recursos limitados, infelizmente o código fonte dos drivers da <strong>NVIDIA</strong> não está disponível para ser incluído no <strong>MESA</strong> como as demais empresas fazem.</p>
+
+<p>Dessa forma, pra que você tenha o driver mais atual instalado, você pode executar o comando abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="o">[[</span> <span class="nt">-n</span> <span class="si">$(</span>lspci |grep NVIDIA|cut <span class="nt">-d</span>: <span class="nt">-f3</span><span class="si">)</span> <span class="o">]]</span>
+<span class="k">then
+    </span><span class="nb">echo</span> <span class="s1">'Sua GPU é NVIDIA'</span>
+    <span class="o">(</span>lspci |grep NVIDIA|cut <span class="nt">-d</span>: <span class="nt">-f3</span>|cut <span class="nt">-d</span> <span class="s1">' '</span> <span class="nt">-f4</span>|head <span class="nt">-n1</span><span class="o">)</span>
+    <span class="nb">sudo </span>add-apt-repository ppa:graphics-drivers/ppa
+    <span class="nb">sudo </span>apt <span class="nb">install</span> <span class="s2">"</span><span class="si">$(</span>apt search nvidia-driver 2&gt;/dev/null|grep nvidia-driver|grep <span class="nt">-v</span> open|grep <span class="nt">-v</span> server|cut <span class="nt">-d</span> <span class="s1">'/'</span> <span class="nt">-f1</span>|tail <span class="nt">-n1</span><span class="si">)</span><span class="s2">"</span>
+    <span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee /usr/local/bin/prime-run&gt;/dev/null
+#!/bin/sh
+set -e
+__NV_PRIME_RENDER_OFFLOAD=1 </span><span class="se">\</span><span class="sh">
+__VK_LAYER_NV_optimus=NVIDIA_only </span><span class="se">\</span><span class="sh">
+__GLX_VENDOR_LIBRARY_NAME=nvidia </span><span class="se">\</span><span class="sh">
+exec "</span><span class="se">\$</span><span class="sh">@"
+</span><span class="no">EOF
+</span>    <span class="nb">sudo chmod</span> +x /usr/local/bin/prime-run
+<span class="k">else
+	</span><span class="nb">echo</span> <span class="s1">'Sua GPU não é NVIDIA'</span>
+<span class="k">fi</span>
+</code></pre></div></div>
+
+<p>Após a atualização, é necessário reiniciar o sistema para que os novos drivers entrem em funcionamento.</p>
+
+<h2 id="-alsa-firmware"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/mx-select-sound.svg" alt="alsa-firemware" /> ALSA firmware</h2>
+
+<p>Assim como o <strong>MESA</strong> abrange uma enorme quantidade de dispositivos de vídeo, o <a href="http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu/pool/main/a/alsa-firmware"><strong>ALSA</strong></a> também abrange uma quantidade enorme de dispositivos de áudio, desde dispositivos integrados em placas mãe, até dispositivos USB, entre outros.</p>
+
+<p>Porém, da mesma forma que o <strong>MESA</strong>, no caso do Ubuntu, pode ser que ele não esteja disponível na última versão, mas ele pode ser facilmente atualizado com o comando abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu/pool/main/a/alsa-firmware/<span class="si">$(</span>wget <span class="nt">-qO-</span> http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu/pool/main/a/alsa-firmware/|grep amd64.deb|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f8</span><span class="si">)</span>
+<span class="nb">sudo </span>apt <span class="nb">install</span> ./alsa-firmware<span class="k">*</span>.deb
+</code></pre></div></div>
+
+<p>Após a atualização, é necessário reiniciar o sistema para que os novos drivers entrem em funcionamento.</p>
+
+<h2 id="-jack"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/qjackctl.svg" alt="jack" /> JACK</h2>
+
+<p>O <a href="https://launchpad.net/~ubuntustudio-ppa/+archive/ubuntu/backports"><strong>JACK</strong></a> é um servidor de áudio que se faz necessário no caso de você precisar trabalhar com áudio em baixa latência, em aplições musicais ou de edição avançada de áudio.</p>
+
+<p>Através dele, é possível alcançar latências baixíssimas e pra citar um exemplo, eu obtive algo em torno de 5 milissegundos nos programas de produção musical com os quais trabalho, o que é um valor significativamente baixo, visto que <em>em teoria</em>, qualquer valor abaixo de 8 milissegundos já é impercetível aos ouvidos humanos.</p>
+
+<p>Por padrão, ele não vem instalado no Ubuntu e a maioria dos tutoriais que você vai encontrar, não abragem uma instalação dos complementos adequados.</p>
+
+<p>Desse modo, execute os comandos abaixo pra uma instalação mais adequada:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository <span class="nt">-y</span> ppa:ubuntustudio-ppa/backports
+<span class="nb">echo</span> <span class="s1">'jackd2 jackd/tweak_rt_limits string true'</span>|sudo debconf-set-selections&gt;/dev/null
+<span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">--no-install-recommends</span> <span class="nt">-y</span> jackd2
+</code></pre></div></div>
+
+<p>Você pode conferir a postagem sobre <a href="../produ%C3%A7%C3%A3o-musical-no-linux/"><strong>Produção musical no Linux</strong></a> para mais detalhes de uso e complementos para o <strong>JACK</strong>.</p>
+
+<h2 id="-udev-rtirq"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/audio-card.svg" alt="udev-rtirq" /> <code class="language-plaintext highlighter-rouge">udev-rtirq</code></h2>
+
+<p>O <a href="https://github.com/jhernberg/udev-rtirq"><code class="language-plaintext highlighter-rouge">udev-rtirq</code></a> é um script que configura o sistema para alta prioridade nos dispositivos de áudio, ou seja, o processamento do sistema vai primeiro para os dispositivos de áudio e depois pros demais processos em execução, o que gera uma maior estabilidade em aplicações profissionais de áudio.</p>
+
+<p>Para instalar o <code class="language-plaintext highlighter-rouge">udev-rtirq</code> basta executar os comandos abaixo:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>build-essential git
+git clone <span class="nt">-q</span> https://github.com/jhernberg/udev-rtirq
+<span class="nb">cd </span>udev-rtirq
+make <span class="nb">install
+cd</span> ..
+<span class="nb">rm</span> <span class="nt">-r</span> udev-rtirq
+</code></pre></div></div>
+<p>Após a atualização, é necessário reiniciar o sistema para que o novo gerenciamento entre em funcionamento.</p>
+
+<blockquote class="prompt-warning">
+  <p>Lembrando que todas as sugestões contidas nesta postagem, podem ser percebidas de forma subjetiva, ou seja, alguns usuários vão conseguir identificar onde elas fizeram efeito, enquanto outros não conseguirão ter essa mesma percepção.</p>
+</blockquote>
+
+<p>Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no <a href="https://twitter.com/rauldipeas"><strong>Twitter</strong></a>.</p>
+
