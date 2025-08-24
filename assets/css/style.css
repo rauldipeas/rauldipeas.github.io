@@ -861,6 +861,11 @@ body {
   margin: 0;
 }
 
+.post-list {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
 /* header fixo */
 #header {
   position: fixed;
@@ -900,7 +905,8 @@ body.no-hero .content {
   top: 15px;
   left: 70px;
 }
-.home-title a, .home-title h3 {
+.home-title a,
+.home-title h3 {
   color: white;
 }
 
@@ -954,23 +960,49 @@ body.no-hero .content {
   margin-top: 20px;
 }
 
+.cover {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  /* object-position: top; */
+  display: block;
+  margin: 0 auto;
+}
+
+.post-content iframe {
+  width: 100%;
+  display: block;
+  max-width: 90%;
+  min-height: 320px;
+  max-height: auto;
+  margin: 0 auto;
+}
+
+.post-content img,
+.post-content video {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .home {
   margin-top: 40px;
 }
 
-img {
+iframe,
+img,
+video {
   border-radius: 8px;
-}
-
-.cover {
-  margin-top: 10px;
 }
 
 .search-input {
   display: block;
   width: 60%;
   padding: 0.75rem 1rem;
-  margin: 1.5rem auto; /* auto centraliza */
+  margin: 1.5rem auto;
+  /* auto centraliza */
   font-size: 1rem;
   border: none;
   border-radius: 6px;
