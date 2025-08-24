@@ -8,7 +8,6 @@ author:
 meta: "Springfield"
 modified_date: 2016-05-27
 cover: https://wallpapers.com/images/featured/content-pictures-9ic0u05ncup02t1e.jpg
-comments: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.

@@ -4,7 +4,6 @@ title:  "Welcome to Jekyll!"
 date:   2025-08-19 14:42:05 -0300
 categories: jekyll update
 cover: https://i0.wp.com/thecurrentga.org/wp-content/uploads/2022/07/DSC_0101-scaled.jpg?fit=2000%2C1213&ssl=1
-comments: true
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

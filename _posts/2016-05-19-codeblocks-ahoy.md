@@ -1,7 +1,6 @@
 ---
 layout: post
 cover: https://cdn.neowin.com/news/images/uploaded/2025/04/1744657733_programming_language_depiction.jpg
-comments: true
 ---
 
 An article with various blocks of highlighted code snippets.
