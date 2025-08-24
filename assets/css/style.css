@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,900");
-@import url("https://fonts.googleapis.com/css?family=Menlo:300,900");
 .highlight .err {
   color: #e3d2d2;
   background-color: #8c2121;
@@ -329,7 +328,7 @@ blockquote i, blockquote em {
  */
 pre,
 code {
-  font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+  font-family: "Monaco", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
   background-color: #222222;
 }
 @media screen and (max-width: 600px) {

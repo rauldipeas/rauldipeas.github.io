@@ -1,8 +1,11 @@
 .animated-avatar {
-	margin: auto;
+    margin: auto;
 }
+
 @media all and (max-width: 950px) {
-	.animated-avatar {width: 176px;};
+    .animated-avatar {
+        width: 176px;
+    }
 }
 
 .animated-background {
