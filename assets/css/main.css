@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Inter:300,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,900");
 @import url("font-awesome.min.css");
 
 html, body, div, span, applet, object,
@@ -96,7 +96,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'Inter', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
