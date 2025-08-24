@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="rauldipeas.com.br/feed.xml" rel="self" type="application/atom+xml" /><link href="rauldipeas.com.br/" rel="alternate" type="text/html" /><updated>2025-08-24T17:18:38+00:00</updated><id>rauldipeas.com.br/feed.xml</id><title type="html">Raul Dipeas</title><subtitle>Este é o meu blog pessoal, onde eu escrevo sobre tecnologia, produção musical, cinema e o meu cotidiano.</subtitle><entry><title type="html">Bem-vindo!</title><link href="rauldipeas.com.br/2025/08/22/bem-vindo.html" rel="alternate" type="text/html" title="Bem-vindo!" /><published>2025-08-22T00:00:00+00:00</published><updated>2025-08-22T00:00:00+00:00</updated><id>rauldipeas.com.br/2025/08/22/bem-vindo</id><content type="html" xml:base="rauldipeas.com.br/2025/08/22/bem-vindo.html"><![CDATA[<p>Olá, seja muito bem-vindo ao meu blog pessoal, aqui você terá a oportunidade de conhecer muito sobre <em>tecnologia</em>, <em>linux</em>, <em>produção musical</em> e <em>cultura cinematográfica</em>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="rauldipeas.com.br/feed.xml" rel="self" type="application/atom+xml" /><link href="rauldipeas.com.br/" rel="alternate" type="text/html" /><updated>2025-08-24T17:42:38+00:00</updated><id>rauldipeas.com.br/feed.xml</id><title type="html">Raul Dipeas</title><subtitle>Este é o meu blog pessoal, onde eu escrevo sobre tecnologia, produção musical, cinema e o meu cotidiano.</subtitle><entry><title type="html">Bem-vindo!</title><link href="rauldipeas.com.br/2025/08/22/bem-vindo.html" rel="alternate" type="text/html" title="Bem-vindo!" /><published>2025-08-22T00:00:00+00:00</published><updated>2025-08-22T00:00:00+00:00</updated><id>rauldipeas.com.br/2025/08/22/bem-vindo</id><content type="html" xml:base="rauldipeas.com.br/2025/08/22/bem-vindo.html"><![CDATA[<p>Olá, seja muito bem-vindo ao meu blog pessoal, aqui você terá a oportunidade de conhecer muito sobre <em>tecnologia</em>, <em>linux</em>, <em>produção musical</em> e <em>cultura cinematográfica</em>.</p>
 
 <p>Eu sou <a href="https://rauldipeas.com.br"><strong>Raul Dipeas</strong></a>, técnico em informática, músico e cinéfilo.</p>
 
@@ -41,932 +41,336 @@
 <span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
 <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Como personalizar o bash</title><link href="rauldipeas.com.br/guias/2023/04/22/como-personalizar-o-bash.html" rel="alternate" type="text/html" title="Como personalizar o bash" /><published>2023-04-22T23:10:00+00:00</published><updated>2023-04-22T23:10:00+00:00</updated><id>rauldipeas.com.br/guias/2023/04/22/como-personalizar-o-bash</id><content type="html" xml:base="rauldipeas.com.br/guias/2023/04/22/como-personalizar-o-bash.html"><![CDATA[<p>O <code class="language-plaintext highlighter-rouge">bash</code> (Bourne Again SHell), é o interpretador de comandos mais comum nas distribuições Linux.</p>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">My Example Post</title><link href="rauldipeas.com.br/2016/05/20/my-example-post.html" rel="alternate" type="text/html" title="My Example Post" /><published>2016-05-20T00:00:00+00:00</published><updated>2016-05-20T00:00:00+00:00</updated><id>rauldipeas.com.br/2016/05/20/my-example-post</id><content type="html" xml:base="rauldipeas.com.br/2016/05/20/my-example-post.html"><![CDATA[<p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
 
-<p>Ele é uma interface de linha de comando que permite aos usuários interagirem com o sistema operacional Linux por meio de comandos no terminal.</p>
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.</p>]]></content><author><name>John Doe</name></author><summary type="html"><![CDATA[Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.]]></summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="rauldipeas.com.br/misc/2016/05/20/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2016-05-20T00:00:00+00:00</published><updated>2016-05-20T00:00:00+00:00</updated><id>rauldipeas.com.br/misc/2016/05/20/super-long-article</id><content type="html" xml:base="rauldipeas.com.br/misc/2016/05/20/super-long-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<p>O <code class="language-plaintext highlighter-rouge">bash</code> suporta uma ampla gama de comandos, que podem ser usados para executar tarefas como manipulação de arquivos e diretórios, gerenciamento de processos, automação de tarefas, redirecionamento de entrada/saída, criação de scripts e muito mais.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<p>Ele também suporta recursos avançados, como substituição de variáveis, expansão de curingas, controle de fluxo, histórico de comandos e a personalização do ambiente de shell.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name></name></author><category term="misc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry><entry><title type="html">This post demonstrates post content styles</title><link href="rauldipeas.com.br/junk/2016/05/20/this-post-demonstrates-post-content-styles.html" rel="alternate" type="text/html" title="This post demonstrates post content styles" /><published>2016-05-20T00:00:00+00:00</published><updated>2016-05-20T00:00:00+00:00</updated><id>rauldipeas.com.br/junk/2016/05/20/this-post-demonstrates-post-content-styles</id><content type="html" xml:base="rauldipeas.com.br/junk/2016/05/20/this-post-demonstrates-post-content-styles.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
 
-<p>Eu poderia escrever muita coisa sobre ele, visto que ele já é bastante antigo e existem muitas formas de explorar suas capacidades, porém, vou me ater as minhas personalizações e as explicações sobre a necessidade de cada uma delas, pra que você possa tirar suas próprias conclusões sobre o assunto.</p>
+<h2 id="some-great-heading-h2">Some great heading (h2)</h2>
 
-<h2 id="arquivos-de-configuração-do-bash">Arquivos de configuração do <code class="language-plaintext highlighter-rouge">bash</code></h2>
+<p>Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.</p>
 
-<p>Eu uso arquivos separados pra cada personalização e complemento que eu adiciono ao <code class="language-plaintext highlighter-rouge">bash</code>, dessa forma, fica mais fácil organizar, ativar e desativar recursos de acordo com a necessidade, tudo isso é feito usando a pasta <code class="language-plaintext highlighter-rouge">"$HOME"/.bashrc.d</code>, onde eu armazeno todos os scripts.</p>
+<p>Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<p>Pra criar essa pasta e fazer com que os scripts sejam carregados, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.bashrc.d
-<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'/^# bashrc.d/{N;N;N;d;}'</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.bashrc
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee -a "</span><span class="nv">$HOME</span><span class="sh">"/.bashrc&gt;/dev/null
-# bashrc.d
-for script in "</span><span class="se">\$</span><span class="sh">HOME"/.bashrc.d/*.bash;do
-	source </span><span class="se">\$</span><span class="sh">script
-done
-</span><span class="no">EOF
-</span></code></pre></div></div>
+<h2 id="another-great-heading-h2">Another great heading (h2)</h2>
 
-<p>O que nós fizemos até aqui, além de criar a pasta necessária, foi adicionar algumas linhas ao final do arquivo <code class="language-plaintext highlighter-rouge">"$HOME"/.bashrc</code>, para que ele busque por scripts com a extensão <code class="language-plaintext highlighter-rouge">.bash</code> dentro da pasta <code class="language-plaintext highlighter-rouge">"$HOME"/.bashrc.d</code>, até esse ponto, nenhuma modificação no comportamento do <code class="language-plaintext highlighter-rouge">bash</code> foi implementada, mas já estamos preparados pra elas.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
 
-<p>Ao longo de quase 2 décadas usando Linux, eu descobri uma série de melhorias que podem ser feitas no <code class="language-plaintext highlighter-rouge">bash</code> pra que ele se torne mais fácil de usar, afinal de contas, o terminal nunca é amistoso a primeira vista e quanto mais nós pudermos mitigar essa estranhesa, melhor, não?</p>
+<h3 id="some-great-subheading-h3">Some great subheading (h3)</h3>
 
-<h2 id="atuin"><code class="language-plaintext highlighter-rouge">atuin</code></h2>
-<p><img src="https://github.com/ellie/atuin/raw/main/demo.gif" alt="atuin" /></p>
+<p>Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.</p>
 
-<p>O primiro dos complementos que eu gostaria de indicar é o <a href="https://github.com/ellie/atuin/"><code class="language-plaintext highlighter-rouge">atuin</code></a>, que é um gerenciador de histórico de comandos.</p>
+<p>Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</p>
 
-<p>A real necessidade para um complemento como esse, é que por padrão o <code class="language-plaintext highlighter-rouge">bash</code> não te dá um histórico completo dos comandos que você já executou anteriormente, sem um programa como o <code class="language-plaintext highlighter-rouge">atuin</code>, você tem que digitar um termo e ir pressionando <code class="language-plaintext highlighter-rouge">Ctrl+R</code> repetidamente pra navegar no histórico, o que é um pouco cansativo e até confuso na minha perspectiva, com o <code class="language-plaintext highlighter-rouge">atuin</code> você preciona <code class="language-plaintext highlighter-rouge">Ctrl+R</code> apenas uma vez e daí já pode começar a navegar no histórico usando as setas do teclado, ou se quiser pesquisar por algo, basta começar a escrever a parte do comando que você lembra, ele faz uma busca completa no histórico, é excelente e facilita muito o uso de comandos longos e que você só usa eventualmente, te dando a comodidade de não precisar decorar nada.</p>
+<h3 id="some-great-subheading-h3-1">Some great subheading (h3)</h3>
 
-<p>Para instalar o <code class="language-plaintext highlighter-rouge">atuin</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-cq</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/ellie/atuin/releases|grep browser_download_url|grep .deb|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">sudo </span>apt <span class="nb">install</span> ./atuin<span class="k">*</span>.deb
-<span class="nb">rm </span>atuin<span class="k">*</span>.deb
-wget <span class="nt">-qO-</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.bashrc.d/bash-preexec.sh https://raw.githubusercontent.com/rcaloras/bash-preexec/master/bash-preexec.sh
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.bashrc.d/atuin.bash&gt;/dev/null
-[[ -f ~/.bashrc.d/bash-preexec.sh ]] &amp;&amp; source ~/.bashrc.d/bash-preexec.sh
-eval "</span><span class="se">\$</span><span class="sh">(atuin init bash --disable-up-arrow)"
-</span><span class="no">EOF
-</span></code></pre></div></div>
+<p>Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<p>Após a execução dos comandos, basta reiniciar o terminal e pressionar <code class="language-plaintext highlighter-rouge">Ctrl+R</code> pra exibir o histórico de comandos com o <code class="language-plaintext highlighter-rouge">atuin</code>.</p>
-
-<h2 id="bash-line-editor-blesh"><code class="language-plaintext highlighter-rouge">bash</code> line editor (<code class="language-plaintext highlighter-rouge">ble.sh</code>)</h2>
-<p>O <a href="https://github.com/akinomyoga/ble.sh"><code class="language-plaintext highlighter-rouge">bash</code> line editor</a>, que vamos chamar de <code class="language-plaintext highlighter-rouge">ble.sh</code>, pra simplificar, é um complemento que abrange vários recursos diferentes, mas eu vou me ater apenas ao que eu faço uso, que é a <em>sugestão</em> de comandos, ou seja, quando você começar a digitar algo no terminal, com base no seu histórico de comandos, o <code class="language-plaintext highlighter-rouge">ble.sh</code> já vai indicar o restante do comando, bastando você pressionar a seta direita do teclado pra autocompletar.</p>
-
-<p>Se você faz um uso intenso do terminal, isso ajuda demais, pois poupa muito tempo na hora de digitar os comandos.</p>
-
-<p>Para instalar o <code class="language-plaintext highlighter-rouge">ble.sh</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>build-essential git
-git clone <span class="nt">-q</span> <span class="nt">--recursive</span> https://github.com/akinomyoga/ble.sh.git
-make <span class="nt">-C</span> ble.sh <span class="nb">install </span><span class="nv">PREFIX</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.local&gt;/dev/null
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.bashrc.d/blesh.bash&gt;/dev/null
-source "</span><span class="se">\$</span><span class="sh">HOME"/.local/share/blesh/ble.sh
-</span><span class="no">EOF
-</span><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.blerc&gt;/dev/null
-ble-face -s auto_complete fg=238,bg=000
-bleopt complete_auto_delay=300
-</span><span class="no">EOF
-</span><span class="nb">rm</span> <span class="nt">-rf</span> ble.sh<span class="k">*</span>
-</code></pre></div></div>
-
-<p>Após a execução dos comandos, basta reiniciar o terminal pra começar a receber as sugestões dos comandos.</p>
-
-<h1 id="fzf--bat"><code class="language-plaintext highlighter-rouge">fzf</code> &amp; <code class="language-plaintext highlighter-rouge">bat</code></h1>
-<p><img src="https://armno.in.th/images/fzf/cover.png" alt="fzf-dir" /></p>
-
-<p>O <a href="https://github.com/junegunn/fzf"><code class="language-plaintext highlighter-rouge">fzf</code></a> é um comando complementar para vários outros comandos indicados neste guia, mas pra descrever o que ele pode fazer, basicamente ele é um <em>buscador difuso</em>, ou seja, ele é capaz de fazer pesquisas interativas dentro de vários tipos de contexto, é bastante difícil descrever tudo que ele pode fazer, mas posso deixar aqui a descrição do próprio desenvolvedor:</p>
 <blockquote>
-  <p>É um filtro Unix interativo para linha de comando que pode ser usado com qualquer lista; arquivos, histórico de comandos, processos, nomes de host, favoritos, git commits, etc.</p>
+  <p>This quote will <em>change</em> your life. It will reveal the <i>secrets</i> of the universe, and all the wonders of humanity. Don’t <em>misuse</em> it.</p>
 </blockquote>
 
-<p>Sei que pode parecer algo confuso de entender, eu mesmo demorei pra assimilar, mas na prática, vamos usar ele pra navegar em arquivos dentro de pastas, com uma <em>previsão</em> do conteúdo para arquivos de texto, o que ajuda bastante na hora de conferir scripts ou anotações em texto puro que você tem guardados numa determinada pasta.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.</p>
 
-<p>Além do <code class="language-plaintext highlighter-rouge">fzf</code>, nós vamos instalar também o <a href="https://github.com/sharkdp/bat"><code class="language-plaintext highlighter-rouge">bat</code></a>, que é responsável pela exibição do conteúdo dos arquivos dentro deste contexto.</p>
+<h3 id="some-great-subheading-h3-2">Some great subheading (h3)</h3>
 
-<p>Pra instalar o <code class="language-plaintext highlighter-rouge">fzf</code> e o <code class="language-plaintext highlighter-rouge">bat</code>  no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/sharkdp/bat/releases|grep browser_download_url|grep amd64.deb|grep <span class="nt">-v</span> musl|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">sudo </span>apt <span class="nb">install</span> ./bat<span class="k">*</span>.deb fzf
-<span class="nb">rm </span>bat<span class="k">*</span>.deb
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee /usr/local/bin/fzf-dir&gt;/dev/null
-#!/bin/bash
-set -e
-/usr/bin/fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'
-</span><span class="no">EOF
-</span><span class="nb">sudo chmod</span> +x /usr/local/bin/fzf-dir
+<p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
-<p>Após a execução dos comandos, você pode navegar até um diretório que contém arquivos de texto e rodar o comando <code class="language-plaintext highlighter-rouge">fzf-dir</code>, daí é só começar a navegar nos arquivos com as setas do teclado, todos os arquivos de texto terão uma previsão ao lado direito.</p>
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
-<h2 id="liquidprompt"><code class="language-plaintext highlighter-rouge">liquidprompt</code></h2>
-<p><img src="https://raw.githubusercontent.com/nojhan/liquidprompt/master/docs/theme/included/powerline-med.png" alt="liquidprompt" />
-O <a href="https://github.com/nojhan/liquidprompt"><code class="language-plaintext highlighter-rouge">liquidprompt</code></a> é um tema no estilo <em>powershell</em>/<em>agnoster</em> para o <code class="language-plaintext highlighter-rouge">bash</code>.</p>
+<h4 id="you-might-want-a-sub-subheading-h4">You might want a sub-subheading (h4)</h4>
 
-<p>Com ele, além da visualização melhorada do nome do host, usuário e pasta atual, você tem indicações de estado em pastas de repositório <code class="language-plaintext highlighter-rouge">git</code>, por exemplo, o que ajuda bastanta pra saber em que pé anda o desenvolvimento do seu projeto dentro dessa pasta.</p>
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
-<p>Pra instalar o <code class="language-plaintext highlighter-rouge">liquidprompt</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> http://ftp.us.debian.org/debian/pool/main/l/liquidprompt/<span class="si">$(</span>wget <span class="nt">-qO-</span> http://ftp.us.debian.org/debian/pool/main/l/liquidprompt/|grep all.deb|tail <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f8</span><span class="si">)</span>
-<span class="nb">sudo </span>apt <span class="nb">install</span> ./liquidprompt<span class="k">*</span>.deb
-<span class="nb">rm </span>liquidprompt<span class="k">*</span>.deb
-<span class="nb">cp</span> /usr/share/liquidprompt/liquidpromptrc-dist .config/liquidpromptrc
-<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s/debian.theme/powerline.theme/g'</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/liquidpromptrc
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |"</span><span class="nv">$HOME</span><span class="sh">"/.bashrc.d/liquidprompt.bash&gt;/dev/null
-echo </span><span class="se">\$</span><span class="sh">- | grep -q i 2&gt;/dev/null &amp;&amp; . /usr/share/liquidprompt/liquidprompt
-lp_theme powerline
-</span><span class="no">EOF
-</span></code></pre></div></div>
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
-<p>Após a execução dos comandos, basta reiniciar o terminal para que o tema com os novos recursos seja exibido.</p>
+<h4 id="but-its-probably-overkill-h4">But it’s probably overkill (h4)</h4>
 
-<h2 id="micro"><code class="language-plaintext highlighter-rouge">micro</code></h2>
-<p><img src="https://micro-editor.github.io/screenshots/micro-monokai.png" alt="micro" /></p>
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
-<p>O <a href="https://micro-editor.github.io"><code class="language-plaintext highlighter-rouge">micro</code></a> é um editor de texto para o terminal, que diferente do <code class="language-plaintext highlighter-rouge">nano</code>, por exemplo (que é o editor padrão na maioria das distribuições Linux), usa atalhos comuns como <code class="language-plaintext highlighter-rouge">Ctrl+S</code> pra salvar e <code class="language-plaintext highlighter-rouge">Ctrl+Q</code> pra sair, só pra citar alguns exemplos, além de não ser necessário usar o <code class="language-plaintext highlighter-rouge">sudo</code> pra editar arquivos com permissão de superusuário, a senha de aministrador só é solicitada na hora de salvar o arquivo.</p>
+<h5 id="could-be-a-smaller-sub-heading-pacman-h5">Could be a smaller sub-heading, <code class="language-plaintext highlighter-rouge">pacman</code> (h5)</h5>
 
-<p>Pra instalar o <code class="language-plaintext highlighter-rouge">micro</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/zyedidia/micro/releases|grep browser_download_url|grep amd64.deb|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">sudo </span>apt <span class="nb">install</span> ./micro<span class="k">*</span>.deb
-<span class="nb">rm </span>micro<span class="k">*</span>.deb
-<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/micro
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.config/micro/settings.json&gt;/dev/null
-{
-	"eofnewline": false,
-}
-</span><span class="no">EOF
-</span></code></pre></div></div>
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
-<p>Após a execução dos comandos, basta executar o comando <code class="language-plaintext highlighter-rouge">micro</code> para começar a editar seus arquivos.</p>
+<h6 id="small-yet-significant-sub-heading--h6">Small yet significant sub-heading  (h6)</h6>
 
-<h2 id="ntfy"><code class="language-plaintext highlighter-rouge">ntfy</code></h2>
-<p><img src="https://raw.githubusercontent.com/dschep/ntfy/master/docs/demo.gif" alt="ntfy" /></p>
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
-<p>O <a href="https://github.com/dschep/ntfy"><code class="language-plaintext highlighter-rouge">ntfy</code></a> é um notificador para comandos demorados no terminal, ou seja, toda vez que você executar um comando que demora bastante tempo pra ser concluído, ao concluir a operação o terminal vai exibir uma notificação na sua área de trabalho ou no seu celular (opcional), pra te indicar que o processo terminou, o tempo mínimo pra notificações pode ser ajustado de acordo com suas necessidades, por padrão ele exibe notificações para comandos que demoram acima de 10s.</p>
+<h3 id="whaaat-a-checklist">Whaaat, a checklist??</h3>
 
-<p>Para instalar o <code class="language-plaintext highlighter-rouge">ntfy</code> no <strong>Ubuntu</strong>, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>libnotify-bin pipx
-pipx <span class="nb">install</span> <span class="nt">--system-site-packages</span> ntfy
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |tee "</span><span class="nv">$HOME</span><span class="sh">"/.bashrc.d/ntfy.bash&gt;/dev/null
-PATH="</span><span class="se">\$</span><span class="sh">PATH":"</span><span class="se">\$</span><span class="sh">HOME"/.local/bin
-eval "</span><span class="se">\$</span><span class="sh">(ntfy shell-integration)"
-</span><span class="no">EOF
-</span></code></pre></div></div>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Milk</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Cookies
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Classic Choco-chip</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Sourdough Choco-chip</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Chee-ee-eeee-zzze!!!!</li>
+</ul>
 
-<p>Após a execução dos comandos, basta reiniciar o terminal para que as notificações de comandos demorados comecem a ser exibidas.</p>
+<h3 id="oh-hai-an-unordered-list">Oh hai, an unordered list!!</h3>
 
-<p>Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no <a href="https://twitter.com/rauldipeas"><strong>Twitter</strong></a>.</p>]]></content><author><name></name></author><category term="Guias" /><category term="como" /><category term="personalizar" /><category term="o" /><category term="bash" /><summary type="html"><![CDATA[O bash (Bourne Again SHell), é o interpretador de comandos mais comum nas distribuições Linux. Ele é uma interface de linha de comando que permite aos usuários interagirem com o sistema operacional Linux por meio de comandos no terminal. O bash suporta uma ampla gama de comandos, que podem ser usados para executar tarefas como manipulação de arquivos e diretórios, gerenciamento de processos, automação de tarefas, redirecionamento de entrada/saída, criação de scripts e muito mais. Ele também suporta recursos avançados, como substituição de variáveis, expansão de curingas, controle de fluxo, histórico de comandos e a personalização do ambiente de shell. Eu poderia escrever muita coisa sobre ele, visto que ele já é bastante antigo e existem muitas formas de explorar suas capacidades, porém, vou me ater as minhas personalizações e as explicações sobre a necessidade de cada uma delas, pra que você possa tirar suas próprias conclusões sobre o assunto. Arquivos de configuração do bash Eu uso arquivos separados pra cada personalização e complemento que eu adiciono ao bash, dessa forma, fica mais fácil organizar, ativar e desativar recursos de acordo com a necessidade, tudo isso é feito usando a pasta "$HOME"/.bashrc.d, onde eu armazeno todos os scripts. Pra criar essa pasta e fazer com que os scripts sejam carregados, basta executar os comandos abaixo: mkdir -p "$HOME"/.bashrc.d sed -i '/^# bashrc.d/{N;N;N;d;}' "$HOME"/.bashrc cat &lt;&lt;EOF |tee -a "$HOME"/.bashrc&gt;/dev/null # bashrc.d for script in "\$HOME"/.bashrc.d/*.bash;do source \$script done EOF O que nós fizemos até aqui, além de criar a pasta necessária, foi adicionar algumas linhas ao final do arquivo "$HOME"/.bashrc, para que ele busque por scripts com a extensão .bash dentro da pasta "$HOME"/.bashrc.d, até esse ponto, nenhuma modificação no comportamento do bash foi implementada, mas já estamos preparados pra elas. Ao longo de quase 2 décadas usando Linux, eu descobri uma série de melhorias que podem ser feitas no bash pra que ele se torne mais fácil de usar, afinal de contas, o terminal nunca é amistoso a primeira vista e quanto mais nós pudermos mitigar essa estranhesa, melhor, não? atuin O primiro dos complementos que eu gostaria de indicar é o atuin, que é um gerenciador de histórico de comandos. A real necessidade para um complemento como esse, é que por padrão o bash não te dá um histórico completo dos comandos que você já executou anteriormente, sem um programa como o atuin, você tem que digitar um termo e ir pressionando Ctrl+R repetidamente pra navegar no histórico, o que é um pouco cansativo e até confuso na minha perspectiva, com o atuin você preciona Ctrl+R apenas uma vez e daí já pode começar a navegar no histórico usando as setas do teclado, ou se quiser pesquisar por algo, basta começar a escrever a parte do comando que você lembra, ele faz uma busca completa no histórico, é excelente e facilita muito o uso de comandos longos e que você só usa eventualmente, te dando a comodidade de não precisar decorar nada. Para instalar o atuin no Ubuntu, basta executar os comandos abaixo: wget -cq --show-progress "$(wget -qO- https://api.github.com/repos/ellie/atuin/releases|grep browser_download_url|grep .deb|head -n1|cut -d '"' -f4)" sudo apt install ./atuin*.deb rm atuin*.deb wget -qO- "$HOME"/.bashrc.d/bash-preexec.sh https://raw.githubusercontent.com/rcaloras/bash-preexec/master/bash-preexec.sh cat &lt;&lt;EOF |tee "$HOME"/.bashrc.d/atuin.bash&gt;/dev/null [[ -f ~/.bashrc.d/bash-preexec.sh ]] &amp;&amp; source ~/.bashrc.d/bash-preexec.sh eval "\$(atuin init bash --disable-up-arrow)" EOF Após a execução dos comandos, basta reiniciar o terminal e pressionar Ctrl+R pra exibir o histórico de comandos com o atuin. bash line editor (ble.sh) O bash line editor, que vamos chamar de ble.sh, pra simplificar, é um complemento que abrange vários recursos diferentes, mas eu vou me ater apenas ao que eu faço uso, que é a sugestão de comandos, ou seja, quando você começar a digitar algo no terminal, com base no seu histórico de comandos, o ble.sh já vai indicar o restante do comando, bastando você pressionar a seta direita do teclado pra autocompletar. Se você faz um uso intenso do terminal, isso ajuda demais, pois poupa muito tempo na hora de digitar os comandos. Para instalar o ble.sh no Ubuntu, basta executar os comandos abaixo: sudo apt install build-essential git git clone -q --recursive https://github.com/akinomyoga/ble.sh.git make -C ble.sh install PREFIX="$HOME"/.local&gt;/dev/null cat &lt;&lt;EOF |tee "$HOME"/.bashrc.d/blesh.bash&gt;/dev/null source "\$HOME"/.local/share/blesh/ble.sh EOF cat &lt;&lt;EOF |tee "$HOME"/.blerc&gt;/dev/null ble-face -s auto_complete fg=238,bg=000 bleopt complete_auto_delay=300 EOF rm -rf ble.sh* Após a execução dos comandos, basta reiniciar o terminal pra começar a receber as sugestões dos comandos. fzf &amp; bat O fzf é um comando complementar para vários outros comandos indicados neste guia, mas pra descrever o que ele pode fazer, basicamente ele é um buscador difuso, ou seja, ele é capaz de fazer pesquisas interativas dentro de vários tipos de contexto, é bastante difícil descrever tudo que ele pode fazer, mas posso deixar aqui a descrição do próprio desenvolvedor: É um filtro Unix interativo para linha de comando que pode ser usado com qualquer lista; arquivos, histórico de comandos, processos, nomes de host, favoritos, git commits, etc. Sei que pode parecer algo confuso de entender, eu mesmo demorei pra assimilar, mas na prática, vamos usar ele pra navegar em arquivos dentro de pastas, com uma previsão do conteúdo para arquivos de texto, o que ajuda bastante na hora de conferir scripts ou anotações em texto puro que você tem guardados numa determinada pasta. Além do fzf, nós vamos instalar também o bat, que é responsável pela exibição do conteúdo dos arquivos dentro deste contexto. Pra instalar o fzf e o bat no Ubuntu, basta executar os comandos abaixo: wget -q --show-progress "$(wget -qO- https://api.github.com/repos/sharkdp/bat/releases|grep browser_download_url|grep amd64.deb|grep -v musl|head -n1|cut -d '"' -f4)" sudo apt install ./bat*.deb fzf rm bat*.deb cat &lt;&lt;EOF |sudo tee /usr/local/bin/fzf-dir&gt;/dev/null #!/bin/bash set -e /usr/bin/fzf --preview 'bat --style=numbers --color=always --line-range :500 {}' EOF sudo chmod +x /usr/local/bin/fzf-dir Após a execução dos comandos, você pode navegar até um diretório que contém arquivos de texto e rodar o comando fzf-dir, daí é só começar a navegar nos arquivos com as setas do teclado, todos os arquivos de texto terão uma previsão ao lado direito. liquidprompt O liquidprompt é um tema no estilo powershell/agnoster para o bash. Com ele, além da visualização melhorada do nome do host, usuário e pasta atual, você tem indicações de estado em pastas de repositório git, por exemplo, o que ajuda bastanta pra saber em que pé anda o desenvolvimento do seu projeto dentro dessa pasta. Pra instalar o liquidprompt no Ubuntu, basta executar os comandos abaixo: wget -q --show-progress http://ftp.us.debian.org/debian/pool/main/l/liquidprompt/$(wget -qO- http://ftp.us.debian.org/debian/pool/main/l/liquidprompt/|grep all.deb|tail -n1|cut -d '"' -f8) sudo apt install ./liquidprompt*.deb rm liquidprompt*.deb cp /usr/share/liquidprompt/liquidpromptrc-dist .config/liquidpromptrc sed -i 's/debian.theme/powerline.theme/g' "$HOME"/.config/liquidpromptrc cat &lt;&lt;EOF |"$HOME"/.bashrc.d/liquidprompt.bash&gt;/dev/null echo \$- | grep -q i 2&gt;/dev/null &amp;&amp; . /usr/share/liquidprompt/liquidprompt lp_theme powerline EOF Após a execução dos comandos, basta reiniciar o terminal para que o tema com os novos recursos seja exibido. micro O micro é um editor de texto para o terminal, que diferente do nano, por exemplo (que é o editor padrão na maioria das distribuições Linux), usa atalhos comuns como Ctrl+S pra salvar e Ctrl+Q pra sair, só pra citar alguns exemplos, além de não ser necessário usar o sudo pra editar arquivos com permissão de superusuário, a senha de aministrador só é solicitada na hora de salvar o arquivo. Pra instalar o micro no Ubuntu, basta executar os comandos abaixo: wget -q --show-progress "$(wget -qO- https://api.github.com/repos/zyedidia/micro/releases|grep browser_download_url|grep amd64.deb|head -n1|cut -d '"' -f4)" sudo apt install ./micro*.deb rm micro*.deb mkdir -p "$HOME"/.config/micro cat &lt;&lt;EOF |tee "$HOME"/.config/micro/settings.json&gt;/dev/null { "eofnewline": false, } EOF Após a execução dos comandos, basta executar o comando micro para começar a editar seus arquivos. ntfy O ntfy é um notificador para comandos demorados no terminal, ou seja, toda vez que você executar um comando que demora bastante tempo pra ser concluído, ao concluir a operação o terminal vai exibir uma notificação na sua área de trabalho ou no seu celular (opcional), pra te indicar que o processo terminou, o tempo mínimo pra notificações pode ser ajustado de acordo com suas necessidades, por padrão ele exibe notificações para comandos que demoram acima de 10s. Para instalar o ntfy no Ubuntu, basta executar os comandos abaixo: sudo apt install libnotify-bin pipx pipx install --system-site-packages ntfy cat &lt;&lt;EOF |tee "$HOME"/.bashrc.d/ntfy.bash&gt;/dev/null PATH="\$PATH":"\$HOME"/.local/bin eval "\$(ntfy shell-integration)" EOF Após a execução dos comandos, basta reiniciar o terminal para que as notificações de comandos demorados comecem a ser exibidas. Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no Twitter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/QsbX8ol.jpg" /><media:content medium="image" url="https://i.imgur.com/QsbX8ol.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Respin RDX</title><link href="rauldipeas.com.br/distribui%C3%A7%C3%B5es/2023/04/12/respin-rdx.html" rel="alternate" type="text/html" title="Respin RDX" /><published>2023-04-12T02:45:00+00:00</published><updated>2023-04-12T02:45:00+00:00</updated><id>rauldipeas.com.br/distribui%C3%A7%C3%B5es/2023/04/12/respin-rdx</id><content type="html" xml:base="rauldipeas.com.br/distribui%C3%A7%C3%B5es/2023/04/12/respin-rdx.html"><![CDATA[<h2 id="-respin-rdx"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/ubuntu-tweak.svg" alt="respin-rdx" /> Respin RDX</h2>
-
-<p>O <a href="https://github.com/rauldipeas/respin-rdx"><strong>Respin RDX</strong></a> é a minha compilação pessoal dos <a href="https://ubuntu.com/desktop/flavours"><em>sabores</em></a> do <a href="https://ubuntu.com"><strong>Ubuntu</strong></a>.</p>
-
-<p>A base do sistema está <a href="https://github.com/rauldipeas/respin-rdx/blob/main/scripts/enhancements/rtcqs.sh"><strong>otimizada</strong></a> para criação de conteúdo multimídia <em>(áudio, vídeo e imagem)</em>, com base nos parâmetros de checagem do <a href="https://codeberg.org/rtcqs/rtcqs"><strong>rtcqs</strong></a>.</p>
-
-<p>Alguns extras estão inclusos:</p>
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
 <ul>
-  <li>
-    <h6 id="-cfs-zen-tweaks-agendador-de-tarefas-com-melhorias-de-responsividade"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/cpu.svg" alt="" /> <a href="https://github.com/igo95862/cfs-zen-tweaks"><strong>CFS Zen tweaks</strong></a> (agendador de tarefas com melhorias de responsividade)</h6>
-  </li>
-  <li>
-    <h6 id="-zswap-gerenciador-de-memória-alternativo"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/media-memory.svg" alt="" /> <a href="https://pt.wikipedia.org/wiki/Zswap"><strong>ZSwap</strong></a> (gerenciador de memória alternativo)</h6>
-  </li>
-  <li>
-    <h6 id="-nohang-prevenção-de-oom"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/rsibreak.svg" alt="" /> <a href="https://github.com/hakavlad/nohang"><strong>nohang</strong></a> (prevenção de OOM)</h6>
-  </li>
-  <li>
-    <h6 id="--mesa-drivers-mais-recentes-para-gpus-amd-e-intel"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/GPU_Viewer.svg" alt="" />  <a href="https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa"><strong>MESA</strong></a> (drivers mais recentes para GPUs AMD e Intel)</h6>
-  </li>
-  <li>
-    <h6 id="-alsa-firmware-drivers-adicionais-para-interfaces-de-áudio"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/mx-select-sound.svg" alt="" /> <a href="http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu/pool/main/a/alsa-firmware"><strong>ALSA firmware</strong></a> (drivers adicionais para interfaces de áudio)</h6>
-  </li>
-  <li>
-    <h6 id="-jack-servidor-de-áudio-de-baixa-latência"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/qjackctl.svg" alt="" /> <a href="https://launchpad.net/~ubuntustudio-ppa/+archive/ubuntu/backports"><strong>JACK</strong></a> (servidor de áudio de baixa latência)</h6>
-  </li>
-  <li>
-    <h6 id="-udev-rtirq-regras-de-alta-prioridade-para-o-gerenciamento-da-interface-de-áudio"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/audio-card.svg" alt="" /> <a href="https://github.com/jhernberg/udev-rtirq"><strong><code class="language-plaintext highlighter-rouge">udev-rtirq</code></strong></a> (regras de alta prioridade para o gerenciamento da interface de áudio)</h6>
-  </li>
-  <li>
-    <h6 id="-synaptic-gerenciador-de-pacotes"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/synaptic.svg" alt="" /> <a href="https://savannah.nongnu.org/projects/synaptic"><strong>Synaptic</strong></a> (gerenciador de pacotes)</h6>
-  </li>
-  <li>
-    <h6 id="-nala-interface-python-para-o-apt"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/cats-are-liquid.svg" alt="" /> <a href="https://gitlab.com/volian/nala"><strong><code class="language-plaintext highlighter-rouge">nala</code></strong></a> (interface Python para o APT)</h6>
-  </li>
-  <li>
-    <h6 id="-pacstall-repositório-de-programas-para-a-base-debian-similar-ao-aur-do-arch-linux"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/mimetypes/text-x-pkgbuild.svg" alt="" /> <a href="https://pacstall.dev"><strong>Pacstall</strong></a> (repositório de programas para a base Debian, similar ao AUR do Arch Linux)</h6>
-  </li>
-  <li>
-    <h6 id="-linuxbrew-gerenciador-de-pacotes-adicional-para-programas-cli"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/places/folder-yellow-apple.svg" alt="" /> <a href="https://brew.sh"><strong><code class="language-plaintext highlighter-rouge">LinuxBrew</code></strong></a> (gerenciador de pacotes adicional para programas CLI)</h6>
-  </li>
-  <li>
-    <h6 id="-apt-rollback-ferramenta-para-reverter-pacotes-instalados-em-um-período-de-tempo-específico"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/cronopete_preferences.svg" alt="" /> <a href="https://launchpad.net/apt-rollback"><strong><code class="language-plaintext highlighter-rouge">apt-rollback</code></strong></a> (ferramenta para reverter pacotes instalados em um período de tempo específico)</h6>
-  </li>
-  <li>
-    <h6 id="-pipx-instalador-de-pacotes-python-com-ambientes-isolados"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/python.svg" alt="pipx" /> <a href="https://github.com/pypa/pipx"><strong><code class="language-plaintext highlighter-rouge">pipx</code></strong></a> (instalador de pacotes python com ambientes isolados)</h6>
-  </li>
-  <li>
-    <h6 id="-timeshift-ferramenta-de-backups"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/timeshift.svg" alt="timeshift" /> <a href="https://github.com/linuxmint/timeshift"><strong>Timeshift</strong></a> (ferramenta de backups)</h6>
-  </li>
-  <li>
-    <h6 id="-firefox-navegador-de-internet-binário-diretamente-do-site-da-mozilla"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/firefox.svg" alt="firefox" /> <a href="https://support.mozilla.org/pt-BR/kb/instale-o-firefox-no-linux"><strong>Firefox</strong></a> (navegador de internet, binário diretamente do site da Mozilla)</h6>
-  </li>
-  <li>
-    <h6 id="-thunderbird-cliente-de-e-mail-binário-diretamente-do-site-da-mozilla"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/thunderbird.svg" alt="" /> <a href="https://support.mozilla.org/pt-BR/kb/instale-o-thunderbird-no-linux"><strong>Thunderbird</strong></a> (cliente de e-mail, binário diretamente do site da Mozilla)</h6>
-  </li>
-  <li>
-    <h6 id="-libreoffice-suíte-de-escritório-atualizada"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/libreoffice-main.svg" alt="libreoffice" /> <a href="https://launchpad.net/~libreoffice/+archive/ubuntu/ppa"><strong>LibreOffice</strong></a> (suíte de escritório atualizada)</h6>
-  </li>
-  <li>
-    <h6 id="-papirus-tema-de-ícones"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/papirus-folders-gui.svg" alt="papirus-folders" /> <a href="https://github.com/PapirusDevelopmentTeam"><strong>Papirus</strong></a> (tema de ícones)</h6>
-  </li>
-  <li>
-    <h6 id="-unrar-suporte-adicional-para-descompactar-arquivos"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/ark.svg" alt="papirus-icons" /> <a href="https://github.com/pmachapman/unrar"><strong><code class="language-plaintext highlighter-rouge">unrar</code></strong></a> (suporte adicional para descompactar arquivos)</h6>
-  </li>
-  <li>
-    <h6 id="-docklike-superbar-para-o-painel-do-xfce"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/preferences-system-windows.svg" alt="docklike" /> <a href="https://github.com/nsz32/docklike-plugin"><strong>Docklike</strong></a> (<code class="language-plaintext highlighter-rouge">superbar</code> para o painel do XFCE)</h6>
-  </li>
-  <li>
-    <h6 id="-vala-application-menu-appmenu-para-o-painel-do-xfce"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/kmenuedit.svg" alt="appmenu" /> <a href="https://github.com/rilian-la-te/vala-panel-appmenu"><strong>Vala Application Menu</strong></a> (<code class="language-plaintext highlighter-rouge">appmenu</code> para o painel do XFCE)</h6>
-  </li>
-  <li>
-    <h6 id="-cpu-x-informações-de-hardware"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/cpu-x.svg" alt="cpu-x" /> <a href="https://thetumultuousunicornofdarkness.github.io/CPU-X"><strong>CPU-X</strong></a> (informações de hardware)</h6>
-  </li>
-  <li>
-    <h6 id="-kitty-terminal-baseado-em-gpu"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/kitty.svg" alt="" /> <a href="https://sw.kovidgoyal.net/kitty/"><strong>Kitty</strong></a> (terminal baseado em GPU)</h6>
+  <li>First item, yo</li>
+  <li>Second item, dawg</li>
+  <li>Third item, what what?!</li>
+  <li>Fourth item, fo sheezy my neezy</li>
+  <li>Fifth item, nested!
+    <ul>
+      <li>So la ti do</li>
+      <li>Ba-da-bing!</li>
+      <li>Ba-da-boom!</li>
+    </ul>
   </li>
 </ul>
 
-<p>Os scripts usados nesta compilação, são derivados dos scripts desenvolvidos pelo <a href="https://github.com/mvallim/live-custom-ubuntu-from-scratch"><strong>Marcos Vallim</strong></a>.</p>
+<h3 id="oh-hai-an-ordered-list">Oh hai, an ordered list!!</h3>
 
-<h2 id="download">Download:</h2>
-<h6><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/distributor-logo-ubuntu.svg" alt="ubuntu" title="Ubuntu" /><a href="https://nightly.link/rauldipeas/respin-rdx/workflows/ubuntu-respin-rdx/main/ubuntu-respin-rdx.zip"><img src="https://img.shields.io/github/actions/workflow/status/rauldipeas/respin-rdx/ubuntu-respin-rdx.yml?branch=main&amp;label=Ubuntu%20Respin%20RDX&amp;logo=GitHub&amp;style=for-the-badge" alt="" title="Ubuntu" /></a></h6>
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
-<h6 id="-1"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/desktop-environment-gnome.svg" alt="gnome-lite" title="GNOME Lite" /><a href="https://nightly.link/rauldipeas/respin-rdx/workflows/ugl-respin-rdx/main/ugl-respin-rdx.zip"><img src="https://img.shields.io/github/actions/workflow/status/rauldipeas/respin-rdx/ugl-respin-rdx.yml?branch=main&amp;label=Ubuntu%20GNOME%20Lite%20Respin%20RDX&amp;logo=GitHub&amp;style=for-the-badge" alt="" title="GNOME Lite" /></a></h6>
+<ol>
+  <li>First item, yo</li>
+  <li>Second item, dawg</li>
+  <li>Third item, what what?!</li>
+  <li>Fourth item, fo sheezy my neezy</li>
+  <li>Fifth item, nested!
+    <ul>
+      <li>So la ti do</li>
+      <li>Ba-da-bing!</li>
+      <li>Ba-da-boom!</li>
+    </ul>
+  </li>
+</ol>
 
-<h6 id="-2"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/distributor-logo-kubuntu.svg" alt="kubuntu" title="Kubuntu" /><a href="https://nightly.link/rauldipeas/respin-rdx/workflows/kubuntu-respin-rdx/main/kubuntu-respin-rdx.zip"><img src="https://img.shields.io/github/actions/workflow/status/rauldipeas/respin-rdx/kubuntu-respin-rdx.yml?branch=main&amp;label=Kubuntu%20Respin%20RDX&amp;logo=GitHub&amp;style=for-the-badge" alt="" title="Kubuntu" /></a></h6>
+<h2 id="headings-are-cool-h2">Headings are cool! (h2)</h2>
 
-<h6 id="-3"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/desktop-environment-xfce.svg" alt="xubuntu" title="Xubuntu" /><a href="https://nightly.link/rauldipeas/respin-rdx/workflows/xubuntu-respin-rdx/main/xubuntu-respin-rdx.zip"><img src="https://img.shields.io/github/actions/workflow/status/rauldipeas/respin-rdx/xubuntu-respin-rdx.yml?branch=main&amp;label=Xubuntu%20Respin%20RDX&amp;logo=GitHub&amp;style=for-the-badge" alt="" title="Xubuntu" /></a></h6>
+<p>Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<h6 id="-4"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/preferences-desktop-theme.svg" alt="cinnamon-lite" title="Cinnamon Lite" /><a href="https://nightly.link/rauldipeas/respin-rdx/workflows/ucl-respin-rdx/main/ucl-respin-rdx.zip"><img src="https://img.shields.io/github/actions/workflow/status/rauldipeas/respin-rdx/ucl-respin-rdx.yml?branch=main&amp;label=Ubuntu%20Cinnamon%20Lite%20Respin%20RDX&amp;logo=GitHub&amp;style=for-the-badge" alt="" title="Cinnamon Lite" /></a></h6>
+<p>Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<h6 id="-5"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/distributor-logo-steamos.svg" alt="kdeck" title="Kubuntu Deck" /><a href="https://nightly.link/rauldipeas/respin-rdx/workflows/kdeck-respin-rdx/main/kdeck-respin-rdx.zip"><img src="https://img.shields.io/github/actions/workflow/status/rauldipeas/respin-rdx/kdeck-respin-rdx.yml?branch=main&amp;label=Kubuntu%20Deck%20Respin%20RDX&amp;logo=GitHub&amp;style=for-the-badge" alt="" title="Kubuntu Deck" /></a></h6>
+<p>Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</p>
 
-<h6 id="-6"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/devices/audio-speaker-mono-testing.svg" alt="kavis" title="KAVIS" /><a href="https://nightly.link/rauldipeas/respin-rdx/workflows/kavis-respin-rdx/main/kavis-respin-rdx.zip"><img src="https://img.shields.io/github/actions/workflow/status/rauldipeas/respin-rdx/kavis-respin-rdx.yml?branch=main&amp;label=KAVIS%20Respin%20RDX&amp;logo=GitHub&amp;style=for-the-badge" alt="" title="KAVIS" /></a></h6>]]></content><author><name></name></author><category term="Distribuições" /><category term="ubuntu" /><category term="respin" /><category term="rdx" /><summary type="html"><![CDATA[Respin RDX O Respin RDX é a minha compilação pessoal dos sabores do Ubuntu. A base do sistema está otimizada para criação de conteúdo multimídia (áudio, vídeo e imagem), com base nos parâmetros de checagem do rtcqs. Alguns extras estão inclusos: CFS Zen tweaks (agendador de tarefas com melhorias de responsividade) ZSwap (gerenciador de memória alternativo) nohang (prevenção de OOM) MESA (drivers mais recentes para GPUs AMD e Intel) ALSA firmware (drivers adicionais para interfaces de áudio) JACK (servidor de áudio de baixa latência) udev-rtirq (regras de alta prioridade para o gerenciamento da interface de áudio) Synaptic (gerenciador de pacotes) nala (interface Python para o APT) Pacstall (repositório de programas para a base Debian, similar ao AUR do Arch Linux) LinuxBrew (gerenciador de pacotes adicional para programas CLI) apt-rollback (ferramenta para reverter pacotes instalados em um período de tempo específico) pipx (instalador de pacotes python com ambientes isolados) Timeshift (ferramenta de backups) Firefox (navegador de internet, binário diretamente do site da Mozilla) Thunderbird (cliente de e-mail, binário diretamente do site da Mozilla) LibreOffice (suíte de escritório atualizada) Papirus (tema de ícones) unrar (suporte adicional para descompactar arquivos) Docklike (superbar para o painel do XFCE) Vala Application Menu (appmenu para o painel do XFCE) CPU-X (informações de hardware) Kitty (terminal baseado em GPU) Os scripts usados nesta compilação, são derivados dos scripts desenvolvidos pelo Marcos Vallim. Download:]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/ERwWPOf.jpg" /><media:content medium="image" url="https://i.imgur.com/ERwWPOf.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalação de programas no Ubuntu</title><link href="rauldipeas.com.br/guias/2023/04/11/instala%C3%A7%C3%A3o-de-programas-no-ubuntu.html" rel="alternate" type="text/html" title="Instalação de programas no Ubuntu" /><published>2023-04-11T18:15:00+00:00</published><updated>2023-04-11T18:15:00+00:00</updated><id>rauldipeas.com.br/guias/2023/04/11/instala%C3%A7%C3%A3o-de-programas-no-ubuntu</id><content type="html" xml:base="rauldipeas.com.br/guias/2023/04/11/instala%C3%A7%C3%A3o-de-programas-no-ubuntu.html"><![CDATA[<p>O Ubuntu, assim como todas as demais distribuições Linux, suporta uma grande variedade de formas pra instalar novos programas, dentre as mais simples como dar alguns cliques na central de programas, até a compilação de um programa diretamente do código fonte, passando por diversas outras.</p>
+<h3 id="tables">Tables</h3>
 
-<p>Dentre as formas mais populares, existem os <em>pacotes</em>, que são arquivos compactados, com o conteúdo dos programas dentro, possibilitando a instalação com poucos cliques.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Title 1</th>
+      <th>Title 2</th>
+      <th>Title 3</th>
+      <th>Title 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lorem</td>
+      <td>lorem ipsum</td>
+      <td>lorem ipsum dolor</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>Esses pacotes podem ser disponibilizados através dos repositórios do Ubuntu ou de repositórios de terceiros, permitindo dessa forma que você acompanhe as atualizações assim que novas versões estiverem disponíveis, mas, também podem ser disponibilizados diretamente através de páginas na internet, sem a possibilidade de receber atualizações automaticamente.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Title 1</th>
+      <th>Title 2</th>
+      <th>Title 3</th>
+      <th>Title 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lorem</td>
+      <td>lorem ipsum</td>
+      <td>lorem ipsum dolor</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor sit amet</td>
+      <td>lorem ipsum dolor sit amet consectetur</td>
+      <td>lorem ipsum dolor sit amet</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor</td>
+      <td>lorem ipsum</td>
+      <td>lorem</td>
+      <td>lorem ipsum</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit amet</td>
+      <td>lorem ipsum dolor sit amet consectetur</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>[&quot;Bart Simpson&quot;, &quot;Nelson Mandela Muntz&quot;]</name></author><category term="junk" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.]]></summary></entry><entry><title type="html">Codeblocks Ahoy</title><link href="rauldipeas.com.br/2016/05/19/codeblocks-ahoy.html" rel="alternate" type="text/html" title="Codeblocks Ahoy" /><published>2016-05-19T00:00:00+00:00</published><updated>2016-05-19T00:00:00+00:00</updated><id>rauldipeas.com.br/2016/05/19/codeblocks-ahoy</id><content type="html" xml:base="rauldipeas.com.br/2016/05/19/codeblocks-ahoy.html"><![CDATA[<p>An article with various blocks of highlighted code snippets.</p>
 
-<p>Seguindo esse conceito, vou listar alguns métodos mais populares de instalação de programas para o Ubuntu, descrevendo suas possibilidades e dando minhas recomendações sobre o potencial uso de cada um deles.</p>
-
-<h2 id="-synaptic"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/synaptic.svg" alt="synaptic" /> Synaptic</h2>
-
-<p>O <a href="https://savannah.nongnu.org/projects/synaptic"><strong>Synaptic</strong></a> é um gerenciador de pacotes no formato <code class="language-plaintext highlighter-rouge">.deb</code> e através dele é possível instalar programas disponíveis nos <em>repositórios</em> que estão configurados na sua instalação do Ubuntu, sejam eles os repositórios padrão do Ubuntu, PPAs do Launchpad ou repositórios de terceiros.</p>
-
-<p>Ele é um <em>frontend</em> para o <code class="language-plaintext highlighter-rouge">apt</code> e disponibiliza praticamente todas as suas funções através de uma interface gráfica.</p>
-
-<p><img src="https://i.imgur.com/17Vtwfb.png" alt="synaptic" /></p>
-
-<p>Na minha opinião, a real vantagem do <strong>Synaptic</strong> sobre outras centrais de instalação de programas disponíveis para o Ubuntu, é que ele lista absolutamente todos os pacotes disponíveis nos repositórios da sua instalação, enquanto a maioria das demais centrais de programas, listam apenas programas que contém lançadores com ícones, ou seja, programas que você usa na linha de comando, bibliotecas de compatibilidade, entre outros, não são listados por elas, o que torna o <strong>Synaptic</strong> muito mais abrangente.</p>
-
-<h2 id="-deb-get"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/distributor-logo-debian.svg" alt="deb-get" /> <code class="language-plaintext highlighter-rouge">deb-get</code></h2>
-
-<p>Conforme eu citei, existem programas que não são disponibilizados através de um repositório, desse modo, você não tem como acompanhar as atualizações desse programa de forma automática, assim que novas versões forem disponibilizadas pelo desenvolvedor, é justamente nesse caso que o <a href="https://github.com/wimpysworld/deb-get"><code class="language-plaintext highlighter-rouge">deb-get</code></a> pode ser uma boa opção, visto que ele disponibiliza a instalação e atualização desses programas diretamente das páginas onde eles são disponibilizadas, te poupando esse tempo de verificar manualmente.</p>
-
-<p>O <code class="language-plaintext highlighter-rouge">deb-get</code> é um programa feito para linha de comando, porém, ele possui uma interface gráfica desenvolvida por terceiros que facilita o seu uso, se chama <a href="https://github.com/ymauray/deborah/"><strong>Deborah</strong></a>.</p>
-
-<p><img src="https://i.imgur.com/BGzR1DV.png" alt="deborah" /></p>
-
-<p>O <code class="language-plaintext highlighter-rouge">deb-get</code> é uma boa opção pra instalar programas sem a necessidade de adicionar repositórios ao sistema, visto que ele mesmo faz esse processo quando necessário, vale a pena dar uma conferida na <a href="https://github.com/wimpysworld/deb-get/tree/main/01-main">página do programa</a> pra saber todos os programas que ele disponibiliza, são diversos.</p>
-
-<h2 id="-pacstall"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/mimetypes/text-x-pkgbuild.svg" alt="pacstall" /> Pacstall</h2>
-
-<p>O <a href="https://pacstall.dev/"><strong>Pacstall</strong></a> faz a instalação dos programas através de receitas, que compila diretamente do código fonte a maioria dos programas disponíveis na sua lista.</p>
-
-<p>Disponível apenas para o uso através da linha de comando, ele não possui nenhuma interface gráfica até o momento.</p>
-
-<p>Ele é fortemente inspirado no <a href="aur.archlinux.org"><strong>AUR</strong></a> do <a href="https://archlinux.org"><strong>Arch Linux</strong></a>.</p>
-
-<p><a href="https://pacstall.dev/packages">Nesta página</a> você pode conferir todos os programas que ele disponibiliza.</p>
-
-<h2 id="-appimage"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/mimetypes/application-x-iso9660-appimage.svg" alt="appimage" /> AppImage</h2>
-
-<p>O formato <a href="https://appimage.org"><strong>AppImage</strong></a> é bastante conveniente, porque você não precisa necessariamente instalar, basta baixar o pacote, dar permissão de execução e abrir o programa, ele já vem com todas as dependências necessárias pra execução do programa embutidas no pacote.</p>
-
-<p><img src="https://i.imgur.com/7ObNA5R.png" alt="appimage" /></p>
-
-<p>Confesso que tenho um pouco de resistência a usar programas assim, porque eles tem menos integração com o sistema do que programas instaláveis através de pacotes <code class="language-plaintext highlighter-rouge">.deb</code>, mas eventualmente eles acabam sendo a única opção viável.</p>
-
-<h2 id="-flatpak-e--snap"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/mimetypes/application-vnd.flatpak.svg" alt="flatpak" /> Flatpak e <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/com.github.bartzaalberg.snaptastic.svg" alt="snap" /> Snap</h2>
-
-<p>Eu resolvi englobar esses dois pacotes na mesma descrição, porque apesar de eles terem diferenças significativas, o resultado final é muito próximo.</p>
-
-<p>Assim com o <strong>AppImage</strong>, o <a href="https://flatpak.org"><strong>Flatpak</strong></a> e o <a href="https://snapcraft.io"><strong>Snap</strong></a> são formatos que vizam carregar todas as depenências necessárias pros programas empacotados nesses formatos, tornando a instalação desses programas <em>universal</em>, ou seja, tecnicamente são suportados em qualquer distribuição.</p>
-
-<p>Eu não sou adepto, porque ambos tem uma série de problemas que no meu ponto de vista não justifica o seu uso, até o presente momento.</p>
-
-<p><strong>Snaps</strong> costumam ser lentos, ter problemas de compatibilidade de temas, além de serem pacotes com tamanho consideravelmente maior do que os <code class="language-plaintext highlighter-rouge">.deb</code> tradicionais.</p>
-
-<p><strong>Flatpaks</strong> instalam uma série de dependências adicionais, que são usadas de forma compartilhada entre os programas, o que é até um ponto positivo, porém, dependendo dos programas que você precisar, pode ser que você tenha mais de uma versão dessas dependências, que no meu ponto de vista, é uma redundância, mas os desenvolvedores justificam isso como uma certificação de que o programa vai rodar em qualquer distro.</p>
-
-<p>A leitura que eu faço desses empacotamentos mais <em>modernos</em>, é que eles foram criados pra aumentar o <em>hype</em> de empresas maiores, com a premissa de que são <em>universais</em> e no caso dos <strong>snaps</strong>, podem até carregar código proprietário.</p>
-
-<p>Até a data desta postagem, eles não são relevantes ou necessários pra mim, prefiro compilar programas direto do código fonte, mas esse pode não ser o seu caso.</p>
-
-<p>Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no <a href="https://twitter.com/rauldipeas"><strong>Twitter</strong></a>.</p>]]></content><author><name></name></author><category term="Guias" /><category term="instalação" /><category term="de" /><category term="programas" /><category term="no" /><category term="ubuntu" /><summary type="html"><![CDATA[O Ubuntu, assim como todas as demais distribuições Linux, suporta uma grande variedade de formas pra instalar novos programas, dentre as mais simples como dar alguns cliques na central de programas, até a compilação de um programa diretamente do código fonte, passando por diversas outras. Dentre as formas mais populares, existem os pacotes, que são arquivos compactados, com o conteúdo dos programas dentro, possibilitando a instalação com poucos cliques. Esses pacotes podem ser disponibilizados através dos repositórios do Ubuntu ou de repositórios de terceiros, permitindo dessa forma que você acompanhe as atualizações assim que novas versões estiverem disponíveis, mas, também podem ser disponibilizados diretamente através de páginas na internet, sem a possibilidade de receber atualizações automaticamente. Seguindo esse conceito, vou listar alguns métodos mais populares de instalação de programas para o Ubuntu, descrevendo suas possibilidades e dando minhas recomendações sobre o potencial uso de cada um deles. Synaptic O Synaptic é um gerenciador de pacotes no formato .deb e através dele é possível instalar programas disponíveis nos repositórios que estão configurados na sua instalação do Ubuntu, sejam eles os repositórios padrão do Ubuntu, PPAs do Launchpad ou repositórios de terceiros. Ele é um frontend para o apt e disponibiliza praticamente todas as suas funções através de uma interface gráfica. Na minha opinião, a real vantagem do Synaptic sobre outras centrais de instalação de programas disponíveis para o Ubuntu, é que ele lista absolutamente todos os pacotes disponíveis nos repositórios da sua instalação, enquanto a maioria das demais centrais de programas, listam apenas programas que contém lançadores com ícones, ou seja, programas que você usa na linha de comando, bibliotecas de compatibilidade, entre outros, não são listados por elas, o que torna o Synaptic muito mais abrangente. deb-get Conforme eu citei, existem programas que não são disponibilizados através de um repositório, desse modo, você não tem como acompanhar as atualizações desse programa de forma automática, assim que novas versões forem disponibilizadas pelo desenvolvedor, é justamente nesse caso que o deb-get pode ser uma boa opção, visto que ele disponibiliza a instalação e atualização desses programas diretamente das páginas onde eles são disponibilizadas, te poupando esse tempo de verificar manualmente. O deb-get é um programa feito para linha de comando, porém, ele possui uma interface gráfica desenvolvida por terceiros que facilita o seu uso, se chama Deborah. O deb-get é uma boa opção pra instalar programas sem a necessidade de adicionar repositórios ao sistema, visto que ele mesmo faz esse processo quando necessário, vale a pena dar uma conferida na página do programa pra saber todos os programas que ele disponibiliza, são diversos. Pacstall O Pacstall faz a instalação dos programas através de receitas, que compila diretamente do código fonte a maioria dos programas disponíveis na sua lista. Disponível apenas para o uso através da linha de comando, ele não possui nenhuma interface gráfica até o momento. Ele é fortemente inspirado no AUR do Arch Linux. Nesta página você pode conferir todos os programas que ele disponibiliza. AppImage O formato AppImage é bastante conveniente, porque você não precisa necessariamente instalar, basta baixar o pacote, dar permissão de execução e abrir o programa, ele já vem com todas as dependências necessárias pra execução do programa embutidas no pacote. Confesso que tenho um pouco de resistência a usar programas assim, porque eles tem menos integração com o sistema do que programas instaláveis através de pacotes .deb, mas eventualmente eles acabam sendo a única opção viável. Flatpak e Snap Eu resolvi englobar esses dois pacotes na mesma descrição, porque apesar de eles terem diferenças significativas, o resultado final é muito próximo. Assim com o AppImage, o Flatpak e o Snap são formatos que vizam carregar todas as depenências necessárias pros programas empacotados nesses formatos, tornando a instalação desses programas universal, ou seja, tecnicamente são suportados em qualquer distribuição. Eu não sou adepto, porque ambos tem uma série de problemas que no meu ponto de vista não justifica o seu uso, até o presente momento. Snaps costumam ser lentos, ter problemas de compatibilidade de temas, além de serem pacotes com tamanho consideravelmente maior do que os .deb tradicionais. Flatpaks instalam uma série de dependências adicionais, que são usadas de forma compartilhada entre os programas, o que é até um ponto positivo, porém, dependendo dos programas que você precisar, pode ser que você tenha mais de uma versão dessas dependências, que no meu ponto de vista, é uma redundância, mas os desenvolvedores justificam isso como uma certificação de que o programa vai rodar em qualquer distro. A leitura que eu faço desses empacotamentos mais modernos, é que eles foram criados pra aumentar o hype de empresas maiores, com a premissa de que são universais e no caso dos snaps, podem até carregar código proprietário. Até a data desta postagem, eles não são relevantes ou necessários pra mim, prefiro compilar programas direto do código fonte, mas esse pode não ser o seu caso. Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no Twitter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/u8YE1RC.jpg" /><media:content medium="image" url="https://i.imgur.com/u8YE1RC.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalação de programas autoatualizáveis</title><link href="rauldipeas.com.br/guias/2023/04/11/instala%C3%A7%C3%A3o-de-programas-autoatualiz%C3%A1veis.html" rel="alternate" type="text/html" title="Instalação de programas autoatualizáveis" /><published>2023-04-11T18:15:00+00:00</published><updated>2023-04-11T18:15:00+00:00</updated><id>rauldipeas.com.br/guias/2023/04/11/instala%C3%A7%C3%A3o-de-programas-autoatualiz%C3%A1veis</id><content type="html" xml:base="rauldipeas.com.br/guias/2023/04/11/instala%C3%A7%C3%A3o-de-programas-autoatualiz%C3%A1veis.html"><![CDATA[<p>Na postagem sobre <a href="../instala%C3%A7%C3%A3o-de-programas-no-ubuntu">Instalação de programas no Ubuntu</a>, eu abordei vários métodos de instalação diferentes, porém, existe um método específico que não foi abordado, porque eu gostaria de fazer uma postagem específica sobre, com mais detalhes sobre o processo e suas possibilidades.</p>
-
-<p>Existem diversos programas que são fornecidos diretamente pelos desenvolvedores, num formato <strong>autoatualizável</strong>, ou seja, o programa se atualiza sozinho, sem nenhuma necessidade de interação do usuário, toda vez que você abrir o programa, vai estar usando a última versão, inevitavelmente.</p>
-
-<h2 id="-firefox"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/firefox.svg" alt="firefox" /> Firefox</h2>
-
-<p>O <a href="https://support.mozilla.org/pt-BR/kb/instale-o-firefox-no-linux"><strong>Firefox</strong></a> é um programa fornecido nesse formato, você baixa um arquivo compactado <code class="language-plaintext highlighter-rouge">.tar</code> direto do site da Mozilla, abre o programa e pronto, já garante que estará sempre na última versão do navegador.</p>
-
-<p>Toda vez que você abre o navegador, ele faz uma checagem em segundo plano, pra identificar se existe alguma versão mais nova, caso haja, ele baixa e atualiza automaticamente, sem a necessidade de nenhum tipo de interação, apenas uma pequena janela é exibida, informando sobre o processo, que costuma ser bastante rápido.</p>
-
-<p>Talvez, você possa não ter o conhecimento necessário pra fazer uma instalação adequada do Firefox nesse formato, então vou deixar aqui uma sequência de comandos que vocẽ pode usar pra fazer isso de forma simplificada:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-cO</span> firefox-latest-linux64-pt-br.tar.bz2 <span class="s2">"https://download.mozilla.org/?product=firefox-latest&amp;os=linux64&amp;lang=pt-BR"</span>
-<span class="nb">tar </span>fjx firefox-latest-linux64-pt-br.tar.bz2
-<span class="nb">sudo rm</span> <span class="nt">-r</span> /opt/firefox
-<span class="nb">sudo mkdir</span> <span class="nt">-p</span> /opt/firefox
-<span class="nb">sudo chmod </span>777 <span class="nt">-R</span> /opt/firefox
-<span class="nb">mv </span>firefox/<span class="k">*</span> /opt/firefox/
-<span class="nb">rm</span> <span class="nt">-r</span> firefox firefox-latest-linux64-pt-br.tar.bz2
-<span class="nb">sudo mkdir</span> <span class="nt">-p</span> /usr/local/bin /usr/local/share/applications /usr/local/share/pixmaps
-<span class="nb">sudo ln</span> <span class="nt">-fs</span> /opt/firefox/firefox /usr/local/bin/firefox
-<span class="nb">sudo ln</span> <span class="nt">-fs</span> /opt/firefox/browser/chrome/icons/default/default128.png /usr/local/share/pixmaps/firefox.png
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee /usr/local/share/applications/firefox.desktop&gt;/dev/null
-[Desktop Entry]
-Version=1.0
-Name=Firefox
-Comment=Navegue na internet
-GenericName=Navegador de internet
-Keywords=Internet;WWW;Browser;Web;Explorer
-Exec=MOZ_USE_XINPUT2=1 firefox %u
-Terminal=false
-X-MultipleArgs=false
-Type=Application
-Icon=firefox
-Categories=GNOME;GTK;Network;WebBrowser;
-MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
-StartupNotify=true
-
-Actions=new-window;new-private-window;
-
-[Desktop Action new-window]
-Name=Abrir uma nova janela
-Exec=firefox -new-window
-
-[Desktop Action new-private-window]
-Name=Abrir uma nova janela no modo privado
-Exec=firefox -private-window
-</span><span class="no">EOF
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">=begin
+  Dummy class nested inside a dummy module
+  Private API
+=end</span>
+</code></pre></div></div>
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gd">- This line is redacted
+- This line has been deleted
+</span><span class="gi">+ This line is visible
++ This line has been inserted
+</span><span class="p">This line has not been changed
 </span></code></pre></div></div>
+<div class="language-sass highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="s">"base"</span>
 
-<p>Após a execução dos comandos, quando abrir o navegador pela primeira vez, se estiver usando o ambiente gráfico <a href="https://www.gnome.org">GNOME</a> com o tema <a href="https://gnome.pages.gitlab.gnome.org/libadwaita">Adwaita</a>, pode notar que o visual dele não é totalmente integrado ao ambiente gráfico, por conta disso, pode querer instalar um tema para que o Firefox se integre melhor ao ambiente gráfico, eu recomendo o uso <a href="https://github.com/rafaelmardojai/firefox-gnome-theme">deste tema</a>.</p>
+<span class="nc">.card</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">inline-block</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span>
 
-<p>Basta fechar o navegador e rodar o comando abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-s</span> <span class="nt">-o-</span> https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh|bash
+  <span class="k">&amp;</span><span class="nd">:hover</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="mh">#ab45ef</span><span class="err">;</span>
+</code></pre></div></div>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">21</span> <span class="o">+</span> <span class="mi">54</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">foo</span> <span class="o">||=</span> <span class="n">bar</span>
+<span class="n">foo</span> <span class="o">/</span> <span class="n">bar</span>
+
+<span class="mi">24</span>
+<span class="mf">45.75</span>
+<span class="mh">0x2C716</span>
+<span class="p">\</span><span class="n">x0A</span>
+<span class="mo">01010</span>
+
+<span class="sr">/ya?ml/</span>
+<span class="s2">"yaml"</span>
+</code></pre></div></div>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kp">include</span> <span class="no">Enumerable</span>
+
+<span class="k">module</span> <span class="nn">Foo</span>
+  <span class="k">class</span> <span class="nc">Bar</span>
+    <span class="no">LIPSUM</span> <span class="o">=</span> <span class="s2">"lorem ipsum dolor sit"</span>
+
+    <span class="nb">attr_reader</span> <span class="ss">:layout</span>
+
+    <span class="k">def</span> <span class="nf">initialize</span>
+      <span class="vi">@layout</span> <span class="o">=</span> <span class="no">Layout</span><span class="p">.</span><span class="nf">new</span>
+    <span class="k">end</span>
+
+    <span class="c1"># instance method</span>
+    <span class="k">def</span> <span class="nf">profile</span>
+      <span class="n">measure_time</span> <span class="k">do</span>
+        <span class="n">compile</span> <span class="n">layout</span>
+        <span class="n">layout</span><span class="p">.</span><span class="nf">render_with</span> <span class="no">Bar</span><span class="o">::</span><span class="no">LIPSUM</span>
+      <span class="k">end</span>
+    <span class="k">rescue</span> <span class="no">ArgumentError</span>
+      <span class="kp">false</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="c1"># Execute code</span>
+<span class="no">Foo</span><span class="o">::</span><span class="no">Bar</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">profile</span>
 </code></pre></div></div>
 
-<h2 id="-thunderbird"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/thunderbird.svg" alt="thunderbird" /> Thunderbird</h2>
-
-<p>O <a href="https://support.mozilla.org/pt-BR/kb/instalando-o-thunderbird-no-linux"><strong>Thunderbird</strong></a> é um cliente de email também desenvolvido pela Mozilla e assim como o <strong>Firefox</strong>, também é fornecido para instalação através de um arquivo compactado <code class="language-plaintext highlighter-rouge">.tar</code>, que basta ser extraído para que o programa seja executado sempre na última versão disponível.</p>
-
-<p>Para instalar o <strong>Thunderbird</strong> da forma mais adequada, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-cO</span> thunderbird-latest-linux64-pt-br.tar.bz2 <span class="s2">"https://download.mozilla.org/?product=thunderbird-latest&amp;os=linux64&amp;lang=pt-BR"</span>
-<span class="nb">tar </span>fjx thunderbird-latest-linux64-pt-br.tar.bz2
-<span class="nb">sudo rm</span> <span class="nt">-r</span> /opt/thunderbird
-<span class="nb">sudo mkdir</span> <span class="nt">-p</span> /opt/thunderbird
-<span class="nb">sudo chmod </span>777 <span class="nt">-R</span> /opt/thunderbird
-<span class="nb">mv </span>thunderbird/<span class="k">*</span> /opt/thunderbird/
-<span class="nb">rm</span> <span class="nt">-r</span> thunderbird thunderbird-latest-linux64-pt-br.tar.bz2
-<span class="nb">sudo mkdir</span> <span class="nt">-p</span> /usr/local/bin /usr/local/share/applications /usr/local/share/pixmaps
-<span class="nb">sudo ln</span> <span class="nt">-fs</span> /opt/thunderbird/thunderbird /usr/local/bin/thunderbird
-<span class="nb">sudo ln</span> <span class="nt">-fs</span> /opt/thunderbird/chrome/icons/default/default128.png /usr/local/share/pixmaps/thunderbird.png
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee /usr/local/share/applications/thunderbird.desktop&gt;/dev/null
-[Desktop Entry]
-Encoding=UTF-8
-Name=Thunderbird
-Comment=Envie e receba e-mails com o Thunderbird
-GenericName=Cliente de e-mail
-Keywords=Email;E-mail;Newsgroup;Feed;RSS
-Exec=MOZ_USE_XINPUT2=1 thunderbird %u
-Terminal=false
-X-MultipleArgs=false
-Type=Application
-Icon=thunderbird
-Categories=Application;Network;Email;
-MimeType=x-scheme-handler/mailto;application/x-xpinstall;
-StartupNotify=true
-Actions=Compose;Contacts
-
-[Desktop Action Compose]
-Name=Compor uma nova mensagem
-Exec=thunderbird -compose
-
-[Desktop Action Contacts]
-Name=Contatos
-Exec=thunderbird -addressbook
-</span><span class="no">EOF
-</span></code></pre></div></div>
-
-<h2 id="-blender"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/blender.svg" alt="blender" /> Blender</h2>
-
-<p>O <a href="http://blender.org"><strong>Blender</strong></a> é um programa até um pouco difícil de descrever, tão vasta é a sua abrangência, ele realmente pode fazer muita coisa e brilha em várias áreas distintas, mas vamos nos ater as funções mais populares, que são <em>modelagem 3D</em> e <em>edição de vídeo</em>.</p>
-
-<p>A maioria dos tutoriais que você vai encontrar na internet sobre o <strong>Blender</strong>, vão abranger esses dois perfis de uso, ele realmente é muito poderoso nessas áreas e não fica devendo pra nenhum outro programa similar, você só precisa dedicar um tempo pra aprender, pois a curva de aprendizado pode ser extensa, dependendo do seu nível de conhecimento.</p>
-
-<p>Agora voltando ao tema da postagem, o <strong>Blender</strong> seria uma pequena <em>trapaça</em> da minha parte, já que ele não se atualiza sozinho, porém, ele tem um sistema de atualização muito parecido com o Firefox, ele procura por atualizações toda vez que você abre o programa, a única diferença é que ele não instala automaticamente, somente um pequeno aviso é exibido pra te informar, o que eu acho até mais seguro, visto que o <strong>Blender</strong> costuma trazer muitas melhorias e novos recursos a cada nova atualização.</p>
-
-<p>Desse modo, pra instalar e também sempre que você quiser atualizar, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">BLENDER_VER</span><span class="o">=</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://ftp.nluug.nl/pub/graphics/blender/release|grep Blender3.|tail <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="se">\"</span> <span class="nt">-f6</span><span class="si">)</span>
-<span class="nv">BLENDER_FILE</span><span class="o">=</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://ftp.nluug.nl/pub/graphics/blender/release/<span class="s2">"</span><span class="nv">$BLENDER_VER</span><span class="s2">"</span>|grep .tar.xz|tail <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="se">\"</span> <span class="nt">-f6</span><span class="si">)</span>
-wget <span class="nt">-c</span> https://ftp.nluug.nl/pub/graphics/blender/release/<span class="s2">"</span><span class="nv">$BLENDER_VER</span><span class="s2">""</span><span class="nv">$BLENDER_FILE</span><span class="s2">"</span>
-<span class="nb">tar</span> <span class="nt">-xf</span> blender<span class="k">*</span>.tar.xz
-<span class="nb">sudo mkdir</span> <span class="nt">-p</span> /opt/blender
-<span class="nb">sudo chmod </span>777 /opt/blender
-<span class="nb">sudo mv </span>blender<span class="k">*</span>/<span class="k">*</span> /opt/blender/
-<span class="nb">rm</span> <span class="nt">-r</span> blender<span class="k">*</span>/ blender<span class="k">*</span>.tar.xz
-<span class="nb">sudo mkdir</span> <span class="nt">-p</span> /usr/local/bin /usr/local/share/applications /usr/local/share/pixmaps
-<span class="nb">sudo ln</span> <span class="nt">-sf</span> /opt/blender/blender /usr/local/bin/blender
-<span class="nb">sudo cp</span> /opt/blender/blender.desktop /usr/local/share/applications/blender.desktop
-<span class="nb">sudo ln</span> <span class="nt">-sf</span> /opt/blender/blender.svg /usr/local/share/pixmaps/blender.svg
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">foo</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">bar</span><span class="p">:</span><span class="w"> </span><span class="s1">'baz'</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{{</span><span class="w"> </span><span class="nv">foo</span><span class="w"> </span><span class="cp">}}</span>
 </code></pre></div></div>
 
-<p>Caso você esteja planejando usar o <strong>Blender</strong> para edição de vídeo, pode ser que você queira usar o <a href="https://www.audacityteam.org"><strong>Audacity</strong></a> como complemento para expandir as possibilidades, visto que o <strong>Blender</strong> não é tão abrangente no segmento de áudio.</p>
-
-<p>Você pode instalar o <strong>Audacity</strong> e a <a href="https://github.com/tin2tin/audacity_tools_for_blender">integração</a> com o <strong>Blender</strong> de forma simplificada, usando os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>audacity
-<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.audacity-data/Theme
-wget <span class="nt">-cO</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.audacity-data/Theme/ImageCache.png https://github.com/visoart/audacity-themes/raw/master/themes/dark-blue/ImageCache.png
-wget <span class="nt">-c</span> https://github.com/tin2tin/audacity_tools_for_blender/archive/main.zip
-<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/blender/<span class="s2">"</span><span class="si">$(</span>find /opt/blender/<span class="k">*</span> <span class="nt">-type</span> d|head <span class="nt">-n1</span>|sed <span class="s2">"s@/opt/blender/@@g"</span><span class="si">)</span><span class="s2">"</span>/scripts/addons/
-unzip audacity_tools_for_blender-main.zip <span class="nt">-d</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/blender/<span class="s2">"</span><span class="si">$(</span>find /opt/blender/<span class="k">*</span> <span class="nt">-type</span> d|head <span class="nt">-n1</span>|sed <span class="s2">"s@/opt/blender/@@g"</span><span class="si">)</span><span class="s2">"</span>/scripts/addons/
-<span class="nb">rm </span>audacity_tools_for_blender-main.zip
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">author</span><span class="pi">:</span>
+  <span class="na">admin</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">John Doe</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">johndoe@example.com</span>
+  <span class="na">id</span><span class="pi">:</span> <span class="m">75636474</span>
 </code></pre></div></div>
 
-<h2 id="-libreoffice"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/libreoffice-main.svg" alt="libreoffice" /> LibreOffice</h2>
-
-<p>O <a href="https://launchpad.net/~libreoffice/+archive/ubuntu/ppa"><strong>LibreOffice</strong></a>, talvez seja a suíte <em>office</em> de código aberto mais popular nos dias atuais, existem muitas empresas que fazem uso profissional dele, além de inúmeros tutoriais, internet afora, é uma suíte completa.</p>
-
-<p>Assim como os demais programas apresentados nesta postagem, ele tem um método de instalação autoatualizável, porém, por conta do nível de complexidade, eu prefiro não recomendar ele aqui, visto que a chance de você instalar errado e ter problemas durante o uso, é grande.</p>
-
-<p>Desse modo, vou <em>aproveitar a deixa</em> pra indicar outra forma comum de instalar programas no <strong>Ubuntu</strong> e ter sempre a última versão disponível, que é usando <em>repositórios adicionais</em> e no caso do <strong>LibreOffice</strong>, vamos usar um <a href="https://launchpad.net/ubuntu/+ppas"><strong>PPA</strong></a>.</p>
-
-<p>Caso tenha não tenha sido subentendido, vou tentar explicar de forma clara como funcionam os repositórios e quais as melhores práticas pra usar repositórios de terceiros.</p>
-
-<p><em>Repositórios</em> são endereços na internet, onde os pacotes de instalação dos programas são hospedados e indexados de uma forma organizada, para que os gerenciadores de pacotes das distribuições possam encontrá-los de forma imediata.</p>
-
-<p>Entendido esse fator, todas as distribuições tem seus repositórios próprios, onde ficam hospedados os programas que vem na instalação padrão e também pacotes de programas adicionais, que podem ser instalados posteriormente, com a curadoria de quem desenvolve a distribuição.</p>
-
-<p>Quando você adiciona um repositório de terceiro, pode haver incompatibilidade de versão dos pacotes ou das dependências dos mesmos, por isso a Canonical lançou o <a href="launchpad.net"><strong>Launchpad</strong></a>, pra garantir que os pacotes disponibilizados através dos repositórios hospedados nele, fossem compatíveis com as versões do <strong>Ubuntu</strong> para os quais os pacotes são disponibilizados.</p>
-
-<p>Por conta disso, mesmo ainda sendo possível que aconteça essa incompatibilidade de versões de pacotes e dependências, essa margem de erro foi drasticamente reduzida, sendo possível afirmar que é seguro usar repositórios <strong>PPA</strong> hospedados no <strong>Launchpad</strong>.</p>
-
-<p>Só vale ressaltar que é sempre bom conferir os pacotes disponíveis no repositório antes de adicionar ele ao seu sistema, por garantia.</p>
-
-<p>Finalmente, sem mais delongas, você pode instalar o <strong>LibreOffice</strong> atualizado no <strong>Ubuntu</strong> com os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository ppa:libreoffice/ppa
-<span class="nb">sudo </span>apt update
-<span class="nb">sudo </span>apt upgrade
-</code></pre></div></div>
-
-<p>Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no <a href="https://twitter.com/rauldipeas"><strong>Twitter</strong></a>.</p>]]></content><author><name></name></author><category term="Guias" /><category term="instalação" /><category term="de" /><category term="programas" /><category term="autoatualizáveis" /><summary type="html"><![CDATA[Na postagem sobre Instalação de programas no Ubuntu, eu abordei vários métodos de instalação diferentes, porém, existe um método específico que não foi abordado, porque eu gostaria de fazer uma postagem específica sobre, com mais detalhes sobre o processo e suas possibilidades. Existem diversos programas que são fornecidos diretamente pelos desenvolvedores, num formato autoatualizável, ou seja, o programa se atualiza sozinho, sem nenhuma necessidade de interação do usuário, toda vez que você abrir o programa, vai estar usando a última versão, inevitavelmente. Firefox O Firefox é um programa fornecido nesse formato, você baixa um arquivo compactado .tar direto do site da Mozilla, abre o programa e pronto, já garante que estará sempre na última versão do navegador. Toda vez que você abre o navegador, ele faz uma checagem em segundo plano, pra identificar se existe alguma versão mais nova, caso haja, ele baixa e atualiza automaticamente, sem a necessidade de nenhum tipo de interação, apenas uma pequena janela é exibida, informando sobre o processo, que costuma ser bastante rápido. Talvez, você possa não ter o conhecimento necessário pra fazer uma instalação adequada do Firefox nesse formato, então vou deixar aqui uma sequência de comandos que vocẽ pode usar pra fazer isso de forma simplificada: wget -cO firefox-latest-linux64-pt-br.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&amp;os=linux64&amp;lang=pt-BR" tar fjx firefox-latest-linux64-pt-br.tar.bz2 sudo rm -r /opt/firefox sudo mkdir -p /opt/firefox sudo chmod 777 -R /opt/firefox mv firefox/* /opt/firefox/ rm -r firefox firefox-latest-linux64-pt-br.tar.bz2 sudo mkdir -p /usr/local/bin /usr/local/share/applications /usr/local/share/pixmaps sudo ln -fs /opt/firefox/firefox /usr/local/bin/firefox sudo ln -fs /opt/firefox/browser/chrome/icons/default/default128.png /usr/local/share/pixmaps/firefox.png cat &lt;&lt;EOF |sudo tee /usr/local/share/applications/firefox.desktop&gt;/dev/null [Desktop Entry] Version=1.0 Name=Firefox Comment=Navegue na internet GenericName=Navegador de internet Keywords=Internet;WWW;Browser;Web;Explorer Exec=MOZ_USE_XINPUT2=1 firefox %u Terminal=false X-MultipleArgs=false Type=Application Icon=firefox Categories=GNOME;GTK;Network;WebBrowser; MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall; StartupNotify=true Actions=new-window;new-private-window; [Desktop Action new-window] Name=Abrir uma nova janela Exec=firefox -new-window [Desktop Action new-private-window] Name=Abrir uma nova janela no modo privado Exec=firefox -private-window EOF Após a execução dos comandos, quando abrir o navegador pela primeira vez, se estiver usando o ambiente gráfico GNOME com o tema Adwaita, pode notar que o visual dele não é totalmente integrado ao ambiente gráfico, por conta disso, pode querer instalar um tema para que o Firefox se integre melhor ao ambiente gráfico, eu recomendo o uso deste tema. Basta fechar o navegador e rodar o comando abaixo: curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh|bash Thunderbird O Thunderbird é um cliente de email também desenvolvido pela Mozilla e assim como o Firefox, também é fornecido para instalação através de um arquivo compactado .tar, que basta ser extraído para que o programa seja executado sempre na última versão disponível. Para instalar o Thunderbird da forma mais adequada, basta executar os comandos abaixo: wget -cO thunderbird-latest-linux64-pt-br.tar.bz2 "https://download.mozilla.org/?product=thunderbird-latest&amp;os=linux64&amp;lang=pt-BR" tar fjx thunderbird-latest-linux64-pt-br.tar.bz2 sudo rm -r /opt/thunderbird sudo mkdir -p /opt/thunderbird sudo chmod 777 -R /opt/thunderbird mv thunderbird/* /opt/thunderbird/ rm -r thunderbird thunderbird-latest-linux64-pt-br.tar.bz2 sudo mkdir -p /usr/local/bin /usr/local/share/applications /usr/local/share/pixmaps sudo ln -fs /opt/thunderbird/thunderbird /usr/local/bin/thunderbird sudo ln -fs /opt/thunderbird/chrome/icons/default/default128.png /usr/local/share/pixmaps/thunderbird.png cat &lt;&lt;EOF |sudo tee /usr/local/share/applications/thunderbird.desktop&gt;/dev/null [Desktop Entry] Encoding=UTF-8 Name=Thunderbird Comment=Envie e receba e-mails com o Thunderbird GenericName=Cliente de e-mail Keywords=Email;E-mail;Newsgroup;Feed;RSS Exec=MOZ_USE_XINPUT2=1 thunderbird %u Terminal=false X-MultipleArgs=false Type=Application Icon=thunderbird Categories=Application;Network;Email; MimeType=x-scheme-handler/mailto;application/x-xpinstall; StartupNotify=true Actions=Compose;Contacts [Desktop Action Compose] Name=Compor uma nova mensagem Exec=thunderbird -compose [Desktop Action Contacts] Name=Contatos Exec=thunderbird -addressbook EOF Blender O Blender é um programa até um pouco difícil de descrever, tão vasta é a sua abrangência, ele realmente pode fazer muita coisa e brilha em várias áreas distintas, mas vamos nos ater as funções mais populares, que são modelagem 3D e edição de vídeo. A maioria dos tutoriais que você vai encontrar na internet sobre o Blender, vão abranger esses dois perfis de uso, ele realmente é muito poderoso nessas áreas e não fica devendo pra nenhum outro programa similar, você só precisa dedicar um tempo pra aprender, pois a curva de aprendizado pode ser extensa, dependendo do seu nível de conhecimento. Agora voltando ao tema da postagem, o Blender seria uma pequena trapaça da minha parte, já que ele não se atualiza sozinho, porém, ele tem um sistema de atualização muito parecido com o Firefox, ele procura por atualizações toda vez que você abre o programa, a única diferença é que ele não instala automaticamente, somente um pequeno aviso é exibido pra te informar, o que eu acho até mais seguro, visto que o Blender costuma trazer muitas melhorias e novos recursos a cada nova atualização. Desse modo, pra instalar e também sempre que você quiser atualizar, basta executar os comandos abaixo: BLENDER_VER=$(wget -qO- https://ftp.nluug.nl/pub/graphics/blender/release|grep Blender3.|tail -n1|cut -d \" -f6) BLENDER_FILE=$(wget -qO- https://ftp.nluug.nl/pub/graphics/blender/release/"$BLENDER_VER"|grep .tar.xz|tail -n1|cut -d \" -f6) wget -c https://ftp.nluug.nl/pub/graphics/blender/release/"$BLENDER_VER""$BLENDER_FILE" tar -xf blender*.tar.xz sudo mkdir -p /opt/blender sudo chmod 777 /opt/blender sudo mv blender*/* /opt/blender/ rm -r blender*/ blender*.tar.xz sudo mkdir -p /usr/local/bin /usr/local/share/applications /usr/local/share/pixmaps sudo ln -sf /opt/blender/blender /usr/local/bin/blender sudo cp /opt/blender/blender.desktop /usr/local/share/applications/blender.desktop sudo ln -sf /opt/blender/blender.svg /usr/local/share/pixmaps/blender.svg Caso você esteja planejando usar o Blender para edição de vídeo, pode ser que você queira usar o Audacity como complemento para expandir as possibilidades, visto que o Blender não é tão abrangente no segmento de áudio. Você pode instalar o Audacity e a integração com o Blender de forma simplificada, usando os comandos abaixo: sudo apt install audacity mkdir -p "$HOME"/.audacity-data/Theme wget -cO "$HOME"/.audacity-data/Theme/ImageCache.png https://github.com/visoart/audacity-themes/raw/master/themes/dark-blue/ImageCache.png wget -c https://github.com/tin2tin/audacity_tools_for_blender/archive/main.zip mkdir -p "$HOME"/.config/blender/"$(find /opt/blender/* -type d|head -n1|sed "s@/opt/blender/@@g")"/scripts/addons/ unzip audacity_tools_for_blender-main.zip -d "$HOME"/.config/blender/"$(find /opt/blender/* -type d|head -n1|sed "s@/opt/blender/@@g")"/scripts/addons/ rm audacity_tools_for_blender-main.zip LibreOffice O LibreOffice, talvez seja a suíte office de código aberto mais popular nos dias atuais, existem muitas empresas que fazem uso profissional dele, além de inúmeros tutoriais, internet afora, é uma suíte completa. Assim como os demais programas apresentados nesta postagem, ele tem um método de instalação autoatualizável, porém, por conta do nível de complexidade, eu prefiro não recomendar ele aqui, visto que a chance de você instalar errado e ter problemas durante o uso, é grande. Desse modo, vou aproveitar a deixa pra indicar outra forma comum de instalar programas no Ubuntu e ter sempre a última versão disponível, que é usando repositórios adicionais e no caso do LibreOffice, vamos usar um PPA. Caso tenha não tenha sido subentendido, vou tentar explicar de forma clara como funcionam os repositórios e quais as melhores práticas pra usar repositórios de terceiros. Repositórios são endereços na internet, onde os pacotes de instalação dos programas são hospedados e indexados de uma forma organizada, para que os gerenciadores de pacotes das distribuições possam encontrá-los de forma imediata. Entendido esse fator, todas as distribuições tem seus repositórios próprios, onde ficam hospedados os programas que vem na instalação padrão e também pacotes de programas adicionais, que podem ser instalados posteriormente, com a curadoria de quem desenvolve a distribuição. Quando você adiciona um repositório de terceiro, pode haver incompatibilidade de versão dos pacotes ou das dependências dos mesmos, por isso a Canonical lançou o Launchpad, pra garantir que os pacotes disponibilizados através dos repositórios hospedados nele, fossem compatíveis com as versões do Ubuntu para os quais os pacotes são disponibilizados. Por conta disso, mesmo ainda sendo possível que aconteça essa incompatibilidade de versões de pacotes e dependências, essa margem de erro foi drasticamente reduzida, sendo possível afirmar que é seguro usar repositórios PPA hospedados no Launchpad. Só vale ressaltar que é sempre bom conferir os pacotes disponíveis no repositório antes de adicionar ele ao seu sistema, por garantia. Finalmente, sem mais delongas, você pode instalar o LibreOffice atualizado no Ubuntu com os comandos abaixo: sudo add-apt-repository ppa:libreoffice/ppa sudo apt update sudo apt upgrade Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no Twitter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/T0yVwGI.jpg" /><media:content medium="image" url="https://i.imgur.com/T0yVwGI.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalação de drivers no Ubuntu</title><link href="rauldipeas.com.br/guias/2023/04/09/instala%C3%A7%C3%A3o-de-drivers-no-ubuntu.html" rel="alternate" type="text/html" title="Instalação de drivers no Ubuntu" /><published>2023-04-09T15:50:00+00:00</published><updated>2023-04-09T15:50:00+00:00</updated><id>rauldipeas.com.br/guias/2023/04/09/instala%C3%A7%C3%A3o-de-drivers-no-ubuntu</id><content type="html" xml:base="rauldipeas.com.br/guias/2023/04/09/instala%C3%A7%C3%A3o-de-drivers-no-ubuntu.html"><![CDATA[<p>Drivers são programas que determinam como seus dispositivos vão se comunicar com o restante do sistema, ou seja, são eles que determinam os melhores caminhos pra extrair o máximo possível de tudo que está na parte física do seu computador.</p>
-
-<p>Ter os drivers corretos instalados no seu sistema é fundamental para o bom funcionamento do sistema, então, nesta postagem eu vou te mostrar como ter as últimas versões dos drivers de som e vídeo mais importantes que você vai precisar.</p>
-
-<h2 id="-mesa"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/GPU_Viewer.svg" alt="mesa" /> MESA</h2>
-
-<p>O driver <a href="https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa"><strong>MESA</strong></a> é responsável por todos os dispositivos de vídeo da <a href="http://intel.com"><strong>Intel</strong></a>, da <a href="https://amd.com"><strong>AMD</strong></a> e de várias outras desenvolvedoras, ou seja, sua abrangência cobre praticamente qualquer dispositivo de vídeo que possa estar utilizando.</p>
-
-<p>Por padrão, ele já está incluso no núcleo do Linux, porém, no caso do Ubuntu, dependendo da versão que você estiver usando, pode ser que o driver <strong>MESA</strong> não esteja na última versão disponível, mas ele pode ser facilmente atualizado.</p>
-
-<p>Basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository ppa:kisak/kisak-mesa
-<span class="nb">sudo </span>apt update
-<span class="nb">sudo </span>apt upgrade
-</code></pre></div></div>
-<p>Após a atualização, é necessário reiniciar o sistema para que os novos drivers entrem em funcionamento.</p>
-
-<h2 id="-nvidia"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/nvidia.svg" alt="nvidia" /> NVIDIA</h2>
-
-<p>Os dispositivos de vídeo da <a href="https://nvidia.com"><strong>NVIDIA</strong></a> funcionam usando o driver <strong>MESA</strong>, porém, com recursos limitados, infelizmente o código fonte dos drivers da <strong>NVIDIA</strong> não está disponível para ser incluído no <strong>MESA</strong> como as demais empresas fazem.</p>
-
-<p>Dessa forma, pra que você tenha o driver mais atual instalado, você pode executar o comando abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="o">[[</span> <span class="nt">-n</span> <span class="si">$(</span>lspci |grep NVIDIA|cut <span class="nt">-d</span>: <span class="nt">-f3</span><span class="si">)</span> <span class="o">]]</span>
-<span class="k">then
-    </span><span class="nb">echo</span> <span class="s1">'Sua GPU é NVIDIA'</span>
-    <span class="o">(</span>lspci |grep NVIDIA|cut <span class="nt">-d</span>: <span class="nt">-f3</span>|cut <span class="nt">-d</span> <span class="s1">' '</span> <span class="nt">-f4</span>|head <span class="nt">-n1</span><span class="o">)</span>
-    <span class="nb">sudo </span>add-apt-repository ppa:graphics-drivers/ppa
-    <span class="nb">sudo </span>apt <span class="nb">install</span> <span class="s2">"</span><span class="si">$(</span>apt search nvidia-driver 2&gt;/dev/null|grep nvidia-driver|grep <span class="nt">-v</span> open|grep <span class="nt">-v</span> server|cut <span class="nt">-d</span> <span class="s1">'/'</span> <span class="nt">-f1</span>|tail <span class="nt">-n1</span><span class="si">)</span><span class="s2">"</span>
-    <span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee /usr/local/bin/prime-run&gt;/dev/null
-#!/bin/sh
-set -e
-__NV_PRIME_RENDER_OFFLOAD=1 </span><span class="se">\</span><span class="sh">
-__VK_LAYER_NV_optimus=NVIDIA_only </span><span class="se">\</span><span class="sh">
-__GLX_VENDOR_LIBRARY_NAME=nvidia </span><span class="se">\</span><span class="sh">
-exec "</span><span class="se">\$</span><span class="sh">@"
-</span><span class="no">EOF
-</span>    <span class="nb">sudo chmod</span> +x /usr/local/bin/prime-run
-<span class="k">else
-	</span><span class="nb">echo</span> <span class="s1">'Sua GPU não é NVIDIA'</span>
-<span class="k">fi</span>
-</code></pre></div></div>
-
-<p>Após a atualização, é necessário reiniciar o sistema para que os novos drivers entrem em funcionamento.</p>
-
-<h2 id="-alsa-firmware"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/mx-select-sound.svg" alt="alsa-firemware" /> ALSA firmware</h2>
-
-<p>Assim como o <strong>MESA</strong> abrange uma enorme quantidade de dispositivos de vídeo, o <a href="http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu/pool/main/a/alsa-firmware"><strong>ALSA</strong></a> também abrange uma quantidade enorme de dispositivos de áudio, desde dispositivos integrados em placas mãe, até dispositivos USB, entre outros.</p>
-
-<p>Porém, da mesma forma que o <strong>MESA</strong>, no caso do Ubuntu, pode ser que ele não esteja disponível na última versão, mas ele pode ser facilmente atualizado com o comando abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu/pool/main/a/alsa-firmware/<span class="si">$(</span>wget <span class="nt">-qO-</span> http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu/pool/main/a/alsa-firmware/|grep amd64.deb|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f8</span><span class="si">)</span>
-<span class="nb">sudo </span>apt <span class="nb">install</span> ./alsa-firmware<span class="k">*</span>.deb
-</code></pre></div></div>
-
-<p>Após a atualização, é necessário reiniciar o sistema para que os novos drivers entrem em funcionamento.</p>
-
-<h2 id="-jack"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/qjackctl.svg" alt="jack" /> JACK</h2>
-
-<p>O <a href="https://launchpad.net/~ubuntustudio-ppa/+archive/ubuntu/backports"><strong>JACK</strong></a> é um servidor de áudio que se faz necessário no caso de você precisar trabalhar com áudio em baixa latência, em aplições musicais ou de edição avançada de áudio.</p>
-
-<p>Através dele, é possível alcançar latências baixíssimas e pra citar um exemplo, eu obtive algo em torno de 5 milissegundos nos programas de produção musical com os quais trabalho, o que é um valor significativamente baixo, visto que <em>em teoria</em>, qualquer valor abaixo de 8 milissegundos já é impercetível aos ouvidos humanos.</p>
-
-<p>Por padrão, ele não vem instalado no Ubuntu e a maioria dos tutoriais que você vai encontrar, não abragem uma instalação dos complementos adequados.</p>
-
-<p>Desse modo, execute os comandos abaixo pra uma instalação mais adequada:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository <span class="nt">-y</span> ppa:ubuntustudio-ppa/backports
-<span class="nb">echo</span> <span class="s1">'jackd2 jackd/tweak_rt_limits string true'</span>|sudo debconf-set-selections&gt;/dev/null
-<span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">--no-install-recommends</span> <span class="nt">-y</span> jackd2
-</code></pre></div></div>
-
-<p>Você pode conferir a postagem sobre <a href="../produ%C3%A7%C3%A3o-musical-no-linux/"><strong>Produção musical no Linux</strong></a> para mais detalhes de uso e complementos para o <strong>JACK</strong>.</p>
-
-<h2 id="-udev-rtirq"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/audio-card.svg" alt="udev-rtirq" /> <code class="language-plaintext highlighter-rouge">udev-rtirq</code></h2>
-
-<p>O <a href="https://github.com/jhernberg/udev-rtirq"><code class="language-plaintext highlighter-rouge">udev-rtirq</code></a> é um script que configura o sistema para alta prioridade nos dispositivos de áudio, ou seja, o processamento do sistema vai primeiro para os dispositivos de áudio e depois pros demais processos em execução, o que gera uma maior estabilidade em aplicações profissionais de áudio.</p>
-
-<p>Para instalar o <code class="language-plaintext highlighter-rouge">udev-rtirq</code> basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>build-essential git
-git clone <span class="nt">-q</span> https://github.com/jhernberg/udev-rtirq
-<span class="nb">cd </span>udev-rtirq
-make <span class="nb">install
-cd</span> ..
-<span class="nb">rm</span> <span class="nt">-r</span> udev-rtirq
-</code></pre></div></div>
-<p>Após a atualização, é necessário reiniciar o sistema para que o novo gerenciamento entre em funcionamento.</p>
-
-<blockquote class="prompt-warning">
-  <p>Lembrando que todas as sugestões contidas nesta postagem, podem ser percebidas de forma subjetiva, ou seja, alguns usuários vão conseguir identificar onde elas fizeram efeito, enquanto outros não conseguirão ter essa mesma percepção.</p>
-</blockquote>
-
-<p>Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no <a href="https://twitter.com/rauldipeas"><strong>Twitter</strong></a>.</p>]]></content><author><name></name></author><category term="Guias" /><category term="instalação" /><category term="de" /><category term="drivers" /><category term="no" /><category term="ubuntu" /><summary type="html"><![CDATA[Drivers são programas que determinam como seus dispositivos vão se comunicar com o restante do sistema, ou seja, são eles que determinam os melhores caminhos pra extrair o máximo possível de tudo que está na parte física do seu computador. Ter os drivers corretos instalados no seu sistema é fundamental para o bom funcionamento do sistema, então, nesta postagem eu vou te mostrar como ter as últimas versões dos drivers de som e vídeo mais importantes que você vai precisar. MESA O driver MESA é responsável por todos os dispositivos de vídeo da Intel, da AMD e de várias outras desenvolvedoras, ou seja, sua abrangência cobre praticamente qualquer dispositivo de vídeo que possa estar utilizando. Por padrão, ele já está incluso no núcleo do Linux, porém, no caso do Ubuntu, dependendo da versão que você estiver usando, pode ser que o driver MESA não esteja na última versão disponível, mas ele pode ser facilmente atualizado. Basta executar os comandos abaixo: sudo add-apt-repository ppa:kisak/kisak-mesa sudo apt update sudo apt upgrade Após a atualização, é necessário reiniciar o sistema para que os novos drivers entrem em funcionamento. NVIDIA Os dispositivos de vídeo da NVIDIA funcionam usando o driver MESA, porém, com recursos limitados, infelizmente o código fonte dos drivers da NVIDIA não está disponível para ser incluído no MESA como as demais empresas fazem. Dessa forma, pra que você tenha o driver mais atual instalado, você pode executar o comando abaixo: if [[ -n $(lspci |grep NVIDIA|cut -d: -f3) ]] then echo 'Sua GPU é NVIDIA' (lspci |grep NVIDIA|cut -d: -f3|cut -d ' ' -f4|head -n1) sudo add-apt-repository ppa:graphics-drivers/ppa sudo apt install "$(apt search nvidia-driver 2&gt;/dev/null|grep nvidia-driver|grep -v open|grep -v server|cut -d '/' -f1|tail -n1)" cat &lt;&lt;EOF |sudo tee /usr/local/bin/prime-run&gt;/dev/null #!/bin/sh set -e __NV_PRIME_RENDER_OFFLOAD=1 \ __VK_LAYER_NV_optimus=NVIDIA_only \ __GLX_VENDOR_LIBRARY_NAME=nvidia \ exec "\$@" EOF sudo chmod +x /usr/local/bin/prime-run else echo 'Sua GPU não é NVIDIA' fi Após a atualização, é necessário reiniciar o sistema para que os novos drivers entrem em funcionamento. ALSA firmware Assim como o MESA abrange uma enorme quantidade de dispositivos de vídeo, o ALSA também abrange uma quantidade enorme de dispositivos de áudio, desde dispositivos integrados em placas mãe, até dispositivos USB, entre outros. Porém, da mesma forma que o MESA, no caso do Ubuntu, pode ser que ele não esteja disponível na última versão, mas ele pode ser facilmente atualizado com o comando abaixo: wget -q --show-progress http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu/pool/main/a/alsa-firmware/$(wget -qO- http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu/pool/main/a/alsa-firmware/|grep amd64.deb|cut -d '"' -f8) sudo apt install ./alsa-firmware*.deb Após a atualização, é necessário reiniciar o sistema para que os novos drivers entrem em funcionamento. JACK O JACK é um servidor de áudio que se faz necessário no caso de você precisar trabalhar com áudio em baixa latência, em aplições musicais ou de edição avançada de áudio. Através dele, é possível alcançar latências baixíssimas e pra citar um exemplo, eu obtive algo em torno de 5 milissegundos nos programas de produção musical com os quais trabalho, o que é um valor significativamente baixo, visto que em teoria, qualquer valor abaixo de 8 milissegundos já é impercetível aos ouvidos humanos. Por padrão, ele não vem instalado no Ubuntu e a maioria dos tutoriais que você vai encontrar, não abragem uma instalação dos complementos adequados. Desse modo, execute os comandos abaixo pra uma instalação mais adequada: sudo add-apt-repository -y ppa:ubuntustudio-ppa/backports echo 'jackd2 jackd/tweak_rt_limits string true'|sudo debconf-set-selections&gt;/dev/null sudo apt install --no-install-recommends -y jackd2 Você pode conferir a postagem sobre Produção musical no Linux para mais detalhes de uso e complementos para o JACK. udev-rtirq O udev-rtirq é um script que configura o sistema para alta prioridade nos dispositivos de áudio, ou seja, o processamento do sistema vai primeiro para os dispositivos de áudio e depois pros demais processos em execução, o que gera uma maior estabilidade em aplicações profissionais de áudio. Para instalar o udev-rtirq basta executar os comandos abaixo: sudo apt install build-essential git git clone -q https://github.com/jhernberg/udev-rtirq cd udev-rtirq make install cd .. rm -r udev-rtirq Após a atualização, é necessário reiniciar o sistema para que o novo gerenciamento entre em funcionamento. Lembrando que todas as sugestões contidas nesta postagem, podem ser percebidas de forma subjetiva, ou seja, alguns usuários vão conseguir identificar onde elas fizeram efeito, enquanto outros não conseguirão ter essa mesma percepção. Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no Twitter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/ATEyq8x.jpg" /><media:content medium="image" url="https://i.imgur.com/ATEyq8x.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Melhore o desempenho do Ubuntu</title><link href="rauldipeas.com.br/guias/2023/04/08/melhore-o-desempenho-do-ubuntu.html" rel="alternate" type="text/html" title="Melhore o desempenho do Ubuntu" /><published>2023-04-08T19:25:00+00:00</published><updated>2023-04-08T19:25:00+00:00</updated><id>rauldipeas.com.br/guias/2023/04/08/melhore-o-desempenho-do-ubuntu</id><content type="html" xml:base="rauldipeas.com.br/guias/2023/04/08/melhore-o-desempenho-do-ubuntu.html"><![CDATA[<h2 id="-ubuntu"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/distributor-logo-ubuntu.svg" alt="ubuntu" /> Ubuntu</h2>
-
-<p>O <a href="https://ubuntu.com"><strong>Ubuntu</strong></a> é uma distribuição excelente, pois nele é possível executar todos os tipos de tarefas relacionadas as nossas demandas atuais.</p>
-
-<p>Você pode assistir um vídeo em alta resolução no <a href="https://youtube.com"><strong>YouTube</strong></a>, pra passar o tempo, por exemplo, ou desenvolver um site, usando o <a href="https://code.visualstudio.com/"><strong>VS Code</strong></a> enquanto ouve uma música agradável no <a href="https://spotify.com"><strong>Spotify</strong></a>, pra citar outras possibilidades.</p>
-
-<p>Acho que podemos dizer que o Ubuntu está preparado pra todas as nossas necessidades de uso, atualmente, entretenimento, como jogos, filmes e música, trabalho, como programação, edição de vídeo e produção musical, entre outras infinitas possibilidades.</p>
-
-<p>Mas algo que sempre deixa todo usuário com uma pulga atrás da orelha é se existe alguma forma de extrair mais do sistema, fazendo com que ele entregue uma maior performance, possibilitando rodar mais programas em simultâneo ou abrir os programas necessários com maior velocidade e é justamente aí que esse guia vai te mostrar as possibilidades e explicar como aplicar cada uma delas.</p>
-
-<p>Por ser um sistema que busca entregar estabilidade, ele contém uma série de valores de configuração padrão, que abrangem esse conceito, ou seja, vão valor conservadores e que vão funcionar bem pra maioria dos usuários, porém, eles podem ser reconfigurados pra entregar uma performance superior, ainda de forma segura.</p>
-
-<h2 id="-mainline"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/mintsources-ppa.svg" alt="mainline" /> Mainline</h2>
-
-<p>A primeira das modificações sugeridas, é utilizar uma versão mais nova do núcleo do sistema, já que ele é a base pra que todo o restante funcione corretamente.</p>
-
-<p>A própria <strong>Canonical</strong>, empresa que desenvolve o Ubuntu, disponibiliza essa atualização pra ser instalada manualmente pelo usuário e pra facilitar esse processo e as atualizações futuras nós podemos usar a ferramenta <a href="https://github.com/cappelikan/mainline"><strong>mainline</strong></a>.</p>
-
-<p>O <strong>mainline</strong> pode ser instalado com os seguintes comandos:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository ppa:cappelikan/ppa
-<span class="nb">sudo </span>apt <span class="nb">install </span>mainline
-<span class="nb">sudo </span>mainline <span class="nt">--install-latest</span>
-</code></pre></div></div>
-
-<p>Após ter instalado a última versão do núcleo do sistema através do <strong>mainline</strong>, você deve reiniciar o sistema e se tudo correu como esperado, depois de um tempo você pode remover as versões antigas do núcleo do sistema e liberar algum espaço em disco.</p>
-
-<p>Para isso, basta utilizar o comando:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>find /boot <span class="nt">-name</span> <span class="s2">"*vmlinuz-*"</span>|grep <span class="nt">-v</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">uname</span> <span class="nt">-r</span><span class="si">)</span><span class="s2">"</span>|sed <span class="s1">'s@/boot/vmlinuz@linux-*@g'</span>|sed <span class="s1">'s/-generic/\*/g'</span>|xargs <span class="nt">-o</span> <span class="nb">sudo </span>apt autoremove <span class="nt">--purge</span>
-</code></pre></div></div>
-
-<h2 id="-cfs-zen-tweaks"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/cpu.svg" alt="cfs-zen-tweaks" /> CFS Zen tweaks</h2>
-
-<p>A próxima otimzação que podemos fazer no <strong>Ubuntu</strong>, é no gerenciamento de processos, para trazer uma maior responsividade ao sistema e isso pode ser melhorado usando o <a href="https://github.com/igo95862/cfs-zen-tweaks"><strong>CFS Zen tweaks</strong></a>, que melhora a gestão dos processos do sistema, focando exclusivamente na responsividade, ou seja, dando prioridade aos processos relacionados com a interação direta do usuário, reduzindo a prioridade de processos em segundo plano, que muitas vezes você nem sabe que estão sendo executados.</p>
-
-<p>Para instalar o <strong>CFS Zen tweaks</strong>, basta executar os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/igo95862/cfs-zen-tweaks/releases|grep browser_download_url|grep .deb|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">sudo </span>apt <span class="nb">install</span> ./cfs-zen-tweaks<span class="k">*</span>.deb
-systemctl <span class="nb">enable </span>set-cfs-tweaks.service
-systemctl start set-cfs-tweaks.service
-</code></pre></div></div>
-
-<p>Não é necessário reiniciar, os resultados já são imediatos.</p>
-
-<h2 id="-zswap"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/media-memory.svg" alt="zswap" /> ZSwap</h2>
-
-<p>Outra melhora que é possível fazer no Ubuntu sem grandes dificuldades, mas que confunde muitos usuários, é ajustar o gerenciamento da memória de troca, popularmente conhecida como <strong>swap</strong>.</p>
-
-<p>Alguns usuários preferem usar ela em uma partição separada do disco, mas por padrão, o <strong>Ubuntu</strong> cria um arquivo na partição do sistema e escreve os dados diretamente nele.</p>
-
-<p>Porém, o processo de escrita e leitura, tanto na partição quanto nesse arquivo, podem ser um pouco lentos, dependendo da capacidade de processamento, leitura e escrita do seu dispositivo de armazenamento e para melhorar essa gestão, é possível fazer uso de uma parte da memória RAM, que tem uma velocidade de escrita e leitura muito maior do que qualquer dispositivo de armazenamento que você possa estar usando.</p>
-
-<p>Podemos fazer essa modificação no gerenciamento da memória de troca, utilizando o <a href="https://en.wikipedia.org/wiki/Zswap"><strong>ZSwap</strong></a>, que já é nativo no sistema, sendo necessário apenas ativá-lo.</p>
-
-<p>Você pode fazer isso com os comandos abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">RAM</span><span class="o">=</span><span class="sb">`</span><span class="nb">cat</span> /proc/meminfo|grep MemTotal|cut <span class="nt">-d</span> <span class="s1">' '</span> <span class="nt">-f9</span><span class="sb">`</span>
-<span class="nb">sudo </span>swapoff /swapfile
-<span class="nb">sudo </span>fallocate <span class="nt">-l</span> <span class="nv">$RAM</span> /swapfile
-<span class="nb">sudo dd </span><span class="k">if</span><span class="o">=</span>/dev/zero <span class="nv">of</span><span class="o">=</span>/swapfile <span class="nv">bs</span><span class="o">=</span>1024 <span class="nv">count</span><span class="o">=</span><span class="nv">$RAM</span> <span class="nv">status</span><span class="o">=</span>progress
-<span class="nb">sudo chmod </span>600 /swapfile
-<span class="nb">sudo </span>mkswap /swapfile
-<span class="nb">sudo </span>swapon /swapfile
-<span class="nb">sudo sed</span> <span class="nt">-i</span> <span class="s1">'s/quiet splash/quiet splash zswap.enabled=1 zswap.compressor=lz4/g'</span> /etc/default/grub
-<span class="nb">sudo </span>update-grub
-<span class="nb">echo </span>lz4|sudo <span class="nb">tee</span> <span class="nt">-a</span> /etc/initramfs-tools/modules&gt;/dev/null
-<span class="nb">echo </span>lz4_compress|sudo <span class="nb">tee</span> <span class="nt">-a</span> /etc/initramfs-tools/modules&gt;/dev/null
-<span class="nb">sudo </span>update-initramfs <span class="nt">-u</span> <span class="nt">-k</span> all
-</code></pre></div></div>
-
-<p>Após a execução dos comandos, é necessário reinciar para que o novo sistema de gerenciamento de memória seja ativado.</p>
-
-<h2 id="-nohang"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/rsibreak.svg" alt="nohang" /> <code class="language-plaintext highlighter-rouge">nohang</code></h2>
-
-<p>Por fim, a última modifiacação sugerida para melhorar a responsividade do sitema é o uso do programa <code class="language-plaintext highlighter-rouge">nohang</code>, que serve justamente pra fechar processos inativos durante um determinado período, liberando o processador pra processos relacionados a interação direta do usuário.</p>
-
-<p>O <code class="language-plaintext highlighter-rouge">nohang</code> garante que um espaço mínimo da memória esteja sempre disponível, impedindo que o sistema trave por falta de memória, por exemplo.</p>
-
-<p>Você pode instala-lo com o comando abaixo:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>nohang
-</code></pre></div></div>
-
-<p>Não é necessário reiniciar, os efeitos são imediatos.</p>
-
-<blockquote class="prompt-warning">
-  <p>Lembrando que todas as sugestões contidas nesta postagem, podem ser percebidas de forma subjetiva, ou seja, alguns usuários vão conseguir identificar onde elas fizeram efeito, enquanto outros não conseguirão ter essa mesma percepção.</p>
-</blockquote>
-
-<p>Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no <a href="https://twitter.com/rauldipeas"><strong>Twitter</strong></a>.</p>]]></content><author><name></name></author><category term="Guias" /><category term="melhore" /><category term="o" /><category term="desempenho" /><category term="do" /><category term="ubuntu" /><summary type="html"><![CDATA[Ubuntu O Ubuntu é uma distribuição excelente, pois nele é possível executar todos os tipos de tarefas relacionadas as nossas demandas atuais. Você pode assistir um vídeo em alta resolução no YouTube, pra passar o tempo, por exemplo, ou desenvolver um site, usando o VS Code enquanto ouve uma música agradável no Spotify, pra citar outras possibilidades. Acho que podemos dizer que o Ubuntu está preparado pra todas as nossas necessidades de uso, atualmente, entretenimento, como jogos, filmes e música, trabalho, como programação, edição de vídeo e produção musical, entre outras infinitas possibilidades. Mas algo que sempre deixa todo usuário com uma pulga atrás da orelha é se existe alguma forma de extrair mais do sistema, fazendo com que ele entregue uma maior performance, possibilitando rodar mais programas em simultâneo ou abrir os programas necessários com maior velocidade e é justamente aí que esse guia vai te mostrar as possibilidades e explicar como aplicar cada uma delas. Por ser um sistema que busca entregar estabilidade, ele contém uma série de valores de configuração padrão, que abrangem esse conceito, ou seja, vão valor conservadores e que vão funcionar bem pra maioria dos usuários, porém, eles podem ser reconfigurados pra entregar uma performance superior, ainda de forma segura. Mainline A primeira das modificações sugeridas, é utilizar uma versão mais nova do núcleo do sistema, já que ele é a base pra que todo o restante funcione corretamente. A própria Canonical, empresa que desenvolve o Ubuntu, disponibiliza essa atualização pra ser instalada manualmente pelo usuário e pra facilitar esse processo e as atualizações futuras nós podemos usar a ferramenta mainline. O mainline pode ser instalado com os seguintes comandos: sudo add-apt-repository ppa:cappelikan/ppa sudo apt install mainline sudo mainline --install-latest Após ter instalado a última versão do núcleo do sistema através do mainline, você deve reiniciar o sistema e se tudo correu como esperado, depois de um tempo você pode remover as versões antigas do núcleo do sistema e liberar algum espaço em disco. Para isso, basta utilizar o comando: sudo find /boot -name "*vmlinuz-*"|grep -v "$(uname -r)"|sed 's@/boot/vmlinuz@linux-*@g'|sed 's/-generic/\*/g'|xargs -o sudo apt autoremove --purge CFS Zen tweaks A próxima otimzação que podemos fazer no Ubuntu, é no gerenciamento de processos, para trazer uma maior responsividade ao sistema e isso pode ser melhorado usando o CFS Zen tweaks, que melhora a gestão dos processos do sistema, focando exclusivamente na responsividade, ou seja, dando prioridade aos processos relacionados com a interação direta do usuário, reduzindo a prioridade de processos em segundo plano, que muitas vezes você nem sabe que estão sendo executados. Para instalar o CFS Zen tweaks, basta executar os comandos abaixo: wget -q --show-progress "$(wget -qO- https://api.github.com/repos/igo95862/cfs-zen-tweaks/releases|grep browser_download_url|grep .deb|head -n1|cut -d '"' -f4)" sudo apt install ./cfs-zen-tweaks*.deb systemctl enable set-cfs-tweaks.service systemctl start set-cfs-tweaks.service Não é necessário reiniciar, os resultados já são imediatos. ZSwap Outra melhora que é possível fazer no Ubuntu sem grandes dificuldades, mas que confunde muitos usuários, é ajustar o gerenciamento da memória de troca, popularmente conhecida como swap. Alguns usuários preferem usar ela em uma partição separada do disco, mas por padrão, o Ubuntu cria um arquivo na partição do sistema e escreve os dados diretamente nele. Porém, o processo de escrita e leitura, tanto na partição quanto nesse arquivo, podem ser um pouco lentos, dependendo da capacidade de processamento, leitura e escrita do seu dispositivo de armazenamento e para melhorar essa gestão, é possível fazer uso de uma parte da memória RAM, que tem uma velocidade de escrita e leitura muito maior do que qualquer dispositivo de armazenamento que você possa estar usando. Podemos fazer essa modificação no gerenciamento da memória de troca, utilizando o ZSwap, que já é nativo no sistema, sendo necessário apenas ativá-lo. Você pode fazer isso com os comandos abaixo: RAM=`cat /proc/meminfo|grep MemTotal|cut -d ' ' -f9` sudo swapoff /swapfile sudo fallocate -l $RAM /swapfile sudo dd if=/dev/zero of=/swapfile bs=1024 count=$RAM status=progress sudo chmod 600 /swapfile sudo mkswap /swapfile sudo swapon /swapfile sudo sed -i 's/quiet splash/quiet splash zswap.enabled=1 zswap.compressor=lz4/g' /etc/default/grub sudo update-grub echo lz4|sudo tee -a /etc/initramfs-tools/modules&gt;/dev/null echo lz4_compress|sudo tee -a /etc/initramfs-tools/modules&gt;/dev/null sudo update-initramfs -u -k all Após a execução dos comandos, é necessário reinciar para que o novo sistema de gerenciamento de memória seja ativado. nohang Por fim, a última modifiacação sugerida para melhorar a responsividade do sitema é o uso do programa nohang, que serve justamente pra fechar processos inativos durante um determinado período, liberando o processador pra processos relacionados a interação direta do usuário. O nohang garante que um espaço mínimo da memória esteja sempre disponível, impedindo que o sistema trave por falta de memória, por exemplo. Você pode instala-lo com o comando abaixo: sudo apt install nohang Não é necessário reiniciar, os efeitos são imediatos. Lembrando que todas as sugestões contidas nesta postagem, podem ser percebidas de forma subjetiva, ou seja, alguns usuários vão conseguir identificar onde elas fizeram efeito, enquanto outros não conseguirão ter essa mesma percepção. Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no Twitter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/H2wF1U6.jpg" /><media:content medium="image" url="https://i.imgur.com/H2wF1U6.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Produção musical no Linux</title><link href="rauldipeas.com.br/guias/2023/04/07/produ%C3%A7%C3%A3o-musical-no-linux.html" rel="alternate" type="text/html" title="Produção musical no Linux" /><published>2023-04-07T17:45:00+00:00</published><updated>2023-04-07T17:45:00+00:00</updated><id>rauldipeas.com.br/guias/2023/04/07/produ%C3%A7%C3%A3o-musical-no-linux</id><content type="html" xml:base="rauldipeas.com.br/guias/2023/04/07/produ%C3%A7%C3%A3o-musical-no-linux.html"><![CDATA[<p><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/distributor-logo-ubuntu.svg" alt="ubuntu" title="Ubuntu" w="150" class="normal" />
-<img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/tuxguitar.svg" alt="tuxguitar" title="TuxGuitar" w="150" class="normal" />
-<img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/org.pipewire.Helvum.svg" alt="helvum" title="Helvum" w="150" class="normal" />
-<img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/org.gnome.Music.svg" alt="música" title="Música" w="150" class="normal" /></p>
-
-<p>O <a href="https://linux.org"><strong>Linux</strong></a> é um sistema operacional bastante abrangente (assim como o <a href="https://www.microsoft.com/pt-br/windows"><strong>Windows</strong></a> e o <a href="https://www.apple.com/br/macos"><strong>MacOS</strong></a>) e uma de suas infinitas possibilidade é a produção musical.</p>
-
-<p>Através deste guia eu vou compartilhar alguns conhecimentos que obtive ao longo da última década(ou um pouco mais de tempo).</p>
-
-<p>O ponto de partida, sem dúvidas, é escolher uma distribuição que seja suficientemente completa e tenha o suporte necessário de tudo que vamos precisar pra trabalhar com música.</p>
-
-<p>A minha escolha da vez é o <a href="https://ubuntu.com"><strong>Ubuntu</strong></a>.</p>
-
-<p>Se você gosta deste tema e quer conversar com outros músicos que também usam Linux, acesse o nosso grupo no <a href="https://t.me/producaomusicalnolinux"><strong>Telegram</strong></a>.</p>
-
-<h2 id="-ubuntu"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/distributor-logo-ubuntu.svg" alt="ubuntu" title="Ubuntu" /> <a href="https://ubuntu.com"><strong>Ubuntu</strong></a></h2>
-
-<p>O <a href="https://ubuntu.com"><strong>Ubuntu</strong></a> é uma distribuição baseada no <a href="https://debian.org"><strong>Debian</strong></a>, que por ser uma das distribuições mais comentadas na internet, atrai a atenção de muitos usuários.</p>
-
-<p>Isso se dá pelo fato de que o <a href="https://debian.org"><strong>Debian</strong></a> é uma das distribuições mais antigas ainda em atividade e por isso, é possível encontrar muito conteúdo sobre ele na internet.</p>
-
-<p>Neste guia eu vou utilizar o <a href="https://kubuntu.org"><strong>Kubuntu</strong></a>, mas todos os comandos indicados são compatíveis com qualquer um dos <a href="https://ubuntu.com/desktop/flavours"><em>sabores</em></a> do <a href="https://ubuntu.com"><strong>Ubuntu</strong></a>.</p>
-
-<p><img src="https://i.imgur.com/szZmW59.png" alt="kubuntu-desktop" title="Área de trabalho do Kubuntu" /></p>
-
-<h2 id="-rtcqs"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/emblems/emblem-default.svg" alt="rtcqs" title="rtcqs" /> <a href="https://codeberg.org/rtcqs/rtcqs">rtcqs</a></h2>
-
-<p>O <code class="language-plaintext highlighter-rouge">rtcqs</code> é um checador de configurações do sistema, necessário pra checar se todas as configurações de desempenho já estão setadas corretamente, garantindo que o sistema tenha o máximo de desempenho possível com os programas de áudio.</p>
-
-<p><img src="https://i.imgur.com/mNw09cO.png" alt="rtcqs" title="rtcqs" /></p>
-
-<p>As checagens indicadas se baseiam nas recomendações da <a href="https://wiki.linuxaudio.org/wiki/system_configuration"><strong>Wiki do LinuxAudio</strong></a>.</p>
-
-<p>📦 Instalação</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>pipx python3-tk
-pipx <span class="nb">install </span>rtcqs
-<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.local/share/<span class="o">{</span>applications,icons<span class="o">}</span>
-wget <span class="nt">-qO</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.local/share/applications/rtcqs.desktop https://github.com/autostatic/rtcqs/raw/main/rtcqs.desktop
-<span class="nb">sed</span> <span class="nt">-i</span> <span class="s2">"s@Exec=rtcqs_gui@Exec=</span><span class="nv">$HOME</span><span class="s2">/.local/bin/rtcqs_gui@g"</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.local/share/applications/rtcqs.desktop
-wget <span class="nt">-qO</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.local/share/icons/rtcqs.svg https://github.com/autostatic/rtcqs/raw/main/rtcqs_logo.svg
-</code></pre></div></div>
-
-<p>🔧 Configuração</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>usermod <span class="nt">-aG</span> audio <span class="s2">"</span><span class="nv">$USER</span><span class="s2">"</span>
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee /etc/sysctl.d/swappiness.conf&gt;/dev/null
-vm.swappiness = 10
-</span><span class="no">EOF
-</span><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee /etc/default/grub.d/cmdline-linux-default.cfg&gt;/dev/null
-GRUB_CMDLINE_LINUX_DEFAULT="cpufreq.default_governor=performance mitigations=off preempt=full quiet splash threadirqs"
-</span><span class="no">EOF
-</span><span class="nb">sudo </span>update-grub
-<span class="nb">sudo </span>wget <span class="nt">-qO</span> /etc/udev/rules.d/99-cpu-dma-latency.rules https://raw.githubusercontent.com/Ardour/ardour/master/tools/udev/99-cpu-dma-latency.rules
-systemctl <span class="nt">--user</span> disable xdg-desktop-portal
-systemctl <span class="nt">--user</span> mask xdg-desktop-portal
-<span class="nb">sudo </span>systemctl mask xdg-desktop-portal
-</code></pre></div></div>
-
-<h2 id="-udev-rtirq"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/audio-card.svg" alt="udev-rtirq" title="udev-rtirq" /> <a href="https://github.com/jhernberg/udev-rtirq">udev-rtirq</a></h2>
-
-<p>O <code class="language-plaintext highlighter-rouge">udev-rtirq</code> é um script que adiciona regras de gerenciamento de hardware ao sistema, que garantem alta prioridade no gerenciamento da interface de áudio.</p>
-
-<p>📦 Instalação</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>build-essential git
-git clone <span class="nt">-q</span> https://github.com/jhernberg/udev-rtirq
-<span class="nb">cd </span>udev-rtirq
-<span class="nb">sudo </span>make <span class="nb">install
-cd</span> ..
-<span class="nb">rm</span> <span class="nt">-r</span> udev-rtirq
-</code></pre></div></div>
-
-<h2 id="-xanmod"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/cpu.svg" alt="xanmod" title="XanMod" /> <a href="https://xanmod.org">XanMod</a></h2>
-
-<p>O <strong>XanMod</strong> é o núcleo de sistema recomendado para este contexto, por conter uma série de patches e otimizações que contribuem para o melhor desempenho de programas que são executados através do <a href="https://www.winehq.org/"><strong>WINE</strong></a>, além de contribuir de forma decisiva para uma baixíssma incidência de <a href="https://unix.stackexchange.com/questions/199498/what-are-xruns"><code class="language-plaintext highlighter-rouge">xruns</code></a>(que ocasionam artefatos sonoros, como clicks e pops no áudio) ao utilizar programas de áudio de baixa latência.</p>
-
-<p>📦 Instalação</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-cq</span> https://dl.xanmod.org/check_x86-64_psabi.sh
-<span class="nb">chmod</span> +x check_x86-64_psabi.sh
-wget <span class="nt">-cq</span> <span class="nt">--show-progress</span> https://dl.xanmod.org/xanmod-repository.deb
-<span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">--no-install-recommends</span> ./xanmod-repository.deb
-<span class="nb">sudo </span>apt update
-<span class="nb">sudo </span>apt <span class="nb">install </span>linux-firmware linux-xanmod-x64<span class="si">$(</span>./check_x86-64_psabi.sh|cut <span class="nt">-d</span><span class="s2">"-"</span> <span class="nt">-f3</span><span class="si">)</span>
-<span class="nb">rm </span>check_x86-64_psabi.sh xanmod-repository.deb
-</code></pre></div></div>
-
-<h2 id="-cadence"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/cadence.svg" alt="cadence" title="Cadence" /> <a href="https://kx.studio/Applications:Cadence">Cadence</a></h2>
-
-<p>O <strong>Cadence</strong> é o programa responsável por gerenciar todas configurações de som do sistema, utilizando como base os programas <a href="https://jackaudio.org"><strong>JACK</strong></a> e <a href="https://www.freedesktop.org/wiki/Software/PulseAudio"><strong>PulseAudio</strong></a>.</p>
-
-<p>Através das configurações indicadas aqui, seu sistema estará preparado pra executar o áudio com baixa latência e bom desempenho.</p>
-
-<p>📦 Instalação</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-cq</span> <span class="nt">--show-progress</span> http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu/pool/main/k/kxstudio-repos/<span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu/pool/main/k/kxstudio-repos/|grep all.deb|tail <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f8</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">sudo </span>apt <span class="nb">install</span> ./kxstudio-repos<span class="k">*</span>.deb
-<span class="nb">sudo </span>add-apt-repository <span class="nt">-ny</span> multiverse
-<span class="nb">sudo </span>add-apt-repository <span class="nt">-y</span> universe
-<span class="nb">echo</span> <span class="s1">'jackd2 jackd/tweak_rt_limits string true'</span>|sudo debconf-set-selections
-<span class="nb">sudo </span>apt <span class="nb">install </span>alsa-firmware cadence pulseaudio
-<span class="nb">sudo </span>apt autoremove <span class="nt">--purge</span> qjackctl meterbridge
-systemctl <span class="nt">--user</span> mask pipewire.service pipewire.socket
-systemctl <span class="nt">--user</span> <span class="nt">--now</span> stop pipewire.service pipewire.socket
-systemctl <span class="nt">--user</span> <span class="nt">--now</span> disable pipewire.service pipewire.socket
-systemctl <span class="nt">--user</span> <span class="nt">--now</span> <span class="nb">enable </span>pulseaudio.service pulseaudio.socket
-systemctl <span class="nt">--user</span> <span class="nt">--now</span> start pulseaudio.service pulseaudio.socket
-pactl info|grep <span class="s2">"Nome do servidor"</span>
-<span class="nb">rm </span>kxstudio-repos<span class="k">*</span>.deb
-</code></pre></div></div>
-
-<p>🔧 Configuração</p>
-<blockquote class="prompt-info">
-  <p>As configurações recomendadas para o <strong>Cadence</strong> podem variar um pouco de acordo com o seu hardware, vou deixar aqui configurações que funcionam bem na maioria dos hardwares atuais.</p>
-</blockquote>
-
-<p><img src="https://i.imgur.com/qxnUY8Z.png" alt="cadence-driver" title="Cadence Driver" /></p>
-
-<p><img src="https://i.imgur.com/Msr9y1N.png" alt="cadence-engine" title="Cadence Engine" /></p>
-
-<blockquote class="prompt-warning">
-  <p>Caso você tenha baixo desempenho ou artefatos sonoros, procure alterar o valor <em>Periods/Buffer</em> na aba <em>Driver</em>, pela minha experiência, esse valor não tem um padrão claro, cada hardware precisa de um valor específico.</p>
-</blockquote>
-
-<h2 id="-wine-tkg"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/wine.svg" alt="wine" title="WINE" /> <a href="https://github.com/Frogging-Family/wine-tkg-git">WINE TkG</a></h2>
-
-<p>O <strong>WINE</strong> é o programa responsável por disponibilizar uma camada de compatibilidade para a execução de programas do Windows no Linux, a versão <strong>TkG</strong> é compilada utilizando patches específicos para um maior desempenho, em especial o patch <a href="https://www.phoronix.com/news/Linux-Kernel-Wine-Sync-API-2021"><strong>FSYNC</strong></a>.</p>
-
-<p><img src="https://i.imgur.com/2qv0xPt.png" alt="q4wine" title="Q4WINE" /></p>
-
-<p>📦 Instalação</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>dpkg <span class="nt">--add-architecture</span> i386
-<span class="nb">sudo </span>apt update
-<span class="nb">sudo </span>apt <span class="nb">install </span>q4wine wine wine32:i386 winetricks
-wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/Kron4ek/Wine-Builds/releases|grep browser_download_url|grep staging-tkg-amd64.tar.xz|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">tar </span>fx wine<span class="k">*</span>staging-tkg-amd64.tar.xz
-<span class="nb">rm </span>wine<span class="k">*</span>staging-tkg-amd64.tar.xz
-<span class="nb">sudo mv </span>wine<span class="k">*</span>staging-tkg-amd64 /opt/wine-tkg
-wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/GloriousEggroll/wine-ge-custom/releases|grep browser_download_url|grep wine-lutris-ge|grep .tar.xz|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">tar </span>fx wine-lutris-ge<span class="k">*</span>.tar.xz
-<span class="nb">sudo cp </span>lutris<span class="k">*</span>/lib/wine/i386-windows/winemenubuilder.exe /opt/wine-tkg/lib/wine/i386-windows/winemenubuilder.exe
-<span class="nb">sudo cp </span>lutris<span class="k">*</span>/lib64/wine/x86_64-windows/winemenubuilder.exe /opt/wine-tkg/lib/wine/x86_64-windows/winemenubuilder.exe
-find <span class="nb">.</span> <span class="nt">-name</span> <span class="s2">"*lutris-ge*"</span> <span class="nt">-print0</span>|xargs <span class="nt">-0</span> <span class="nb">rm</span> <span class="nt">-r</span>
-<span class="nv">WINE_GECKO_VER</span><span class="o">=</span><span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://dl.winehq.org/wine/wine-gecko/|grep folder|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f6</span>|sort <span class="nt">-d</span>|grep <span class="nt">-v</span> wine|tail <span class="nt">-n1</span><span class="si">)</span><span class="s2">"</span>
-wget <span class="nt">-qO-</span> https://dl.winehq.org/wine/wine-gecko/<span class="s2">"</span><span class="nv">$WINE_GECKO_VER</span><span class="s2">"</span>|grep x86|grep <span class="nb">tar</span>|grep <span class="nt">-wv</span> pdb|grep <span class="nt">-wv</span> rc|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f6</span><span class="o">&gt;</span>wine-gecko.links
-<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s@wine-gecko@https://dl.winehq.org/wine/wine-gecko/wine-gecko@g'</span> wine-gecko.links
-<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s@wine/wine-gecko/@'</span>wine/wine-gecko/<span class="s2">"</span><span class="nv">$WINE_GECKO_VER</span><span class="s2">"</span><span class="s1">'@g'</span> wine-gecko.links
-wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">cat</span>&lt;wine-gecko.links|head <span class="nt">-n1</span><span class="si">)</span><span class="s2">"</span>
-wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">cat</span>&lt;wine-gecko.links|tail <span class="nt">-n1</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">rm </span>wine-gecko.links
-<span class="nv">WINE_MONO_VER</span><span class="o">=</span><span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://dl.winehq.org/wine/wine-mono/|grep folder|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f6</span>|sort <span class="nt">-g</span>|tail <span class="nt">-n1</span><span class="si">)</span><span class="s2">"</span>
-wget <span class="nt">-qO-</span> https://dl.winehq.org/wine/wine-mono/<span class="s2">"</span><span class="nv">$WINE_MONO_VER</span><span class="s2">"</span>|grep x86|grep <span class="nb">tar</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f6</span><span class="o">&gt;</span>wine-mono.links
-<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s@wine-mono@https://dl.winehq.org/wine/wine-mono/wine-mono@g'</span> wine-mono.links
-<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s@wine/wine-mono/@'</span>wine/wine-mono/<span class="s2">"</span><span class="nv">$WINE_MONO_VER</span><span class="s2">"</span><span class="s1">'@g'</span> wine-mono.links
-wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">cat</span>&lt;wine-mono.links|head <span class="nt">-n1</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">rm </span>wine-mono.links
-<span class="nb">sudo mkdir</span> <span class="nt">-p</span> /opt/wine-tkg/share/wine/<span class="o">{</span>gecko,mono<span class="o">}</span>
-<span class="nb">sudo tar </span>fx wine-gecko-<span class="k">*</span><span class="nt">-x86</span>.tar.xz <span class="nt">-C</span> /opt/wine-tkg/share/wine/gecko/
-<span class="nb">sudo tar </span>fx wine-gecko-<span class="k">*</span><span class="nt">-x86_64</span>.tar.xz <span class="nt">-C</span> /opt/wine-tkg/share/wine/gecko/
-<span class="nb">sudo tar </span>fx wine-mono-<span class="k">*</span><span class="nt">-x86</span>.tar.xz <span class="nt">-C</span> /opt/wine-tkg/share/wine/mono/
-<span class="nb">rm</span> <span class="nt">-r</span> wine-gecko-<span class="k">*</span><span class="nt">-x86</span>.tar.xz
-<span class="nb">rm</span> <span class="nt">-r</span> wine-gecko-<span class="k">*</span><span class="nt">-x86_64</span>.tar.xz
-<span class="nb">rm</span> <span class="nt">-r</span> wine-mono-<span class="k">*</span><span class="nt">-x86</span>.tar.xz
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee /etc/environment.d/99wine.conf&gt;/dev/null
-if [ -d "/opt/wine-tkg/bin" ] ; then
-    PATH="/opt/wine-tkg/bin:</span><span class="se">\$</span><span class="sh">PATH"
-fi
-export WINE_ENABLE_PIPE_SYNC_FOR_APP=1
-export WINEESYNC=1
-export WINEFSYNC=1
-</span><span class="no">EOF
-</span></code></pre></div></div>
-
-<p>🔧 Configuração</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>winetricks <span class="nt">-f</span> <span class="nt">-q</span> dxvk
-</code></pre></div></div>
-
-<h2 id="-yabrige"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/org.gnome.Extensions.svg" alt="yabridge" title="yabridge" /> <a href="https://github.com/robbert-vdh/yabridge"><code class="language-plaintext highlighter-rouge">yabrige</code></a></h2>
-
-<p>O <code class="language-plaintext highlighter-rouge">yabridge</code> é o programa responsável por criar links simbólicos dos plugins VST do Windows, que podem ser lidos pelos programas de áudio nativos do Linux, como <strong>REAPER</strong>, <strong>Waveform</strong>, <strong>Bitwig</strong>, entre outros.</p>
-
-<p>Ele é compatível com plugins <strong>VST2</strong> e <strong>VST3</strong> de <strong>32</strong> e <strong>64</strong> bits.</p>
-
-<p>📦 Instalação</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-q</span> <span class="nt">--show-progress</span> <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/robbert-vdh/yabridge/releases|grep browser_download_url|head <span class="nt">-n2</span>|tail <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">tar </span>fxz yabridge<span class="k">*</span>.tar.gz
-<span class="nb">rm</span> <span class="nt">-r</span> yabridge<span class="k">*</span>.tar.gz
-<span class="nb">sudo mv </span>yabridge/yabridgectl /usr/bin/yabridgectl
-<span class="nb">sudo mv </span>yabridge/libyabridge<span class="k">*</span> /usr/lib/
-<span class="nb">sudo mv </span>yabridge/yabridge<span class="k">*</span> /usr/bin/
-<span class="nb">rm</span> <span class="nt">-r</span> yabridge
-</code></pre></div></div>
-
-<p>🔧 Configuração</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-pv</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.wine/drive_c/Program<span class="se">\ </span>Files/Common<span class="se">\ </span>Files/VST3
-<span class="nb">mkdir</span> <span class="nt">-pv</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.wine/drive_c/Program<span class="se">\ </span>Files/VSTPlugins
-yabridgectl add <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.wine/drive_c/Program<span class="se">\ </span>Files/Common<span class="se">\ </span>Files/VST3
-yabridgectl add <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.wine/drive_c/Program<span class="se">\ </span>Files/VSTPlugins
-yabridgectl <span class="nb">sync</span> <span class="nt">--prune</span> <span class="nt">--verbose</span>
-</code></pre></div></div>
-
-<h2 id="-reaper"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/cockos-reaper.svg" alt="reaper" title="REAPER" /> <a href="https://reaper.fm">REAPER</a></h2>
-
-<p>O <strong>REAPER</strong> é uma estação de trabalho de áudio digital, com o qual você pode produzir música, editar áudio, editar vídeo (de maneira básica) e fazer apresentações musicais ao vivo.</p>
-
-<p><img src="https://i.imgur.com/rr91QmQ.png" alt="reaper" title="REAPER" /></p>
-
-<p>Os comandos indicados aqui incluem a instalação do <a href="https://reapack.com"><strong>ReaPack</strong></a> e da extensão <a href="https://www.sws-extension.org"><strong>SWS</strong></a>, além da tradução para o português brasileiro.</p>
-
-<p>📦 Instalação</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">REAPER_VER</span><span class="o">=</span><span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> http://reaper.fm| <span class="nb">grep </span>VERSION|cut <span class="nt">-d</span> <span class="s1">'&gt;'</span> <span class="nt">-f2</span>|cut <span class="nt">-d</span> <span class="s1">':'</span> <span class="nt">-f1</span>|sed <span class="s1">'s/VERSION //g'</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">cd</span> /tmp
-<span class="nb">rm</span> <span class="nt">-rf</span> /tmp/<span class="k">*</span>reaper<span class="k">*</span> /tmp/<span class="k">*</span>libSwell<span class="k">*</span>
-wget <span class="nt">-q</span> <span class="nt">--show-progress</span> http://reaper.fm/<span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> http://reaper.fm/download.php|grep _linux_x86_64.tar.xz|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f2</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">tar </span>fx reaper<span class="k">*</span>_linux_x86_64.tar.xz <span class="nt">-C</span> /tmp
-<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s/rmdir --/rm -rf --/g'</span> /tmp/reaper<span class="k">*</span>/install-reaper.sh
-<span class="nb">sudo</span> /tmp/reaper<span class="k">*</span>/install-reaper.sh <span class="nt">--install</span> /opt <span class="nt">--integrate-desktop</span> <span class="nt">--quiet</span> <span class="nt">--integrate-sys-desktop</span>
-wget <span class="nt">-qO</span> libSwell.colortheme https://stash.reaper.fm/41334/libSwell.colortheme
-<span class="nb">sudo mv </span>libSwell.colortheme /opt/REAPER/libSwell.colortheme
-<span class="nb">cd</span> ..
-<span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> |sudo tee -a /usr/share/applications/cockos-reaper.desktop&gt;/dev/null
-#</span><span class="se">\n</span><span class="sh">
-Actions=NewProject;ShowAudioConfig;ReaMote;WhatsNew;License;
-[Desktop Action NewProject]
-Name=REAPER (create new project)
-Name[pt_BR]=REAPER (criar novo projeto)
-Exec=/opt/REAPER/reaper -new
-Icon=cockos-reaper
-[Desktop Action ShowAudioConfig]
-Name=REAPER (show audio configuration on startup)
-Name[pt_BR]=REAPER (mostrar configurações de áudio ao iniciar)
-Exec=/opt/REAPER/reaper -audiocfg
-Icon=cockos-reaper
-[Desktop Action ReaMote]
-Name=ReaMote
-Exec=/opt/REAPER/reamote-server
-Icon=folder-remote
-[Desktop Action WhatsNew]
-Name=What's new
-Name[pt_BR]=O que há de novo?
-Exec=xdg-open /opt/REAPER/whatsnew.txt
-Icon=text-x-plain
-[Desktop Action License]
-Name=License and User Agreement
-Name[pt_BR]=Licença e contrato de usuário
-Exec=xdg-open /opt/REAPER/EULA.txt
-Icon=text-x-plain
-</span><span class="no">EOF
-</span></code></pre></div></div>
-
-<p>🔧 Configuração</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-pv</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/REAPER/<span class="o">{</span>LangPack,UserPlugins<span class="o">}</span>
-wget <span class="nt">-O</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/REAPER/LangPack/pt-BR.ReaperLangPack https://stash.reaper.fm<span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://stash.reaper.fm/tag/Language-Packs|grep pt-BR|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f2</span>|sed <span class="s1">'s/\/v//g'</span><span class="si">)</span><span class="s2">"</span>
-wget https://sws-extension.org/download/pre-release/<span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> http://sws-extension.org/download/pre-release/|grep Linux-x86_64|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
-<span class="nb">tar </span>fvx sws-<span class="k">*</span><span class="nt">-Linux-x86_64-</span><span class="k">*</span>.tar.xz <span class="nt">-C</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/REAPER
-<span class="nb">rm</span> <span class="nt">-rfv</span> sws-<span class="k">*</span><span class="nt">-Linux-x86_64-</span><span class="k">*</span>.tar.xz
-wget <span class="nt">-O</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">"</span>/.config/REAPER/UserPlugins/reaper_reapack-x86_64.so <span class="s2">"</span><span class="si">$(</span>wget <span class="nt">-qO-</span> https://api.github.com/repos/cfillion/reapack/releases|grep browser_download_url|grep download/v|grep x86_64.so|head <span class="nt">-n1</span>|cut <span class="nt">-d</span> <span class="s1">'"'</span> <span class="nt">-f4</span><span class="si">)</span><span class="s2">"</span>
-</code></pre></div></div>
-
-<h2 id="-boas-práticas-para-evitar-xruns"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/status/notification-audio-volume-muted.svg" alt="xruns" title="xruns" w="22" /> Boas práticas para evitar <code class="language-plaintext highlighter-rouge">xruns</code></h2>
-<h3 id="-desative-conexões-sem-fiowifi-e-bluetooth"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/devices/network-wireless.svg" alt="wireless" title="Wireless" /> Desative conexões sem fio(wifi e bluetooth)</h3>
-<p>Conexões sem fio, sabidamente causam <code class="language-plaintext highlighter-rouge">xruns</code> esporádicos.</p>
-
-<p>Alguns notebooks tem um botão físico para desativar a conexão sem fio, se esse não for o seu caso, você pode desativar através do gerenciador de rede na área de notificação do seu ambiente gráfico.</p>
-
-<p><img src="https://i.imgur.com/R443kiR.png" alt="wifi" title="Conexão sem fio" /></p>
-
-<h3 id="-evite-a-conversão-de-arquivos-de-áudio-em-tempo-real"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/22x22/apps/mkvinfo.svg" alt="mediainfo" title="MediaInfo" /> Evite a conversão de arquivos de áudio em tempo real</h3>
-
-<p>Muitos programas de gravação de áudio, como é o caso do <strong>REAPER</strong>, por exemplo, permitem que você importe arquivos em formatos diferentes pra dentro do projeto, fazendo a conversão desses formatos em tempo real, durante a reprodução do projeto, isso gera uma sobrecarga de processamento e sabidamente pode causar <code class="language-plaintext highlighter-rouge">xruns</code>.</p>
-
-<p>Quando você estiver usando um programa de gravação de áudio, é recomendado evitar a <em>conversão de arquivos de áudio em tempo real</em>, ou seja, faça a conversão prévia de quaisquer arquivos que precisa usar no seu projeto, evitando sobrecarga no processamento durante a execução desses arquivos dentro do seu programa de gravação.</p>
-
-<p>Para checar os formatos dos arquivos, você pode usar o programa <a href="https://mediaarea.net/en/MediaInfo"><strong>MediaInfo</strong></a>, que pode ser facilmente instalado através do comando indicado abaixo.</p>
-
-<p>📦 Instalação</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>mediainfo-gui
-</code></pre></div></div>
-
-<p><img src="https://i.imgur.com/hizh47U.png" alt="mediainfo" title="MediaInfo" /></p>
-
-<p>Para converter os arquivos de áudio, vídeo e imagem em outros formatos, você pode usar o programa <a href="https://jeanslack.github.io/Videomass"><strong>Videomass</strong></a>, que pode ser facilmente instalado através dos comandos indicados abaixo.</p>
-
-<p>📦 Instalação</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-add-repository ppa:jeanslack/videomass
-<span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">--no-install-recommends</span> yt-dlp
-<span class="nb">sudo </span>apt <span class="nb">install </span>python3-videomass
-</code></pre></div></div>
-
-<p><img src="https://i.imgur.com/Mm7XAQg.png" alt="videomass" title="Videomass" /></p>
-
-<p>Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no <a href="https://twitter.com/rauldipeas"><strong>Twitter</strong></a>.</p>]]></content><author><name></name></author><category term="Guias" /><category term="produção" /><category term="musical" /><category term="no" /><category term="linux" /><summary type="html"><![CDATA[O Linux é um sistema operacional bastante abrangente (assim como o Windows e o MacOS) e uma de suas infinitas possibilidade é a produção musical. Através deste guia eu vou compartilhar alguns conhecimentos que obtive ao longo da última década(ou um pouco mais de tempo). O ponto de partida, sem dúvidas, é escolher uma distribuição que seja suficientemente completa e tenha o suporte necessário de tudo que vamos precisar pra trabalhar com música. A minha escolha da vez é o Ubuntu. Se você gosta deste tema e quer conversar com outros músicos que também usam Linux, acesse o nosso grupo no Telegram. Ubuntu O Ubuntu é uma distribuição baseada no Debian, que por ser uma das distribuições mais comentadas na internet, atrai a atenção de muitos usuários. Isso se dá pelo fato de que o Debian é uma das distribuições mais antigas ainda em atividade e por isso, é possível encontrar muito conteúdo sobre ele na internet. Neste guia eu vou utilizar o Kubuntu, mas todos os comandos indicados são compatíveis com qualquer um dos sabores do Ubuntu. rtcqs O rtcqs é um checador de configurações do sistema, necessário pra checar se todas as configurações de desempenho já estão setadas corretamente, garantindo que o sistema tenha o máximo de desempenho possível com os programas de áudio. As checagens indicadas se baseiam nas recomendações da Wiki do LinuxAudio. 📦 Instalação sudo apt install pipx python3-tk pipx install rtcqs mkdir -p "$HOME"/.local/share/{applications,icons} wget -qO "$HOME"/.local/share/applications/rtcqs.desktop https://github.com/autostatic/rtcqs/raw/main/rtcqs.desktop sed -i "s@Exec=rtcqs_gui@Exec=$HOME/.local/bin/rtcqs_gui@g" "$HOME"/.local/share/applications/rtcqs.desktop wget -qO "$HOME"/.local/share/icons/rtcqs.svg https://github.com/autostatic/rtcqs/raw/main/rtcqs_logo.svg 🔧 Configuração sudo usermod -aG audio "$USER" cat &lt;&lt;EOF |sudo tee /etc/sysctl.d/swappiness.conf&gt;/dev/null vm.swappiness = 10 EOF cat &lt;&lt;EOF |sudo tee /etc/default/grub.d/cmdline-linux-default.cfg&gt;/dev/null GRUB_CMDLINE_LINUX_DEFAULT="cpufreq.default_governor=performance mitigations=off preempt=full quiet splash threadirqs" EOF sudo update-grub sudo wget -qO /etc/udev/rules.d/99-cpu-dma-latency.rules https://raw.githubusercontent.com/Ardour/ardour/master/tools/udev/99-cpu-dma-latency.rules systemctl --user disable xdg-desktop-portal systemctl --user mask xdg-desktop-portal sudo systemctl mask xdg-desktop-portal udev-rtirq O udev-rtirq é um script que adiciona regras de gerenciamento de hardware ao sistema, que garantem alta prioridade no gerenciamento da interface de áudio. 📦 Instalação sudo apt install build-essential git git clone -q https://github.com/jhernberg/udev-rtirq cd udev-rtirq sudo make install cd .. rm -r udev-rtirq XanMod O XanMod é o núcleo de sistema recomendado para este contexto, por conter uma série de patches e otimizações que contribuem para o melhor desempenho de programas que são executados através do WINE, além de contribuir de forma decisiva para uma baixíssma incidência de xruns(que ocasionam artefatos sonoros, como clicks e pops no áudio) ao utilizar programas de áudio de baixa latência. 📦 Instalação wget -cq https://dl.xanmod.org/check_x86-64_psabi.sh chmod +x check_x86-64_psabi.sh wget -cq --show-progress https://dl.xanmod.org/xanmod-repository.deb sudo apt install --no-install-recommends ./xanmod-repository.deb sudo apt update sudo apt install linux-firmware linux-xanmod-x64$(./check_x86-64_psabi.sh|cut -d"-" -f3) rm check_x86-64_psabi.sh xanmod-repository.deb Cadence O Cadence é o programa responsável por gerenciar todas configurações de som do sistema, utilizando como base os programas JACK e PulseAudio. Através das configurações indicadas aqui, seu sistema estará preparado pra executar o áudio com baixa latência e bom desempenho. 📦 Instalação wget -cq --show-progress http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu/pool/main/k/kxstudio-repos/"$(wget -qO- http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu/pool/main/k/kxstudio-repos/|grep all.deb|tail -n1|cut -d '"' -f8)" sudo apt install ./kxstudio-repos*.deb sudo add-apt-repository -ny multiverse sudo add-apt-repository -y universe echo 'jackd2 jackd/tweak_rt_limits string true'|sudo debconf-set-selections sudo apt install alsa-firmware cadence pulseaudio sudo apt autoremove --purge qjackctl meterbridge systemctl --user mask pipewire.service pipewire.socket systemctl --user --now stop pipewire.service pipewire.socket systemctl --user --now disable pipewire.service pipewire.socket systemctl --user --now enable pulseaudio.service pulseaudio.socket systemctl --user --now start pulseaudio.service pulseaudio.socket pactl info|grep "Nome do servidor" rm kxstudio-repos*.deb 🔧 Configuração As configurações recomendadas para o Cadence podem variar um pouco de acordo com o seu hardware, vou deixar aqui configurações que funcionam bem na maioria dos hardwares atuais. Caso você tenha baixo desempenho ou artefatos sonoros, procure alterar o valor Periods/Buffer na aba Driver, pela minha experiência, esse valor não tem um padrão claro, cada hardware precisa de um valor específico. WINE TkG O WINE é o programa responsável por disponibilizar uma camada de compatibilidade para a execução de programas do Windows no Linux, a versão TkG é compilada utilizando patches específicos para um maior desempenho, em especial o patch FSYNC. 📦 Instalação sudo dpkg --add-architecture i386 sudo apt update sudo apt install q4wine wine wine32:i386 winetricks wget -q --show-progress "$(wget -qO- https://api.github.com/repos/Kron4ek/Wine-Builds/releases|grep browser_download_url|grep staging-tkg-amd64.tar.xz|head -n1|cut -d '"' -f4)" tar fx wine*staging-tkg-amd64.tar.xz rm wine*staging-tkg-amd64.tar.xz sudo mv wine*staging-tkg-amd64 /opt/wine-tkg wget -q --show-progress "$(wget -qO- https://api.github.com/repos/GloriousEggroll/wine-ge-custom/releases|grep browser_download_url|grep wine-lutris-ge|grep .tar.xz|head -n1|cut -d '"' -f4)" tar fx wine-lutris-ge*.tar.xz sudo cp lutris*/lib/wine/i386-windows/winemenubuilder.exe /opt/wine-tkg/lib/wine/i386-windows/winemenubuilder.exe sudo cp lutris*/lib64/wine/x86_64-windows/winemenubuilder.exe /opt/wine-tkg/lib/wine/x86_64-windows/winemenubuilder.exe find . -name "*lutris-ge*" -print0|xargs -0 rm -r WINE_GECKO_VER="$(wget -qO- https://dl.winehq.org/wine/wine-gecko/|grep folder|cut -d '"' -f6|sort -d|grep -v wine|tail -n1)" wget -qO- https://dl.winehq.org/wine/wine-gecko/"$WINE_GECKO_VER"|grep x86|grep tar|grep -wv pdb|grep -wv rc|cut -d '"' -f6&gt;wine-gecko.links sed -i 's@wine-gecko@https://dl.winehq.org/wine/wine-gecko/wine-gecko@g' wine-gecko.links sed -i 's@wine/wine-gecko/@'wine/wine-gecko/"$WINE_GECKO_VER"'@g' wine-gecko.links wget -q --show-progress "$(cat&lt;wine-gecko.links|head -n1)" wget -q --show-progress "$(cat&lt;wine-gecko.links|tail -n1)" rm wine-gecko.links WINE_MONO_VER="$(wget -qO- https://dl.winehq.org/wine/wine-mono/|grep folder|cut -d '"' -f6|sort -g|tail -n1)" wget -qO- https://dl.winehq.org/wine/wine-mono/"$WINE_MONO_VER"|grep x86|grep tar|cut -d '"' -f6&gt;wine-mono.links sed -i 's@wine-mono@https://dl.winehq.org/wine/wine-mono/wine-mono@g' wine-mono.links sed -i 's@wine/wine-mono/@'wine/wine-mono/"$WINE_MONO_VER"'@g' wine-mono.links wget -q --show-progress "$(cat&lt;wine-mono.links|head -n1)" rm wine-mono.links sudo mkdir -p /opt/wine-tkg/share/wine/{gecko,mono} sudo tar fx wine-gecko-*-x86.tar.xz -C /opt/wine-tkg/share/wine/gecko/ sudo tar fx wine-gecko-*-x86_64.tar.xz -C /opt/wine-tkg/share/wine/gecko/ sudo tar fx wine-mono-*-x86.tar.xz -C /opt/wine-tkg/share/wine/mono/ rm -r wine-gecko-*-x86.tar.xz rm -r wine-gecko-*-x86_64.tar.xz rm -r wine-mono-*-x86.tar.xz cat &lt;&lt;EOF |sudo tee /etc/environment.d/99wine.conf&gt;/dev/null if [ -d "/opt/wine-tkg/bin" ] ; then PATH="/opt/wine-tkg/bin:\$PATH" fi export WINE_ENABLE_PIPE_SYNC_FOR_APP=1 export WINEESYNC=1 export WINEFSYNC=1 EOF 🔧 Configuração winetricks -f -q dxvk yabrige O yabridge é o programa responsável por criar links simbólicos dos plugins VST do Windows, que podem ser lidos pelos programas de áudio nativos do Linux, como REAPER, Waveform, Bitwig, entre outros. Ele é compatível com plugins VST2 e VST3 de 32 e 64 bits. 📦 Instalação wget -q --show-progress "$(wget -qO- https://api.github.com/repos/robbert-vdh/yabridge/releases|grep browser_download_url|head -n2|tail -n1|cut -d '"' -f4)" tar fxz yabridge*.tar.gz rm -r yabridge*.tar.gz sudo mv yabridge/yabridgectl /usr/bin/yabridgectl sudo mv yabridge/libyabridge* /usr/lib/ sudo mv yabridge/yabridge* /usr/bin/ rm -r yabridge 🔧 Configuração mkdir -pv "$HOME"/.wine/drive_c/Program\ Files/Common\ Files/VST3 mkdir -pv "$HOME"/.wine/drive_c/Program\ Files/VSTPlugins yabridgectl add "$HOME"/.wine/drive_c/Program\ Files/Common\ Files/VST3 yabridgectl add "$HOME"/.wine/drive_c/Program\ Files/VSTPlugins yabridgectl sync --prune --verbose REAPER O REAPER é uma estação de trabalho de áudio digital, com o qual você pode produzir música, editar áudio, editar vídeo (de maneira básica) e fazer apresentações musicais ao vivo. Os comandos indicados aqui incluem a instalação do ReaPack e da extensão SWS, além da tradução para o português brasileiro. 📦 Instalação REAPER_VER="$(wget -qO- http://reaper.fm| grep VERSION|cut -d '&gt;' -f2|cut -d ':' -f1|sed 's/VERSION //g')" cd /tmp rm -rf /tmp/*reaper* /tmp/*libSwell* wget -q --show-progress http://reaper.fm/"$(wget -qO- http://reaper.fm/download.php|grep _linux_x86_64.tar.xz|cut -d '"' -f2)" tar fx reaper*_linux_x86_64.tar.xz -C /tmp sed -i 's/rmdir --/rm -rf --/g' /tmp/reaper*/install-reaper.sh sudo /tmp/reaper*/install-reaper.sh --install /opt --integrate-desktop --quiet --integrate-sys-desktop wget -qO libSwell.colortheme https://stash.reaper.fm/41334/libSwell.colortheme sudo mv libSwell.colortheme /opt/REAPER/libSwell.colortheme cd .. cat &lt;&lt;EOF |sudo tee -a /usr/share/applications/cockos-reaper.desktop&gt;/dev/null #\n Actions=NewProject;ShowAudioConfig;ReaMote;WhatsNew;License; [Desktop Action NewProject] Name=REAPER (create new project) Name[pt_BR]=REAPER (criar novo projeto) Exec=/opt/REAPER/reaper -new Icon=cockos-reaper [Desktop Action ShowAudioConfig] Name=REAPER (show audio configuration on startup) Name[pt_BR]=REAPER (mostrar configurações de áudio ao iniciar) Exec=/opt/REAPER/reaper -audiocfg Icon=cockos-reaper [Desktop Action ReaMote] Name=ReaMote Exec=/opt/REAPER/reamote-server Icon=folder-remote [Desktop Action WhatsNew] Name=What's new Name[pt_BR]=O que há de novo? Exec=xdg-open /opt/REAPER/whatsnew.txt Icon=text-x-plain [Desktop Action License] Name=License and User Agreement Name[pt_BR]=Licença e contrato de usuário Exec=xdg-open /opt/REAPER/EULA.txt Icon=text-x-plain EOF 🔧 Configuração mkdir -pv "$HOME"/.config/REAPER/{LangPack,UserPlugins} wget -O "$HOME"/.config/REAPER/LangPack/pt-BR.ReaperLangPack https://stash.reaper.fm"$(wget -qO- https://stash.reaper.fm/tag/Language-Packs|grep pt-BR|head -n1|cut -d '"' -f2|sed 's/\/v//g')" wget https://sws-extension.org/download/pre-release/"$(wget -qO- http://sws-extension.org/download/pre-release/|grep Linux-x86_64|head -n1|cut -d '"' -f4)" tar fvx sws-*-Linux-x86_64-*.tar.xz -C "$HOME"/.config/REAPER rm -rfv sws-*-Linux-x86_64-*.tar.xz wget -O "$HOME"/.config/REAPER/UserPlugins/reaper_reapack-x86_64.so "$(wget -qO- https://api.github.com/repos/cfillion/reapack/releases|grep browser_download_url|grep download/v|grep x86_64.so|head -n1|cut -d '"' -f4)" Boas práticas para evitar xruns Desative conexões sem fio(wifi e bluetooth) Conexões sem fio, sabidamente causam xruns esporádicos. Alguns notebooks tem um botão físico para desativar a conexão sem fio, se esse não for o seu caso, você pode desativar através do gerenciador de rede na área de notificação do seu ambiente gráfico. Evite a conversão de arquivos de áudio em tempo real Muitos programas de gravação de áudio, como é o caso do REAPER, por exemplo, permitem que você importe arquivos em formatos diferentes pra dentro do projeto, fazendo a conversão desses formatos em tempo real, durante a reprodução do projeto, isso gera uma sobrecarga de processamento e sabidamente pode causar xruns. Quando você estiver usando um programa de gravação de áudio, é recomendado evitar a conversão de arquivos de áudio em tempo real, ou seja, faça a conversão prévia de quaisquer arquivos que precisa usar no seu projeto, evitando sobrecarga no processamento durante a execução desses arquivos dentro do seu programa de gravação. Para checar os formatos dos arquivos, você pode usar o programa MediaInfo, que pode ser facilmente instalado através do comando indicado abaixo. 📦 Instalação sudo apt install mediainfo-gui Para converter os arquivos de áudio, vídeo e imagem em outros formatos, você pode usar o programa Videomass, que pode ser facilmente instalado através dos comandos indicados abaixo. 📦 Instalação sudo apt-add-repository ppa:jeanslack/videomass sudo apt install --no-install-recommends yt-dlp sudo apt install python3-videomass Se você gostou do conteúdo desta postagem e quer receber mais conteúdos como esse, me siga no Twitter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/rr91QmQ.png" /><media:content medium="image" url="https://i.imgur.com/rr91QmQ.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Hello World<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="hll"><span class="nt">&lt;html&gt;</span>
+</span>  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+<span class="hll">    <span class="nt">&lt;title&gt;</span>Hello World<span class="nt">&lt;/title&gt;</span>
+</span>  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+<span class="hll">    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+</span>  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="code"><pre><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Hello World<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="code"><pre><span class="hll"><span class="nt">&lt;html&gt;</span>
+</span>  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+<span class="hll">    <span class="nt">&lt;title&gt;</span>Hello World<span class="nt">&lt;/title&gt;</span>
+</span>  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+<span class="hll">    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+</span>  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+
+</pre></td></tr></tbody></table></code></pre></figure>]]></content><author><name></name></author><summary type="html"><![CDATA[An article with various blocks of highlighted code snippets.]]></summary></entry><entry><title type="html">Some articles are just so short that we have to make the footer stick</title><link href="rauldipeas.com.br/misc/2016/05/19/super-short-article.html" rel="alternate" type="text/html" title="Some articles are just so short that we have to make the footer stick" /><published>2016-05-19T00:00:00+00:00</published><updated>2016-05-19T00:00:00+00:00</updated><id>rauldipeas.com.br/misc/2016/05/19/super-short-article</id><content type="html" xml:base="rauldipeas.com.br/misc/2016/05/19/super-short-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content><author><name></name></author><category term="misc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></summary></entry></feed>
