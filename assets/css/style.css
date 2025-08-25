@@ -1096,6 +1096,11 @@ body {
   margin: 0;
 }
 
+.post-header h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
 .post-list {
   columns: 2;
   column-gap: 15%;
@@ -1308,6 +1313,20 @@ video {
   /* border-color: $border-color-02; */
   border-color: var(--minima-border-color-01);
   border-radius: 8px;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer-col-wrapper,
+.social-links {
+  font-size: 0.9375rem;
+  color: var(--minima-brand-color-dimmed);
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
