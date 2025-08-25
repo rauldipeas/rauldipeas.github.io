@@ -8,9 +8,39 @@ body {
 }
 
 .post-list {
-    max-width: 85%;
-    margin: 0 auto;
+    columns: 2;
+    column-gap: 15%;
 }
+
+.post-link {
+    text-transform: uppercase;
+}
+
+.page-content {
+    columns: 1;
+
+    @media (max-width: $on-medium) {
+        .post-list {
+            columns: 1;
+        }
+    }
+}
+
+
+.wrapper {
+    max-width: $content-width;
+    min-width: 900px;
+    margin: 0 auto;
+    padding: 0 $spacing-unit;
+    @extend %clearfix;
+
+    @media screen and (max-width: $on-medium) {
+        padding-right: $spacing-unit * 0.6;
+        padding-left: $spacing-unit * 0.6;
+        min-width: 0;
+    }
+}
+
 
 /* header fixo */
 #header {
@@ -51,6 +81,7 @@ body.no-hero .content {
     position: absolute;
     top: 15px;
     left: 70px;
+    text-transform: uppercase;
 
     a,
     h3 {
@@ -168,4 +199,34 @@ video {
 
 .search-input:focus {
     background: rgba(255, 255, 255, 0.25);
+}
+
+.social-media-list {
+    display: table;
+    margin: 0 auto;
+
+    li {
+        float: left;
+        min-width: 45px;
+        min-height: 45px;
+        text-align: center;
+        margin: 5px 10px 5px 0;
+
+        &:last-of-type {
+            margin-right: 0
+        }
+
+        a {
+            display: block;
+            padding: 5px 5px;
+            /* border: 1px solid $border-color-01; */
+            border: 1px solid transparent;
+
+            &:hover {
+                /* border-color: $border-color-02; */
+                border-color: $border-color-01;
+                border-radius: 8px;
+            }
+        }
+    }
 }
