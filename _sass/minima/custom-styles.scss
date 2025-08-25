@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+.post-header h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
 .post-list {
     columns: 2;
     column-gap: 15%;
@@ -229,4 +234,18 @@ video {
             }
         }
     }
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer-col-wrapper,
+.social-links {
+  @include relative-font-size(0.9375);
+  color: $brand-color-dimmed;
+  text-transform: uppercase;
 }
