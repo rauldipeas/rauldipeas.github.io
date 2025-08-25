@@ -16,6 +16,6 @@ jobs:
         uses: potatoqualitee/fossilize@v2
         id: backup
         with:
-          server: mastodon.social
+          server: mstdn.social
         env:
           ACCESS_TOKEN: ${{ secrets.MASTODON_TOKEN }}
