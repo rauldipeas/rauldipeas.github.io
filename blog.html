@@ -55,29 +55,22 @@
 <main class="content">
 </main>
 <script>
-    (function () {
-        const header = document.getElementById('header');
-        const hero = document.getElementById('hero');
+(function () {
+    const header = document.getElementById('header');
+    const hero = document.getElementById('hero');
 
-        // Marca no body se existe hero (para CSS aplicar o padding do conteúdo quando não houver)
-        document.body.classList.toggle('no-hero', !hero);
+    document.body.classList.toggle('no-hero', !hero);
 
-        function apply() {
-            // Se não há hero, o header já deve vir "scrolled"
-            if (!hero) {
-                header.classList.add('scrolled');
-                return;
-            }
-            // quando houver hero, ativa o fundo após passar do hero (menos a altura do header)
-            const trigger = Math.max(0, hero.offsetHeight - header.offsetHeight);
-            header.classList.toggle('scrolled', window.scrollY > trigger);
-        }
+    function apply() {
+        // Aplica blur assim que rolar qualquer valor > 0
+        header.classList.toggle('scrolled', window.scrollY > 0);
+    }
 
-        window.addEventListener('scroll', apply, { passive: true });
-        window.addEventListener('resize', apply);
-        window.addEventListener('load', apply);
-        apply();
-    })();
+    window.addEventListener('scroll', apply, { passive: true });
+    window.addEventListener('resize', apply);
+    window.addEventListener('load', apply);
+    apply();
+})();
 </script><main class="page-content" aria-label="Content">
     <div class="wrapper">
       <div class="home">
