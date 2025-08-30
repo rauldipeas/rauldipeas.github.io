@@ -4,7 +4,7 @@
     "title": "Bem-vindo!",
     "url": "/2025/08/22/bem-vindo.html",
     "date": "22/08/2025",
-    "content": "Olá, seja muito bem-vindo ao meu blog pessoal, aqui você terá a oportunidade de conhecer muito sobre tecnologia, linux, produção musical e cultura cinematográfica.\n\nEu sou Raul Dipeas, técnico em informática, músico e cinéfilo.\n\nEstudo e desenvolvo algo em torno do Linux há aproximadamente 15 anos, sou músico já faz mais de 30 anos e aprecio cinema e TV desde sempre.\n\nSou completamente autodidata, tanto na informática quanto na música, tudo que sei, aprendi ao longo dos anos lendo blogs, sites, postagens em fóruns, wikis, etc.\n\nAtravés deste blog, vou compartilhar toda a minha experiência usando Linux na produção musical e indicar as melhores práticas pra que você consiga extrair o máximo possível do sistema, portanto, fique ligado e me siga através do Mastodon, pra saber de tudo que acontece nesse universo do pinguim.\n\nVocê também pode participar dos meus grupos no Telegram:\n\nProdução musical no Linux\n\nGuitarrada do agreste\n\nXubuntu Brasil\n\nA sua participação é muito importante pro engajamento e pra que as postagens sejam frequentes, conto com você!\n\nPS: Enquanto você espera pela próxima postagem, dá uma conferida no meu trabalho musical no YouTube.\n\n\n\n",
+    "content": "Olá, seja muito bem-vindo ao meu blog pessoal, aqui você terá a oportunidade de conhecer muito sobre tecnologia, linux, produção musical e cultura cinematográfica.\n\nEu sou Raul Dipeas, técnico em informática, músico e cinéfilo.\n\nEstudo e desenvolvo algo em torno do Linux há aproximadamente 15 anos, sou músico já faz mais de 30 anos e aprecio cinema e TV desde sempre.\n\nSou completamente autodidata, tanto na informática quanto na música, tudo que sei, aprendi ao longo dos anos lendo blogs, sites, postagens em fóruns, wikis, etc.\n\nAtravés deste blog, vou compartilhar toda a minha experiência usando Linux na produção musical e indicar as melhores práticas pra que você consiga extrair o máximo possível do sistema, portanto, fique ligado e me siga através do Mastodon, pra saber de tudo que acontece nesse universo do pinguim.\n\nVocê também pode participar dos meus grupos no Telegram:\n\nProdução musical no Linux\n\nGuitarrada do agreste\n\nXubuntu Brasil\n\nA sua participação é muito importante pro engajamento e pra que as postagens sejam frequentes, conto com você!\n\nPS: Enquanto você espera pela próxima postagem, dá uma conferida no meu trabalho musical no YouTube.\n\n\n\n\n",
     "cover": "https://wallpapers.com/images/hd/welcome-bokeh-green-beach-dmqenpgvpl1qovkc.jpg"
   },
   
@@ -14,14 +14,6 @@
     "date": "20/08/2025",
     "content": "Este é o meu blog pessoal, no momento eu estou trabalhando pra criar postagens que vão prender a sua atenção e te trazer muito conhecimento.\n\nAguarde, coisas incríveis estão por vir!\n\n\n",
     "cover": "https://www.drsilencio.com.br/wp-content/uploads/2023/10/chapeu-de-construcao-em-cima-de-varios-tijolos-1024x683.jpg"
-  },
-  
-  {
-    "title": "Welcome to Jekyll!",
-    "url": "/jekyll/update/2025/08/19/welcome-to-jekyll.html",
-    "date": "19/08/2025",
-    "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nJekyll requires blog post files to be named according to the following format:\n\nYEAR-MONTH-DAY-title.MARKUP\n\nWhere YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts \"Hi, #{name}\"\nend\nprint_hi('Tom')\n#=&gt; prints 'Hi, Tom' to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.\n\n",
-    "cover": "https://i0.wp.com/thecurrentga.org/wp-content/uploads/2022/07/DSC_0101-scaled.jpg?fit=2000%2C1213&ssl=1"
   },
   
   {
