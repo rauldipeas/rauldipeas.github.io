@@ -5,7 +5,7 @@ author:
 description: >-
   Este é o meu blog pessoal, onde eu escrevo sobre tecnologia, produção musical, cultura cinematográfica e o meu cotidiano.
 baseurl: "/"
-url: "rauldipeas.com.br"
+url: "https://rauldipeas.com.br"
 favicon: "/assets/images/avatar/avatar 1.svg"
 #remote_theme: jekyll/minima@d4d779a
 plugins:
