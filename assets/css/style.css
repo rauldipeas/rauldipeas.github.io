@@ -1093,35 +1093,12 @@ table td {
 
 html,
 body {
-  margin: 0;
-}
-
-.post-header h1 {
-  text-transform: uppercase;
-  color: white;
-}
-
-.post-list {
-  columns: 2;
-  column-gap: 15%;
-}
-
-.post-link {
-  text-transform: uppercase;
-}
-
-.page-content {
-  columns: 1;
-}
-@media (max-width: 600px) {
-  .page-content .post-list {
-    columns: 1;
-  }
+  margin: 0 auto;
 }
 
 .wrapper {
   max-width: 800px;
-  min-width: 900px;
+  min-width: 1100px;
   margin: 0 auto;
   padding: 0 30px;
 }
@@ -1133,7 +1110,6 @@ body {
   }
 }
 
-/* header fixo */
 #header {
   position: fixed;
   top: 0;
@@ -1146,20 +1122,16 @@ body {
   transition: background-color 0.25s, backdrop-filter 0.25s, box-shadow 0.25s;
   z-index: 1000;
 }
-
 #header.scrolled {
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(8px);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
 }
 
-/* conteúdo precisa compensar a barra quando NÃO tem hero */
 body.no-hero .content {
   padding-top: var(--header-h);
 }
 
-/* quando tem hero, o hero já fica atrás do header, então nada de padding extra */
-/* itens do topo */
 .home-avatar {
   position: absolute;
   top: 4px;
@@ -1177,33 +1149,31 @@ body.no-hero .content {
 .home-title h3 {
   color: white;
 }
-
 @media (max-width: 768px) {
   .home-title {
     display: none;
   }
 }
+
 .topnav {
   font-size: 20px;
   position: absolute;
   top: 14px;
   right: 12px;
 }
-
 .topnav a {
   padding: 0 7px;
   color: #fff !important;
   text-decoration: none;
 }
-
 .topnav a:hover {
   background: #04AA6D;
   color: #fff;
   border-radius: 6px;
 }
 
-/* hero (imagem grande) */
 .hero {
+  margin-top: -20px;
   position: relative;
   height: 260px;
   background: url("https://rauldipeas.com.br/assets/images/backgrounds/street-1.gif") center/cover no-repeat;
@@ -1211,6 +1181,17 @@ body.no-hero .content {
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 90px;
+}
+body.post .hero {
+  height: 30px;
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 140px;
+  }
+  body.post .hero {
+    height: 70px;
+  }
 }
 
 .avatar {
@@ -1228,41 +1209,53 @@ body.no-hero .content {
   margin-top: 20px;
 }
 
+.post-header h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
+.post-list {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0px;
+  column-gap: 5%;
+}
+@media (max-width: 768px) {
+  .post-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.post-link {
+  text-transform: uppercase;
+}
+
 .cover {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
-  /* object-position: top; */
   display: block;
   margin: 0 auto;
 }
 
-.post-content iframe {
-  width: 100%;
-  display: block;
-  max-width: 90%;
-  min-height: 320px;
-  max-height: auto;
-  margin: 0 auto;
-}
-
+.post-content iframe,
 .post-content img,
 .post-content video {
   width: 100%;
   display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.post-content iframe {
+  max-width: 90%;
+  min-height: 320px;
+}
+.post-content img,
+.post-content video {
   max-width: 100%;
   height: auto;
-  margin: 0 auto;
-}
-
-.home {
-  margin-top: 40px;
-}
-
-iframe,
-img,
-video {
-  border-radius: 8px;
 }
 
 .search-input {
@@ -1270,7 +1263,6 @@ video {
   width: 60%;
   padding: 0.75rem 1rem;
   margin: 1.5rem auto;
-  /* auto centraliza */
   font-size: 1rem;
   border: none;
   border-radius: 6px;
@@ -1280,13 +1272,18 @@ video {
   outline: none;
   transition: background 0.2s ease;
 }
-
 .search-input::placeholder {
   color: #777;
 }
-
 .search-input:focus {
   background: rgba(255, 255, 255, 0.25);
+}
+
+.social-media-list,
+.contact-list {
+  list-style: none;
+  text-transform: uppercase;
+  color: white;
 }
 
 .social-media-list {
@@ -1305,21 +1302,12 @@ video {
 }
 .social-media-list li a {
   display: block;
-  padding: 5px 5px;
-  /* border: 1px solid $border-color-01; */
+  padding: 5px;
   border: 1px solid transparent;
 }
 .social-media-list li a:hover {
-  /* border-color: $border-color-02; */
   border-color: var(--minima-border-color-01);
   border-radius: 8px;
-}
-
-.contact-list,
-.social-media-list {
-  list-style: none;
-  text-transform: uppercase;
-  color: white;
 }
 
 .footer-col-wrapper,
