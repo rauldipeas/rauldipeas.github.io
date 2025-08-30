@@ -14,6 +14,12 @@ body {
     padding: 0 $spacing-unit;
     @extend %clearfix;
 
+    .post-content {
+        max-width: 800px;
+        margin: 0 auto;
+        ;
+    }
+
     @media screen and (max-width: $on-medium) {
         padding-right: $spacing-unit * 0.6;
         padding-left: $spacing-unit * 0.6;
@@ -152,6 +158,7 @@ body.no-hero .content {
     object-fit: cover;
     display: block;
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 .post-content {
@@ -240,4 +247,24 @@ body.no-hero .content {
     @include relative-font-size(0.9375);
     color: $brand-color-dimmed;
     text-transform: uppercase;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    .btn {
+        padding: 0.6rem 1rem;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background 0.2s;
+
+        &:hover {
+            background: #037a4b;
+        }
+    }
 }
