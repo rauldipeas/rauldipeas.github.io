@@ -1160,13 +1160,12 @@ body.no-hero .content {
 }
 
 .topnav {
-  font-size: 20px;
   position: absolute;
-  top: 14px;
+  top: 12px;
   right: 12px;
 }
 .topnav a {
-  padding: 0 7px;
+  padding: 0 5px;
   color: #fff !important;
   text-decoration: none;
 }
@@ -1177,7 +1176,6 @@ body.no-hero .content {
 }
 
 .hero {
-  margin-top: -20px;
   position: relative;
   height: 260px;
   background: url("https://rauldipeas.com.br/assets/images/backgrounds/street-1.gif") center/cover no-repeat;
@@ -1196,6 +1194,11 @@ body.post .hero {
   body.post .hero {
     height: 70px;
   }
+}
+
+body.post {
+  margin: 0;
+  padding: 0;
 }
 
 .avatar {
@@ -1263,6 +1266,24 @@ body.post .hero {
   height: auto;
 }
 
+.contact-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.contact-buttons .btn {
+  padding: 0.6rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.contact-buttons .btn:hover {
+  background: #037a4b;
+}
+
 .search-input {
   display: block;
   width: 60%;
@@ -1320,24 +1341,6 @@ body.post .hero {
   font-size: 0.9375rem;
   color: var(--minima-brand-color-dimmed);
   text-transform: uppercase;
-}
-
-.contact-buttons {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-.contact-buttons .btn {
-  padding: 0.6rem 1rem;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  text-transform: uppercase;
-  font-weight: bold;
-  transition: background 0.2s;
-}
-.contact-buttons .btn:hover {
-  background: #037a4b;
 }
 
 /*# sourceMappingURL=style.css.map */
